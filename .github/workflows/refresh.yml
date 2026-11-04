@@ -1,0 +1,82 @@
+name: Refresh data and deploy
+
+on:
+  schedule:
+    - cron: "17 2 * * *"   # nightly, 02:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["site/**", "data/manual_calls.json", "data/tags.csv", "data/programmes.json", "scripts/**"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: refresh-and-deploy
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # On a push, only rebuild from the raw data already in the repository
+      # (so edits to tags.csv or manual_calls.json show up without a fetch).
+      - name: Fetch topics from the portal API
+        env:
+          EVENT: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT" != "push" ] || [ ! -f data/raw_topics.json ]; then
+            python scripts/fetch.py
+          else
+            echo "Push event: reusing data/raw_topics.json"
+          fi
+
+      # Each script exits with an error and leaves the old file in place if
+      # anything looks wrong; the job then stops and nothing is committed or
+      # deployed, so the live site keeps the previous calls.json.
+      - name: Build calls.json
+        run: python scripts/build_calls.py
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/raw_topics.json data/calls.json
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "Data refresh $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Prepare site
+        run: |
+          mkdir -p _site
+          cp site/* _site/
+          cp data/calls.json _site/calls.json
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

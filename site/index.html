@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EU Calls 2027 Finder</title>
+  <meta name="description" content="Find EU research calls with a deadline in 2027, filtered by programme, discipline, scheme and deadline.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>EU Calls 2027 Finder</h1>
+      <p class="lede">EU research calls with a deadline in 2027, for academics at the Prague University of Economics and Business.
+        Each call links to its page on the official Funding &amp; Tenders Portal. Always check the details there before you plan an application.</p>
+      <p class="refreshed" id="refreshed">Loading data…</p>
+    </div>
+  </header>
+
+  <main class="wrap layout">
+    <details class="filter-box" id="filterBox" open>
+    <summary>Filters</summary>
+    <form class="filters" id="filters" aria-label="Filter calls">
+      <div class="field">
+        <label for="q">Search titles and identifiers</label>
+        <input type="search" id="q" name="q" autocomplete="off" placeholder="e.g. democracy, migration, STG">
+      </div>
+
+      <div class="field">
+        <label for="programme">Programme</label>
+        <select id="programme" name="programme"><option value="">All programmes</option></select>
+      </div>
+
+      <div class="field">
+        <label for="cluster">Part of the programme</label>
+        <select id="cluster" name="cluster"><option value="">Any</option></select>
+      </div>
+
+      <fieldset class="field">
+        <legend>Discipline</legend>
+        <label class="choice"><input type="radio" name="discipline" value="" checked> <span>Any field</span></label>
+        <label class="choice"><input type="radio" name="discipline" value="ssh"> <span>Open to social sciences and humanities</span></label>
+        <label class="choice"><input type="radio" name="discipline" value="PE"> <span>Physical sciences and engineering (ERC PE)</span></label>
+        <label class="choice"><input type="radio" name="discipline" value="LS"> <span>Life sciences (ERC LS)</span></label>
+      </fieldset>
+
+      <div class="field">
+        <label for="panel">ERC panel</label>
+        <select id="panel" name="panel"><option value="">Any panel</option></select>
+        <p class="hint">Calls open to a whole ERC domain match every panel in it.</p>
+      </div>
+
+      <fieldset class="field">
+        <legend>Who applies</legend>
+        <label class="choice"><input type="radio" name="scheme" value="" checked> <span>Any</span></label>
+        <label class="choice"><input type="radio" name="scheme" value="alone"> <span>I can apply on my own</span></label>
+        <label class="choice"><input type="radio" name="scheme" value="consortium"> <span>Consortium needed</span></label>
+      </fieldset>
+
+      <div class="field">
+        <label for="month">Deadline</label>
+        <select id="month" name="month"><option value="">Any time in 2027</option></select>
+      </div>
+
+      <div class="field">
+        <label class="choice"><input type="checkbox" id="openOnly" name="openOnly"> <span>Open for submission now</span></label>
+      </div>
+
+      <button type="reset" class="reset">Clear filters</button>
+    </form>
+    </details>
+
+    <section class="results" aria-live="polite">
+      <p class="count" id="count"></p>
+      <ol class="calls" id="calls"></ol>
+      <p class="empty" id="empty" hidden>No calls match these filters. Try clearing one of them.</p>
+    </section>
+  </main>
+
+  <footer class="wrap site-footer">
+    <p>The data is copied each night from the public search service behind the
+      <a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home">EU Funding &amp; Tenders Portal</a>.
+      The portal is the authoritative source. Where a value is missing here, it says “check portal”.
+      “Who applies” is based on the general rules for each type of action and can differ for a particular topic.
+      Discipline tags marked “suggested” were assigned automatically and have not been checked by a person.</p>
+    <p>This page uses no cookies, tracking or analytics.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

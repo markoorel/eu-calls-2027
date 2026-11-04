@@ -1,0 +1,328 @@
+{
+ "_comment": "INVENTED TEST DATA for tests/test_build.py. Not real calls.",
+ "fetched_at": "2026-11-04T02:20:00Z",
+ "total_results": 8,
+ "topic_count": 8,
+ "topics": [
+  {
+   "url": null,
+   "reference": "HORIZON-CL2-2027-01-TEST-01",
+   "metadata": {
+    "identifier": [
+     "HORIZON-CL2-2027-01-TEST-01"
+    ],
+    "title": [
+     "EXAMPLE single-stage RIA in Cluster 2"
+    ],
+    "callIdentifier": [
+     "HORIZON-CL2-2027-01-TEST"
+    ],
+    "type": [
+     "1"
+    ],
+    "status": [
+     "31094502"
+    ],
+    "deadlineDate": [
+     "2027-02-10T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "frameworkProgramme": [
+     "43108390"
+    ],
+    "typesOfAction": [
+     "HORIZON-RIA HORIZON Research and Innovation Actions"
+    ],
+    "language": [
+     "en"
+    ],
+    "startDate": [
+     "2026-10-01T00:00:00.000+0000"
+    ],
+    "budgetOverview": [
+     "{\"budgetTopicActionMap\": {\"999\": [{\"action\": \"HORIZON-CL2-2027-01-TEST-01 - HORIZON-RIA\", \"minContribution\": 3000000, \"maxContribution\": 3000000}]}}"
+    ]
+   }
+  },
+  {
+   "url": null,
+   "reference": "ERC-2027-STG",
+   "metadata": {
+    "identifier": [
+     "ERC-2027-STG"
+    ],
+    "title": [
+     "EXAMPLE ERC Starting Grant"
+    ],
+    "callIdentifier": [
+     "ERC-2027"
+    ],
+    "type": [
+     "1"
+    ],
+    "status": [
+     "31094501"
+    ],
+    "deadlineDate": [
+     "2027-10-15T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "frameworkProgramme": [
+     "43108390"
+    ],
+    "typesOfAction": [
+     "HORIZON-ERC HORIZON ERC Grants"
+    ],
+    "language": [
+     "en"
+    ],
+    "startDate": [
+     "2027-07-10T00:00:00.000+0000"
+    ]
+   }
+  },
+  {
+   "url": null,
+   "reference": "HORIZON-CL5-2027-02-TEST-02",
+   "metadata": {
+    "identifier": [
+     "HORIZON-CL5-2027-02-TEST-02"
+    ],
+    "title": [
+     "EXAMPLE two-stage, first stage in 2026"
+    ],
+    "callIdentifier": [
+     "HORIZON-CL5-2027-02-TEST"
+    ],
+    "type": [
+     "1"
+    ],
+    "status": [
+     "31094502"
+    ],
+    "deadlineDate": [
+     "2026-12-01T00:00:00.000+0000",
+     "2027-04-20T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "two-stage"
+    ],
+    "frameworkProgramme": [
+     "43108390"
+    ],
+    "typesOfAction": [
+     "HORIZON-RIA HORIZON Research and Innovation Actions"
+    ],
+    "language": [
+     "en"
+    ],
+    "startDate": [
+     "2026-09-01T00:00:00.000+0000"
+    ]
+   }
+  },
+  {
+   "url": null,
+   "reference": "HORIZON-CL4-2027-03-TEST-03",
+   "metadata": {
+    "identifier": [
+     "HORIZON-CL4-2027-03-TEST-03"
+    ],
+    "title": [
+     "EXAMPLE two-stage IA, both stages in 2027"
+    ],
+    "callIdentifier": [
+     "HORIZON-CL4-2027-03-TEST"
+    ],
+    "type": [
+     "1"
+    ],
+    "status": [
+     "31094502"
+    ],
+    "deadlineDate": [
+     "2027-09-10T00:00:00.000+0000",
+     "2027-01-20T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "two-stage"
+    ],
+    "frameworkProgramme": [
+     "43108390"
+    ],
+    "typesOfAction": [
+     "HORIZON-IA HORIZON Innovation Actions"
+    ],
+    "language": [
+     "en"
+    ],
+    "startDate": [
+     "2026-10-15T00:00:00.000+0000"
+    ],
+    "budgetOverview": [
+     "{\"budgetTopicActionMap\": {\"999\": [{\"action\": \"HORIZON-CL4-2027-03-TEST-03 - HORIZON-RIA\", \"minContribution\": 4000000, \"maxContribution\": 6000000}]}}"
+    ]
+   }
+  },
+  {
+   "url": null,
+   "reference": "CERV-2026-TEST-01",
+   "metadata": {
+    "identifier": [
+     "CERV-2026-TEST-01"
+    ],
+    "title": [
+     "EXAMPLE deadline in 2026"
+    ],
+    "callIdentifier": [
+     "CERV-2026-TEST"
+    ],
+    "type": [
+     "1"
+    ],
+    "status": [
+     "31094502"
+    ],
+    "deadlineDate": [
+     "2026-12-10T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "frameworkProgramme": [
+     "43108390"
+    ],
+    "typesOfAction": [
+     "CERV-PJG CERV Project Grants"
+    ],
+    "language": [
+     "en"
+    ],
+    "startDate": [
+     "2026-08-01T00:00:00.000+0000"
+    ]
+   }
+  },
+  {
+   "url": null,
+   "reference": "SMP-COSME-2027-TEST-01",
+   "metadata": {
+    "identifier": [
+     "SMP-COSME-2027-TEST-01"
+    ],
+    "title": [
+     "EXAMPLE unlisted programme"
+    ],
+    "callIdentifier": [
+     "SMP-COSME-2027-TEST"
+    ],
+    "type": [
+     "1"
+    ],
+    "status": [
+     "31094502"
+    ],
+    "deadlineDate": [
+     "2027-03-01T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "frameworkProgramme": [
+     "43108390"
+    ],
+    "typesOfAction": [
+     "SMP-GRANTS"
+    ],
+    "language": [
+     "en"
+    ],
+    "startDate": [
+     "2026-10-01T00:00:00.000+0000"
+    ]
+   }
+  },
+  {
+   "url": null,
+   "reference": "HORIZON-CL6-2027-TEST-CSA",
+   "metadata": {
+    "identifier": [
+     "HORIZON-CL6-2027-TEST-CSA"
+    ],
+    "title": [
+     "EXAMPLE CSA labelled closed, no budget"
+    ],
+    "callIdentifier": [
+     "HORIZON-CL6-2027-TEST"
+    ],
+    "type": [
+     "1"
+    ],
+    "status": [
+     "31094503"
+    ],
+    "deadlineDate": [
+     "2027-05-05T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "frameworkProgramme": [
+     "43108390"
+    ],
+    "typesOfAction": [
+     "HORIZON-CSA HORIZON Coordination and Support Actions"
+    ],
+    "language": [
+     "en"
+    ],
+    "crossCuttingPriorities": [
+     "SSH"
+    ]
+   }
+  },
+  {
+   "url": null,
+   "reference": "HORIZON-MSCA-2027-PF-01-01",
+   "metadata": {
+    "identifier": [
+     "HORIZON-MSCA-2027-PF-01-01"
+    ],
+    "title": [
+     "EXAMPLE MSCA Postdoctoral Fellowships"
+    ],
+    "callIdentifier": [
+     "HORIZON-MSCA-2027-PF-01"
+    ],
+    "type": [
+     "1"
+    ],
+    "status": [
+     "31094501"
+    ],
+    "deadlineDate": [
+     "2027-09-09T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "frameworkProgramme": [
+     "43108390"
+    ],
+    "typesOfAction": [
+     "HORIZON-TMA-MSCA-PF-EF HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships"
+    ],
+    "language": [
+     "en"
+    ],
+    "startDate": [
+     "2027-04-10T00:00:00.000+0000"
+    ]
+   }
+  }
+ ]
+}

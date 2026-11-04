@@ -1,0 +1,63 @@
+{
+  "_comment": "Lookup tables used by scripts/build_calls.py. Programme and cluster names live here, not in the page. Prefixes are matched against the topic identifier; the longest matching prefix wins. Topics whose identifier matches no prefix are left out of calls.json (the build log lists them).",
+
+  "framework_programme_codes": {
+    "_comment": "SEDIA frameworkProgramme codes, checked against live data on 2026-11-04. build_calls.py warns if a topic's code disagrees with the programme its prefix maps to.",
+    "43108390": "Horizon Europe",
+    "43298916": "Euratom Research and Training Programme"
+  },
+
+  "divisions": [
+    {"prefix": "HORIZON-",          "programme": "Horizon Europe", "pillar_or_cluster": null},
+    {"prefix": "ERC-",              "programme": "Horizon Europe", "pillar_or_cluster": "European Research Council (ERC)"},
+    {"prefix": "HORIZON-ERC-",      "programme": "Horizon Europe", "pillar_or_cluster": "European Research Council (ERC)"},
+    {"prefix": "HORIZON-MSCA-",     "programme": "Horizon Europe", "pillar_or_cluster": "Marie Skłodowska-Curie Actions (MSCA)"},
+    {"prefix": "HORIZON-INFRA-",    "programme": "Horizon Europe", "pillar_or_cluster": "Research Infrastructures"},
+    {"prefix": "HORIZON-HLTH-",     "programme": "Horizon Europe", "pillar_or_cluster": "Cluster 1: Health"},
+    {"prefix": "HORIZON-CL2-",      "programme": "Horizon Europe", "pillar_or_cluster": "Cluster 2: Culture, Creativity and Inclusive Society"},
+    {"prefix": "HORIZON-CL3-",      "programme": "Horizon Europe", "pillar_or_cluster": "Cluster 3: Civil Security for Society"},
+    {"prefix": "HORIZON-CL4-",      "programme": "Horizon Europe", "pillar_or_cluster": "Cluster 4: Digital, Industry and Space"},
+    {"prefix": "HORIZON-CL5-",      "programme": "Horizon Europe", "pillar_or_cluster": "Cluster 5: Climate, Energy and Mobility"},
+    {"prefix": "HORIZON-CL6-",      "programme": "Horizon Europe", "pillar_or_cluster": "Cluster 6: Food, Bioeconomy, Natural Resources, Agriculture and Environment"},
+    {"prefix": "HORIZON-MISS-",     "programme": "Horizon Europe", "pillar_or_cluster": "EU Missions"},
+    {"prefix": "HORIZON-EIC-",      "programme": "Horizon Europe", "pillar_or_cluster": "European Innovation Council (EIC)"},
+    {"prefix": "HORIZON-EIE-",      "programme": "Horizon Europe", "pillar_or_cluster": "European Innovation Ecosystems"},
+    {"prefix": "HORIZON-NEB-",      "programme": "Horizon Europe", "pillar_or_cluster": "New European Bauhaus"},
+    {"prefix": "HORIZON-EURATOM-",  "programme": "Euratom Research and Training Programme", "pillar_or_cluster": null},
+    {"prefix": "HORIZON-WIDERA-",   "programme": "Horizon Europe", "pillar_or_cluster": "Widening Participation and Strengthening the ERA"},
+    {"prefix": "EURATOM-",          "programme": "Euratom Research and Training Programme", "pillar_or_cluster": null},
+    {"prefix": "ERASMUS-",          "programme": "Erasmus+", "pillar_or_cluster": null},
+    {"prefix": "CERV-",             "programme": "Citizens, Equality, Rights and Values (CERV)", "pillar_or_cluster": null},
+    {"prefix": "CREA-",             "programme": "Creative Europe", "pillar_or_cluster": null},
+    {"prefix": "JUST-",             "programme": "Justice Programme", "pillar_or_cluster": null},
+    {"prefix": "DIGITAL-",          "programme": "Digital Europe Programme", "pillar_or_cluster": null},
+    {"prefix": "EU4H-",             "programme": "EU4Health", "pillar_or_cluster": null},
+    {"prefix": "LIFE-",             "programme": "LIFE Programme", "pillar_or_cluster": null},
+    {"prefix": "RFCS-",             "programme": "Research Fund for Coal and Steel", "pillar_or_cluster": null}
+  ],
+
+  "scheme_rules": {
+    "_comment": "Rules are tried in order; the first match sets scheme and scheme_basis. 'field' is 'identifier' or 'type_of_action'. These encode the general Horizon Europe participation rules for each action type. Individual topics can deviate, so the page always tells users to confirm on the portal, and tags.csv can override a value after someone has checked the topic conditions.",
+    "rules": [
+      {"field": "identifier",     "pattern": "ERC-\\d{4}-SyG|SYG",                  "scheme": "consortium", "basis": "ERC Synergy Grant: 2–4 principal investigators apply together"},
+      {"field": "identifier",     "pattern": "ERC-\\d{4}-(STG|COG|ADG|POC)",        "scheme": "individual", "basis": "ERC grant: one principal investigator with a host institution"},
+      {"field": "identifier",     "pattern": "MSCA-\\d{4}-PF",                      "scheme": "individual", "basis": "MSCA Postdoctoral Fellowship: one researcher with a host institution"},
+      {"field": "identifier",     "pattern": "MSCA-\\d{4}-(DN|SE)",                 "scheme": "consortium", "basis": "MSCA Doctoral Networks and Staff Exchanges are run by partnerships"},
+      {"field": "type_of_action", "pattern": "MSCA Postdoctoral Fellowships",      "scheme": "individual", "basis": "Postdoctoral fellowship: one researcher with a host institution"},
+      {"field": "type_of_action", "pattern": "COFUND|Co-fund|Cofund",                      "scheme": null,         "basis": null},
+      {"field": "type_of_action", "pattern": "HORIZON-RIA|Research and Innovation Action", "scheme": "consortium", "basis": "Research and Innovation Action: the standard rule is at least three independent organisations from three countries"},
+      {"field": "type_of_action", "pattern": "HORIZON-IA\\b|(?<!Research and )Innovation Action", "scheme": "consortium", "basis": "Innovation Action: the standard rule is at least three independent organisations from three countries"},
+      {"field": "type_of_action", "pattern": "HORIZON-CSA|Coordination and Support Action", "scheme": "either", "basis": "Coordination and Support Action: the standard rule allows a single organisation"}
+    ]
+  },
+
+  "tag_rules": {
+    "_comment": "Automatic discipline suggestions. They produce tag_status 'suggested' and are replaced by any row for the same identifier in tags.csv.",
+    "rules": [
+      {"field": "identifier", "pattern": "ERC-\\d{4}-(STG|COG|ADG|SyG|SYG|POC)", "ssh_flag": true, "erc_domains": ["LS", "PE", "SH"], "reason": "ERC frontier research is open to all fields"},
+      {"field": "identifier", "pattern": "MSCA-\\d{4}-(PF|DN|SE)",               "ssh_flag": true, "erc_domains": [], "reason": "MSCA bottom-up actions are open to all fields"},
+      {"field": "identifier", "pattern": "^HORIZON-CL2-",                         "ssh_flag": true, "erc_domains": ["SH"], "reason": "Cluster 2 is the social sciences and humanities cluster"},
+      {"field": "cross_cutting", "pattern": "SSH|Social sciences",               "ssh_flag": true, "erc_domains": [], "reason": "Topic is flagged for SSH contribution on the portal"}
+    ]
+  }
+}
