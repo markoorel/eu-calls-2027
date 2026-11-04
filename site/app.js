@@ -740,7 +740,10 @@ function render(f) {
 
   const restTitle = !profile ? "All other calls"
     : profile.kind === "department" ? "Calls that match your department" : `Calls that match ${profile.name}`;
-  const restIntro = profile ? "Best match first, then soonest deadline." : "Soonest deadline first.";
+  let restIntro = profile ? "Best match first, then soonest deadline." : "Soonest deadline first.";
+  if (state.guide.want === "consortium") {
+    restIntro += " Looking for a consortium to join? Each topic's page on the EU portal has a “Partner search announcements” section where teams post requests for partners.";
+  }
   $("groups").innerHTML =
     groupHtml("Open to all fields", "These schemes accept proposals from any discipline, so they are worth a look whatever your field.", openAll)
     + groupHtml(restTitle, restIntro, rest);
