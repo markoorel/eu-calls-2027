@@ -5,14 +5,20 @@
 const DATA_URLS = ["calls.json", "../data/calls.json"];
 const CHECK = "check portal";
 const STALE_AFTER_DAYS = 3;
+const SHORTLIST_KEY = "eu-calls-2027-shortlist";
 
 const MONTHS = ["January", "February", "March", "April", "May", "June", "July",
   "August", "September", "October", "November", "December"];
 const ERC_DOMAIN_NAMES = { SH: "Social sciences and humanities", PE: "Physical sciences and engineering", LS: "Life sciences" };
+const SCHEME_BADGES = {
+  individual: "You can apply alone",
+  consortium: "Consortium needed",
+  either: "One organisation or a consortium",
+};
 const SCHEME_LABELS = {
   individual: "Individual application",
   consortium: "Consortium needed",
-  either: "Alone or in a consortium",
+  either: "One organisation alone, or a consortium",
 };
 
 // Answers to "What are you looking for?". The ids match the purposes that
@@ -25,8 +31,17 @@ const WANT_OPTIONS = [
 ];
 const FIT_LABELS = { likely: "Likely fits your career stage", check: "Check eligibility" };
 
-const state = { data: null, calls: [], guide: { who: "", want: "", stage: "" }, profiles: {} };
+const state = {
+  data: null,
+  calls: [],
+  byId: {},
+  guide: { who: "", want: "", stage: "" },
+  profiles: {},
+  shortlist: [],
+};
 const $ = (id) => document.getElementById(id);
+
+// ------------------------------------------------------------ helpers
 
 function escapeHtml(value) {
   return String(value).replace(/[&<>"']/g, (c) => ({
@@ -65,22 +80,197 @@ function daysBetween(a, b) {
   return Math.round((b - a) / 86400000);
 }
 
-// Deadlines a new applicant still has to meet. For two-stage calls that is
-// the first-stage deadline; for others, every future cut-off.
+// Deadlines a new applicant has to meet: the first-stage deadline for
+// two-stage calls, every cut-off otherwise.
+function relevantDeadlines(call) {
+  return call.stages === 2 ? [call.deadlines[0]] : call.deadlines;
+}
+
 function upcomingDeadlines(call) {
   const today = todayUtc();
   return call.deadlines.filter((d) => parseDate(d) >= today);
 }
 
 function nextDeadline(call) {
-  const upcoming = upcomingDeadlines(call);
   if (call.stages === 2) return call.deadlines[0];
-  return upcoming[0] || call.deadlines[0];
+  return upcomingDeadlines(call)[0] || call.deadlines[0];
 }
 
 function isOpenNow(call) {
   if (!call.opening_date) return call.status === "open";
   return parseDate(call.opening_date) <= todayUtc();
+}
+
+function fillSelect(select, values, labelFn = (v) => v) {
+  for (const value of values) {
+    const option = document.createElement("option");
+    option.value = value;
+    option.textContent = labelFn(value);
+    select.appendChild(option);
+  }
+}
+
+// ------------------------------------------------------------ shortlist (this browser only)
+
+function loadShortlist() {
+  try {
+    const stored = JSON.parse(localStorage.getItem(SHORTLIST_KEY) || "[]");
+    return Array.isArray(stored) ? stored.filter((x) => typeof x === "string") : [];
+  } catch (_) {
+    return [];
+  }
+}
+
+function saveShortlist() {
+  try {
+    localStorage.setItem(SHORTLIST_KEY, JSON.stringify(state.shortlist));
+    return true;
+  } catch (_) {
+    return false;
+  }
+}
+
+function isStarred(id) {
+  return state.shortlist.includes(id);
+}
+
+function toggleStar(id) {
+  state.shortlist = isStarred(id) ? state.shortlist.filter((x) => x !== id) : [...state.shortlist, id];
+  const saved = saveShortlist();
+  renderShortlist(saved ? "" : "Your browser is not saving data, so the shortlist will be lost when you close this page.");
+  for (const button of document.querySelectorAll(`.star[data-id="${CSS.escape(id)}"]`)) updateStarButton(button);
+}
+
+function updateStarButton(button) {
+  const on = isStarred(button.dataset.id);
+  button.setAttribute("aria-pressed", on ? "true" : "false");
+  button.querySelector(".star-icon").textContent = on ? "★" : "☆";
+  button.querySelector(".star-text").textContent = on ? "On shortlist" : "Add to shortlist";
+}
+
+function shortlistCalls() {
+  return state.shortlist.map((id) => state.byId[id] || { identifier: id, missing: true });
+}
+
+function renderShortlist(message = "") {
+  const items = shortlistCalls();
+  $("shortlistSummary").textContent = `Your shortlist (${items.length})`;
+  $("shortlistEmpty").hidden = items.length > 0;
+  $("shortlistActions").hidden = items.length === 0;
+  $("shortlistItems").innerHTML = items.map((c) => c.missing
+    ? `<li>${escapeHtml(c.identifier)} <span class="hint">(no longer listed; it may have closed)</span>
+        <button type="button" class="link-button" data-remove="${escapeHtml(c.identifier)}">Remove</button></li>`
+    : `<li><a href="${escapeHtml(c.portal_url)}" rel="noopener">${escapeHtml(c.title || c.identifier)}</a>
+        <span class="hint">${escapeHtml(c.identifier)} · deadline ${escapeHtml(formatDate(nextDeadline(c)))}</span>
+        <button type="button" class="link-button" data-remove="${escapeHtml(c.identifier)}">Remove</button></li>`).join("");
+  $("shortlistStatus").textContent = message;
+}
+
+function shortlistText() {
+  return shortlistCalls().filter((c) => !c.missing).map((c) =>
+    `${c.title || c.identifier}\n${c.identifier} | deadline ${formatDate(nextDeadline(c))} | ${SCHEME_LABELS[c.scheme] || "who applies: check portal"}\n${c.portal_url}`
+  ).join("\n\n");
+}
+
+function csvCell(value) {
+  const text = value == null ? "" : String(value);
+  return /[",\r\n]/.test(text) ? `"${text.replace(/"/g, '""')}"` : text;
+}
+
+function shortlistCsv() {
+  const header = ["identifier", "title", "programme", "part_of_programme", "deadlines", "two_stage",
+    "who_applies", "budget_min_eur", "budget_max_eur", "portal_url"];
+  const rows = shortlistCalls().filter((c) => !c.missing).map((c) => [
+    c.identifier, c.title, c.programme, c.pillar_or_cluster, c.deadlines.join("; "), c.stages === 2 ? "yes" : "no",
+    c.scheme || CHECK, c.budget_per_project_eur ? c.budget_per_project_eur.min : "",
+    c.budget_per_project_eur ? c.budget_per_project_eur.max : "", c.portal_url,
+  ]);
+  return "﻿" + [header, ...rows].map((r) => r.map(csvCell).join(",")).join("\r\n") + "\r\n";
+}
+
+async function copyShortlist() {
+  const text = shortlistText();
+  try {
+    await navigator.clipboard.writeText(text);
+    $("shortlistStatus").textContent = "Copied. Paste it into an email or a document.";
+  } catch (_) {
+    const area = document.createElement("textarea");
+    area.value = text;
+    document.body.appendChild(area);
+    area.select();
+    let ok = false;
+    try { ok = document.execCommand("copy"); } catch (_) { ok = false; }
+    area.remove();
+    $("shortlistStatus").textContent = ok ? "Copied. Paste it into an email or a document."
+      : "Your browser blocked copying. Use “Download as CSV” instead.";
+  }
+}
+
+function downloadShortlist() {
+  const blob = new Blob([shortlistCsv()], { type: "text/csv;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = "eu-calls-2027-shortlist.csv";
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+  $("shortlistStatus").textContent = "Downloaded eu-calls-2027-shortlist.csv.";
+}
+
+function setupShortlist() {
+  state.shortlist = loadShortlist();
+  renderShortlist();
+  $("copyList").addEventListener("click", copyShortlist);
+  $("downloadCsv").addEventListener("click", downloadShortlist);
+  $("clearList").addEventListener("click", () => {
+    state.shortlist = [];
+    saveShortlist();
+    renderShortlist("Shortlist cleared.");
+    for (const button of document.querySelectorAll(".star")) updateStarButton(button);
+  });
+  $("shortlistItems").addEventListener("click", (e) => {
+    const button = e.target.closest("[data-remove]");
+    if (button) toggleStar(button.dataset.remove);
+  });
+  $("groups").addEventListener("click", (e) => {
+    const button = e.target.closest(".star");
+    if (button) toggleStar(button.dataset.id);
+  });
+}
+
+// ------------------------------------------------------------ glossary
+
+function openGlossary(targetId) {
+  const drawer = $("glossary");
+  drawer.open = true;
+  const target = targetId ? $(targetId) : drawer.querySelector("summary");
+  if (target) {
+    target.scrollIntoView({ block: "center" });
+    target.focus({ preventScroll: true });
+  }
+}
+
+function setupGlossary() {
+  document.addEventListener("click", (e) => {
+    const link = e.target.closest("a.gloss");
+    if (!link) return;
+    e.preventDefault();
+    openGlossary(link.getAttribute("href").slice(1));
+  });
+}
+
+function glossaryLink(term, text) {
+  return `<a class="gloss" href="#g-${term}">${text}</a>`;
+}
+
+function actionTerm(typeOfAction) {
+  const t = typeOfAction || "";
+  if (/Research and Innovation Action/i.test(t)) return "ria";
+  if (/Coordination and Support Action/i.test(t)) return "csa";
+  if (/Innovation Action/i.test(t)) return "ia";
+  return null;
 }
 
 // ------------------------------------------------------------ guided start
@@ -96,8 +286,8 @@ function chipHtml(name, value, title) {
 
 function setupGuide() {
   const guide = state.data.guide || {};
-  for (const d of guide.departments || []) state.profiles[`dept:${d.id}`] = d;
-  for (const t of guide.topics || []) state.profiles[`topic:${t.id}`] = t;
+  for (const d of guide.departments || []) state.profiles[`dept:${d.id}`] = { ...d, kind: "department" };
+  for (const t of guide.topics || []) state.profiles[`topic:${t.id}`] = { ...t, kind: "topic" };
 
   $("whoCards").innerHTML = (guide.departments || []).map((d) => optionHtml("who", `dept:${d.id}`, d.name, d.description)).join("")
     + optionHtml("who", "other", "Another faculty or unit", "Show calls from every field.");
@@ -131,12 +321,7 @@ function setupGuide() {
   form.addEventListener("change", onGuideChange);
   form.addEventListener("submit", (e) => e.preventDefault());
   for (const button of form.querySelectorAll(".clear-q")) {
-    button.addEventListener("click", () => {
-      for (const input of form.querySelectorAll(`input[name="${button.dataset.clear}"]`)) input.checked = false;
-      onGuideChange();
-      const first = form.querySelector(`input[name="${button.dataset.clear}"]`);
-      if (first) first.focus();
-    });
+    button.addEventListener("click", () => clearAnswer(button.dataset.clear, true));
   }
   $("startAgain").addEventListener("click", (e) => {
     e.preventDefault();
@@ -145,6 +330,16 @@ function setupGuide() {
     setTimeout(() => { refreshClusterOptions(); onGuideChange(); window.scrollTo({ top: 0 }); }, 0);
   });
   syncGuide();
+}
+
+function clearAnswer(name, focus) {
+  const form = $("guideForm");
+  for (const input of form.querySelectorAll(`input[name="${name}"]`)) input.checked = false;
+  onGuideChange();
+  if (focus) {
+    const first = form.querySelector(`input[name="${name}"]`);
+    if (first) first.focus();
+  }
 }
 
 function syncGuide() {
@@ -197,22 +392,18 @@ function profileId() {
   return who && who !== "other" ? who.split(":")[1] : "";
 }
 
+function currentProfile() {
+  const who = state.guide.who;
+  return who && who !== "other" ? state.profiles[who] : null;
+}
+
 function careerScheme(call) {
   const career = state.data.guide && state.data.guide.career;
   if (!career) return null;
   return career.schemes.find((s) => new RegExp(s.pattern, "i").test(call.identifier)) || null;
 }
 
-// ------------------------------------------------------------ filters
-
-function fillSelect(select, values, labelFn = (v) => v) {
-  for (const value of values) {
-    const option = document.createElement("option");
-    option.value = value;
-    option.textContent = labelFn(value);
-    select.appendChild(option);
-  }
-}
+// ------------------------------------------------------------ advanced filters
 
 function setupFilters() {
   const calls = state.calls;
@@ -220,10 +411,6 @@ function setupFilters() {
   refreshClusterOptions();
 
   const panels = [...new Set(calls.flatMap((c) => c.erc_panels || []))];
-  const panelOrder = (p) => ["SH", "PE", "LS"].indexOf(p.slice(0, 2)) * 100 + Number(p.slice(2));
-  panels.sort((a, b) => panelOrder(a) - panelOrder(b));
-  // Offer all panels of any domain that appears, so a domain-wide call can be
-  // found from a panel the user knows.
   const domainsPresent = new Set(calls.flatMap((c) => c.erc_domains || []));
   const allPanels = [];
   const counts = { SH: 8, PE: 11, LS: 9 };
@@ -231,13 +418,13 @@ function setupFilters() {
     if (!domainsPresent.has(domain)) continue;
     for (let i = 1; i <= counts[domain]; i++) allPanels.push(domain + i);
   }
-  fillSelect($("panel"), allPanels.length ? allPanels : panels);
+  fillSelect($("panel"), allPanels);
   // Panels are not shown until tags.csv gives calls their panels.
   $("panelField").hidden = panels.length === 0;
 
   const months = new Set();
   for (const call of calls) {
-    for (const d of call.deadlines) {
+    for (const d of relevantDeadlines(call)) {
       if (d.startsWith(String(state.data.target_year))) months.add(Number(d.slice(5, 7)));
     }
   }
@@ -246,11 +433,17 @@ function setupFilters() {
 
   readFiltersFromUrl();
   const form = $("filters");
-  if (Object.values(getFilters()).some(Boolean)) $("filterBox").open = true;
+  if (advancedActiveCount(getFilters()) > 0) $("filterBox").open = true;
   form.addEventListener("input", onChange);
   form.addEventListener("change", onChange);
   form.addEventListener("submit", (e) => e.preventDefault());
   form.addEventListener("reset", () => setTimeout(() => { refreshClusterOptions(); onChange(); }, 0));
+}
+
+// The month also has its own strip above the results, so it is not counted
+// as an "advanced" filter.
+function advancedActiveCount(f) {
+  return Object.entries(f).filter(([k, v]) => v && k !== "month").length;
 }
 
 function refreshClusterOptions() {
@@ -310,7 +503,7 @@ function writeFiltersToUrl(f) {
   history.replaceState(null, "", query ? `?${query}` : location.pathname);
 }
 
-function matches(call, f) {
+function matches(call, f, ignoreMonth = false) {
   if (f.programme && call.programme !== f.programme) return false;
   if (f.cluster && call.pillar_or_cluster !== f.cluster) return false;
   if (f.q) {
@@ -322,16 +515,14 @@ function matches(call, f) {
   if ((f.discipline === "PE" || f.discipline === "LS") && !domains.includes(f.discipline)) return false;
   if (f.panel) {
     const panels = call.erc_panels || [];
-    const domain = f.panel.slice(0, 2);
-    const domainWide = panels.length === 0 && domains.includes(domain);
+    const domainWide = panels.length === 0 && domains.includes(f.panel.slice(0, 2));
     if (!panels.includes(f.panel) && !domainWide) return false;
   }
   if (f.scheme === "alone" && !(call.scheme === "individual" || call.scheme === "either")) return false;
   if (f.scheme === "consortium" && call.scheme !== "consortium") return false;
-  if (f.month) {
+  if (f.month && !ignoreMonth) {
     const prefix = `${state.data.target_year}-${f.month.padStart(2, "0")}`;
-    const relevant = call.stages === 2 ? [call.deadlines[0]] : call.deadlines;
-    if (!relevant.some((d) => d.startsWith(prefix))) return false;
+    if (!relevantDeadlines(call).some((d) => d.startsWith(prefix))) return false;
   }
   if (f.openOnly && !isOpenNow(call)) return false;
 
@@ -347,51 +538,73 @@ function onChange(event) {
   if (event && event.target && event.target.id === "programme") refreshClusterOptions();
   const f = getFilters();
   writeFiltersToUrl(f);
-  const active = Object.values(f).filter(Boolean).length;
+  const active = advancedActiveCount(f);
   document.querySelector("#filterBox > summary").textContent = active ? `Advanced filters (${active} active)` : "Advanced filters";
-  render(state.calls.filter((c) => matches(c, f)));
+  render(f);
 }
 
-// ------------------------------------------------------------ rendering
+// ------------------------------------------------------------ month strip
 
-function deadlineHtml(call) {
-  if (!call.deadlines.length) return CHECK;
-  if (call.stages === 2 && call.deadlines.length >= 2) {
-    return `Stage 1: ${formatDate(call.deadlines[0])}<br>Stage 2: ${formatDate(call.deadlines[1])}`;
+function renderMonths(f, callsWithoutMonth) {
+  const year = String(state.data.target_year);
+  const counts = new Array(12).fill(0);
+  for (const call of callsWithoutMonth) {
+    const months = new Set(relevantDeadlines(call).filter((d) => d.startsWith(year)).map((d) => Number(d.slice(5, 7))));
+    for (const m of months) counts[m - 1] += 1;
   }
-  const upcoming = upcomingDeadlines(call);
-  if (upcoming.length > 1) {
-    return `${upcoming.length} cut-off dates: ` + upcoming.map(formatDate).join(", ");
+  const max = Math.max(1, ...counts);
+  $("months").innerHTML = counts.map((n, i) => {
+    const m = String(i + 1);
+    const selected = f.month === m;
+    const label = `${MONTHS[i]}: ${n} deadline${n === 1 ? "" : "s"}`;
+    return `<button type="button" class="month${selected ? " selected" : ""}" data-month="${m}"
+      aria-pressed="${selected}" aria-label="${label}" ${n === 0 ? "disabled" : ""}>
+      <span class="month-bar" aria-hidden="true"><span style="height:${Math.round((n / max) * 100)}%"></span></span>
+      <span class="month-name" aria-hidden="true">${MONTHS[i].slice(0, 3)}</span>
+      <span class="month-count" aria-hidden="true">${n}</span></button>`;
+  }).join("");
+}
+
+function setupMonths() {
+  $("months").addEventListener("click", (e) => {
+    const button = e.target.closest("button.month");
+    if (!button || button.disabled) return;
+    const select = $("month");
+    const value = select.value === button.dataset.month ? "" : button.dataset.month;
+    if (value && ![...select.options].some((o) => o.value === value)) return;
+    select.value = value;
+    onChange();
+    const again = $("months").querySelector(`[data-month="${button.dataset.month}"]`);
+    if (again) again.focus();
+  });
+}
+
+// ------------------------------------------------------------ results
+
+function badgesHtml(call) {
+  const badges = [];
+  badges.push(escapeHtml(call.scheme ? SCHEME_BADGES[call.scheme] : "Who applies: check portal"));
+  const days = daysBetween(todayUtc(), parseDate(nextDeadline(call)));
+  if (days === 0) badges.push("Deadline today");
+  else if (days > 0) badges.push(`${days} day${days === 1 ? "" : "s"} left${call.stages === 2 ? " for stage 1" : ""}`);
+  if (call.stages === 2) badges.push(glossaryLink("two-stage", "Two-stage"));
+  if (call.budget_per_project_eur) badges.push(escapeHtml(`${formatBudget(call.budget_per_project_eur)} per project`));
+  badges.push(escapeHtml(isOpenNow(call) ? "Open now"
+    : call.opening_date ? `Opens ${formatDate(call.opening_date)}` : "Opening date: check portal"));
+  return `<ul class="badges">${badges.map((b, i) => `<li class="badge${i === 0 ? " badge-scheme" : ""}">${b}</li>`).join("")}</ul>`;
+}
+
+function whyHtml(call) {
+  const reasons = [];
+  if (call.open_to_all_fields) reasons.push(`Open to all fields (${escapeHtml(call.open_to_all_fields)}).`);
+  const profile = currentProfile();
+  const fit = profile && call.fits && call.fits[profile.id];
+  if (fit && fit.terms.length) {
+    const whose = profile.kind === "department" ? "your department's terms" : `terms for ${profile.name}`;
+    reasons.push(`Matches ${escapeHtml(whose)}: ${fit.terms.map(escapeHtml).join(", ")}.`);
   }
-  return formatDate(nextDeadline(call));
-}
-
-function schemeHtml(call) {
-  if (!call.scheme) return CHECK;
-  const basis = call.scheme_basis ? `<span class="sub">${escapeHtml(call.scheme_basis)}</span>` : "";
-  return escapeHtml(SCHEME_LABELS[call.scheme] || call.scheme) + basis;
-}
-
-function disciplineHtml(call) {
-  const parts = [];
-  if (call.erc_panels && call.erc_panels.length) parts.push("ERC panels " + call.erc_panels.join(", "));
-  else if (call.erc_domains && call.erc_domains.length) {
-    parts.push(call.erc_domains.length === 3 ? "All ERC domains" : call.erc_domains.map((d) => ERC_DOMAIN_NAMES[d] || d).join(", "));
-  }
-  if (call.ssh_flag === true && !(call.erc_domains || []).includes("SH")) parts.push("open to social sciences and humanities");
-  if (call.ssh_flag === false) parts.push("not aimed at social sciences and humanities");
-  if (!parts.length) return "Not tagged yet";
-  let text = escapeHtml(parts.join("; "));
-  const label = call.tag_status === "reviewed" ? "checked" : "suggested";
-  text += ` <span class="tag tag-${escapeHtml(call.tag_status)}">${label}</span>`;
-  if (call.tag_note) text += `<span class="sub">${escapeHtml(call.tag_note)}</span>`;
-  return text;
-}
-
-function statusHtml(call) {
-  if (isOpenNow(call)) return '<span class="badge badge-open">Open</span>';
-  const opens = call.opening_date ? ` – opens ${formatDate(call.opening_date)}` : "";
-  return `<span class="badge badge-forthcoming">Forthcoming${escapeHtml(opens)}</span>`;
+  if (!reasons.length) return "";
+  return `<p class="why"><strong>Why this may fit you:</strong> ${reasons.join(" ")}</p>`;
 }
 
 function careerHtml(call) {
@@ -400,9 +613,34 @@ function careerHtml(call) {
   const label = scheme && scheme.labels[stage];
   if (!label) return "";
   const verdict = FIT_LABELS[label.fit]
-    ? `<span class="fit fit-${label.fit}">${FIT_LABELS[label.fit]}</span> ` : "";
-  return `<div class="career">${verdict}${escapeHtml(label.text)}
-    <span class="sub">Rule: ${escapeHtml(scheme.rule)} <a href="${escapeHtml(scheme.source_url)}" rel="noopener">${escapeHtml(scheme.source_label)}</a></span></div>`;
+    ? `<strong class="fit fit-${label.fit}">${FIT_LABELS[label.fit]}.</strong> ` : "";
+  return `<p class="career">${verdict}${escapeHtml(label.text)}
+    <span class="sub">Rule: ${escapeHtml(scheme.rule)} <a href="${escapeHtml(scheme.source_url)}" rel="noopener">${escapeHtml(scheme.source_label)}</a></span></p>`;
+}
+
+function deadlineHtml(call) {
+  if (!call.deadlines.length) return CHECK;
+  if (call.stages === 2 && call.deadlines.length >= 2) {
+    return `Stage 1: ${formatDate(call.deadlines[0])}<br>Stage 2: ${formatDate(call.deadlines[1])}`;
+  }
+  const upcoming = upcomingDeadlines(call);
+  if (upcoming.length > 1) return `${upcoming.length} cut-off dates: ` + upcoming.map(formatDate).join(", ");
+  return formatDate(nextDeadline(call));
+}
+
+function disciplineHtml(call) {
+  const parts = [];
+  if (call.erc_panels && call.erc_panels.length) parts.push("ERC panels " + call.erc_panels.join(", "));
+  else if (call.erc_domains && call.erc_domains.length) {
+    parts.push(call.erc_domains.length === 3 ? "All fields" : call.erc_domains.map((d) => ERC_DOMAIN_NAMES[d] || d).join(", "));
+  }
+  if (call.ssh_flag === true && !(call.erc_domains || []).includes("SH")) parts.push("open to social sciences and humanities");
+  if (call.ssh_flag === false) parts.push("not aimed at social sciences and humanities");
+  if (!parts.length) return "Not tagged yet";
+  let text = escapeHtml(parts.join("; "));
+  text += call.tag_status === "reviewed" ? " (checked by a person)" : " (suggested automatically)";
+  if (call.tag_note) text += `<span class="sub">${escapeHtml(call.tag_note)}</span>`;
+  return text;
 }
 
 function row(label, html) {
@@ -410,58 +648,121 @@ function row(label, html) {
 }
 
 function callHtml(call) {
-  const where = [call.programme, call.pillar_or_cluster].filter(Boolean).map(escapeHtml).join(" · ");
-  const days = daysBetween(todayUtc(), parseDate(nextDeadline(call)));
-  const soon = days >= 0 && days <= 30 ? ` <span class="soon">in ${days} day${days === 1 ? "" : "s"}</span>` : "";
+  const term = actionTerm(call.type_of_action);
+  const action = call.type_of_action
+    ? escapeHtml(call.type_of_action) + (term ? ` ${glossaryLink(term, "What is this?")}` : "")
+    : CHECK;
+  const scheme = call.scheme
+    ? escapeHtml(SCHEME_LABELS[call.scheme]) + (call.scheme_basis ? `<span class="sub">${escapeHtml(call.scheme_basis)}</span>` : "")
+    : CHECK;
+  const part = call.pillar_or_cluster
+    ? escapeHtml(call.pillar_or_cluster) + (/^Cluster /.test(call.pillar_or_cluster) ? ` ${glossaryLink("cluster", "What is a cluster?")}` : "")
+    : "";
+  const meta = [call.identifier, call.programme, call.pillar_or_cluster].filter(Boolean).map(escapeHtml).join(" · ");
+  const title = escapeHtml(call.title || call.identifier);
+  const starred = isStarred(call.identifier);
   return `<li class="call">
-    <div class="call-head">
-      <p class="where">${where}</p>
-      ${statusHtml(call)}
+    <div class="call-top">
+      <h3 class="call-title">${title}</h3>
+      <button type="button" class="star" data-id="${escapeHtml(call.identifier)}" aria-pressed="${starred}">
+        <span class="star-icon" aria-hidden="true">${starred ? "★" : "☆"}</span>
+        <span class="star-text">${starred ? "On shortlist" : "Add to shortlist"}</span></button>
     </div>
-    <h2><a href="${escapeHtml(call.portal_url)}" rel="noopener">${escapeHtml(call.title || call.identifier)}</a></h2>
-    <p class="ident">${escapeHtml(call.identifier)}</p>
+    ${badgesHtml(call)}
+    ${whyHtml(call)}
     ${careerHtml(call)}
-    <dl>
-      ${row("Deadline", deadlineHtml(call) + soon)}
-      ${row("Who applies", schemeHtml(call))}
-      ${row("Budget per project", escapeHtml(formatBudget(call.budget_per_project_eur)))}
-      ${row("Type of action", call.type_of_action ? escapeHtml(call.type_of_action) : CHECK)}
-      ${row("Disciplines", disciplineHtml(call))}
-    </dl>
-    <p class="portal"><a href="${escapeHtml(call.portal_url)}" rel="noopener">Topic page on the Funding &amp; Tenders Portal</a>
-      <span class="checked">Last checked ${escapeHtml(formatDate(call.last_checked))}</span></p>
+    <p class="meta">${meta}</p>
+    <details class="more">
+      <summary>Details<span class="visually-hidden">: ${title}</span></summary>
+      <dl>
+        ${row("Deadline", deadlineHtml(call))}
+        ${row("Opens", formatDate(call.opening_date))}
+        ${row("Who applies", scheme)}
+        ${row("Budget per project", escapeHtml(formatBudget(call.budget_per_project_eur)))}
+        ${row("Type of action", action)}
+        ${part ? row("Part of the programme", part) : ""}
+        ${row("Disciplines", disciplineHtml(call))}
+        ${row("Last checked", escapeHtml(formatDate(call.last_checked)))}
+      </dl>
+    </details>
+    <p class="call-actions"><a class="button" href="${escapeHtml(call.portal_url)}" rel="noopener">View on the EU portal<span class="visually-hidden">: ${title}</span></a></p>
   </li>`;
 }
 
-function render(calls) {
-  const pid = profileId();
-  const fitScore = (c) => (c.fits && c.fits[pid] ? c.fits[pid].score : 0);
-  const sorted = calls.slice().sort((a, b) => {
-    if (pid) {
-      const open = Number(!a.open_to_all_fields) - Number(!b.open_to_all_fields);
-      if (open) return open;
-      const score = fitScore(b) - fitScore(a);
-      if (score) return score;
-    }
-    return nextDeadline(a).localeCompare(nextDeadline(b));
-  });
-  $("calls").innerHTML = sorted.map(callHtml).join("");
-  $("empty").hidden = sorted.length > 0;
-  const total = state.calls.length;
-  const order = pid ? "calls open to all fields first, then best match" : "soonest deadline first";
-  $("jumpLink").textContent = `See the ${sorted.length} matching call${sorted.length === 1 ? "" : "s"}`;
-  $("count").textContent = sorted.length === total
-    ? `${total} call${total === 1 ? "" : "s"}, ${order}`
-    : `${sorted.length} of ${total} calls match, ${order}`;
+function groupHtml(title, intro, calls) {
+  if (!calls.length) return "";
+  return `<section class="group">
+    <h2 class="group-title">${escapeHtml(title)} <span class="group-count">(${calls.length})</span></h2>
+    ${intro ? `<p class="group-intro">${escapeHtml(intro)}</p>` : ""}
+    <ol class="calls">${calls.map(callHtml).join("")}</ol>
+  </section>`;
 }
+
+function emptyActionsHtml(f) {
+  const actions = [];
+  const profile = currentProfile();
+  if (state.guide.who) actions.push(["who", `Remove “${profile ? profile.name : "Another faculty or unit"}”`]);
+  const want = WANT_OPTIONS.find((o) => o.id === state.guide.want);
+  if (want && want.id !== "all") actions.push(["want", `Remove “${want.title}”`]);
+  if (f.month) actions.push(["month", `Show all months, not only ${MONTHS[Number(f.month) - 1]}`]);
+  if (advancedActiveCount(f) > 0) actions.push(["advanced", "Clear advanced filters"]);
+  return actions.map(([what, text]) => `<button type="button" class="button-secondary" data-relax="${what}">${escapeHtml(text)}</button>`).join(" ");
+}
+
+function setupEmptyState() {
+  $("emptyActions").addEventListener("click", (e) => {
+    const button = e.target.closest("[data-relax]");
+    if (!button) return;
+    const what = button.dataset.relax;
+    if (what === "who" || what === "want") clearAnswer(what, false);
+    else if (what === "month") { $("month").value = ""; onChange(); }
+    else if (what === "advanced") {
+      const month = $("month").value;
+      $("filters").reset();
+      setTimeout(() => { $("month").value = month; refreshClusterOptions(); onChange(); }, 0);
+    }
+    $("results").focus();
+  });
+}
+
+function render(f) {
+  const withoutMonth = state.calls.filter((c) => matches(c, f, true));
+  const calls = f.month ? withoutMonth.filter((c) => matches(c, f)) : withoutMonth;
+  renderMonths(f, withoutMonth);
+
+  const pid = profileId();
+  const profile = currentProfile();
+  const byDeadline = (a, b) => nextDeadline(a).localeCompare(nextDeadline(b)) || a.identifier.localeCompare(b.identifier);
+  const score = (c) => (c.fits && c.fits[pid] ? c.fits[pid].score : 0);
+  const openAll = calls.filter((c) => c.open_to_all_fields).sort(byDeadline);
+  const rest = calls.filter((c) => !c.open_to_all_fields)
+    .sort((a, b) => (pid ? score(b) - score(a) : 0) || byDeadline(a, b));
+
+  const restTitle = !profile ? "All other calls"
+    : profile.kind === "department" ? "Calls that match your department" : `Calls that match ${profile.name}`;
+  const restIntro = profile ? "Best match first, then soonest deadline." : "Soonest deadline first.";
+  $("groups").innerHTML =
+    groupHtml("Open to all fields", "These schemes accept proposals from any discipline, so they are worth a look whatever your field.", openAll)
+    + groupHtml(restTitle, restIntro, rest);
+
+  $("empty").hidden = calls.length > 0;
+  if (!calls.length) $("emptyActions").innerHTML = emptyActionsHtml(f);
+
+  const total = state.calls.length;
+  const month = f.month ? ` with a deadline in ${MONTHS[Number(f.month) - 1]}` : "";
+  $("count").textContent = calls.length === total ? `${total} calls` : `${calls.length} of ${total} calls match your choices${month}`;
+  $("jumpLink").textContent = `See the ${calls.length} matching call${calls.length === 1 ? "" : "s"}`;
+}
+
+// ------------------------------------------------------------ start-up
 
 function showRefreshed() {
   const iso = state.data.data_refreshed || state.data.generated_at;
   const el = $("refreshed");
   if (!iso) { el.textContent = "Date of last refresh unknown."; return; }
-  const refreshed = parseDate(iso);
   el.textContent = `Data last refreshed: ${formatDate(iso)}.`;
-  const age = daysBetween(refreshed, todayUtc());
+  $("footerRefreshed").textContent = `Data refreshed nightly. Last refresh: ${formatDate(iso)}.`;
+  const age = daysBetween(parseDate(iso), todayUtc());
   if (age > STALE_AFTER_DAYS) {
     el.textContent += ` That was ${age} days ago, so some details may be out of date.`;
     el.classList.add("stale");
@@ -481,11 +782,17 @@ async function load() {
 load().then((data) => {
   state.data = data;
   state.calls = (data.calls || []).filter((c) => c.deadlines && c.deadlines.length);
+  for (const call of state.calls) state.byId[call.identifier] = call;
   showRefreshed();
   setupFilters();
   setupGuide();
+  setupShortlist();
+  setupGlossary();
+  setupMonths();
+  setupEmptyState();
   onChange();
-}).catch(() => {
+}).catch((err) => {
+  console.error(err);
   $("refreshed").textContent = "The call data could not be loaded. Please try again later, or search the Funding & Tenders Portal directly.";
   $("refreshed").classList.add("stale");
 });

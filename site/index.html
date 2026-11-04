@@ -4,18 +4,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>EU Calls 2027 Finder</title>
-  <meta name="description" content="Find EU research calls with a deadline in 2027, filtered by programme, discipline, scheme and deadline.">
+  <meta name="description" content="EU research calls with a deadline in 2027, for researchers at the Faculty of Business Administration, VŠE.">
+  <meta name="theme-color" content="#00649C">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <a class="skip-link" href="#results">Skip to the calls</a>
+
   <header class="site-header">
     <div class="wrap">
       <h1>EU Calls 2027 Finder</h1>
-      <p class="lede">EU research calls with a deadline in 2027, for academics at the Prague University of Economics and Business.
-        Each call links to its page on the official Funding &amp; Tenders Portal. Always check the details there before you plan an application.</p>
+      <p class="subtitle">For researchers at the Faculty of Business Administration, VŠE</p>
       <p class="refreshed" id="refreshed">Loading data…</p>
     </div>
   </header>
+
+  <div class="wrap notice">
+    <p>An independent tool for FPH staff, not an official VŠE service. The EU Funding &amp; Tenders Portal is the authoritative source for every call.
+      Before you apply, talk to the faculty's project office.</p>
+  </div>
 
   <section class="wrap guide" id="guide" aria-labelledby="guideTitle">
     <div class="guide-head">
@@ -39,7 +46,7 @@
       </fieldset>
 
       <fieldset class="question">
-        <legend id="stageLegend">Where are you in your career?</legend>
+        <legend>Where are you in your career?</legend>
         <p class="hint" id="stageHint"></p>
         <div class="option-grid" id="stageCards"></div>
         <button type="button" class="clear-q" data-clear="stage" hidden>Clear this answer</button>
@@ -50,72 +57,125 @@
 
   <main class="wrap layout">
     <details class="filter-box" id="filterBox">
-    <summary>Advanced filters</summary>
-    <form class="filters" id="filters" aria-label="Filter calls">
-      <div class="field">
-        <label for="q">Search titles and identifiers</label>
-        <input type="search" id="q" name="q" autocomplete="off" placeholder="e.g. democracy, migration, STG">
-      </div>
+      <summary>Advanced filters</summary>
+      <form class="filters" id="filters" aria-label="Advanced filters">
+        <div class="field">
+          <label for="q">Search titles and identifiers</label>
+          <input type="search" id="q" name="q" autocomplete="off" placeholder="e.g. democracy, tourism, COG">
+        </div>
 
-      <div class="field">
-        <label for="programme">Programme</label>
-        <select id="programme" name="programme"><option value="">All programmes</option></select>
-      </div>
+        <div class="field">
+          <label for="programme">Programme</label>
+          <select id="programme" name="programme"><option value="">All programmes</option></select>
+        </div>
 
-      <div class="field">
-        <label for="cluster">Part of the programme</label>
-        <select id="cluster" name="cluster"><option value="">Any</option></select>
-      </div>
+        <div class="field">
+          <label for="cluster">Part of the programme</label>
+          <select id="cluster" name="cluster"><option value="">Any</option></select>
+        </div>
 
-      <fieldset class="field">
-        <legend>Discipline</legend>
-        <label class="choice"><input type="radio" name="discipline" value="" checked> <span>Any field</span></label>
-        <label class="choice"><input type="radio" name="discipline" value="ssh"> <span>Open to social sciences and humanities</span></label>
-        <label class="choice"><input type="radio" name="discipline" value="PE"> <span>Physical sciences and engineering (ERC PE)</span></label>
-        <label class="choice"><input type="radio" name="discipline" value="LS"> <span>Life sciences (ERC LS)</span></label>
-      </fieldset>
+        <fieldset class="field">
+          <legend>Discipline</legend>
+          <label class="choice"><input type="radio" name="discipline" value="" checked> <span>Any field</span></label>
+          <label class="choice"><input type="radio" name="discipline" value="ssh"> <span>Open to social sciences and humanities</span></label>
+          <label class="choice"><input type="radio" name="discipline" value="PE"> <span>Physical sciences and engineering (ERC PE)</span></label>
+          <label class="choice"><input type="radio" name="discipline" value="LS"> <span>Life sciences (ERC LS)</span></label>
+        </fieldset>
 
-      <div class="field" id="panelField" hidden>
-        <label for="panel">ERC panel</label>
-        <select id="panel" name="panel"><option value="">Any panel</option></select>
-        <p class="hint">Calls open to a whole ERC domain match every panel in it.</p>
-      </div>
+        <div class="field" id="panelField" hidden>
+          <label for="panel">ERC panel</label>
+          <select id="panel" name="panel"><option value="">Any panel</option></select>
+          <p class="hint">Calls open to a whole ERC domain match every panel in it.</p>
+        </div>
 
-      <fieldset class="field">
-        <legend>Who applies</legend>
-        <label class="choice"><input type="radio" name="scheme" value="" checked> <span>Any</span></label>
-        <label class="choice"><input type="radio" name="scheme" value="alone"> <span>I can apply on my own</span></label>
-        <label class="choice"><input type="radio" name="scheme" value="consortium"> <span>Consortium needed</span></label>
-      </fieldset>
+        <fieldset class="field">
+          <legend>Who applies</legend>
+          <label class="choice"><input type="radio" name="scheme" value="" checked> <span>Any</span></label>
+          <label class="choice"><input type="radio" name="scheme" value="alone"> <span>One researcher or organisation can apply</span></label>
+          <label class="choice"><input type="radio" name="scheme" value="consortium"> <span>Consortium needed</span></label>
+        </fieldset>
 
-      <div class="field">
-        <label for="month">Deadline</label>
-        <select id="month" name="month"><option value="">Any time in 2027</option></select>
-      </div>
+        <div class="field">
+          <label for="month">Deadline</label>
+          <select id="month" name="month"><option value="">Any time in 2027</option></select>
+        </div>
 
-      <div class="field">
-        <label class="choice"><input type="checkbox" id="openOnly" name="openOnly"> <span>Open for submission now</span></label>
-      </div>
+        <div class="field">
+          <label class="choice"><input type="checkbox" id="openOnly" name="openOnly"> <span>Open for submission now</span></label>
+        </div>
 
-      <button type="reset" class="reset">Clear filters</button>
-    </form>
+        <button type="reset" class="button-secondary">Clear advanced filters</button>
+      </form>
     </details>
 
-    <section class="results" id="results" tabindex="-1" aria-live="polite">
-      <p class="count" id="count"></p>
-      <ol class="calls" id="calls"></ol>
-      <p class="empty" id="empty" hidden>No calls match these filters. Try clearing one of them.</p>
+    <section class="results" id="results" tabindex="-1" aria-labelledby="resultsTitle">
+      <h2 id="resultsTitle" class="visually-hidden">Calls</h2>
+
+      <p class="count" id="count" aria-live="polite"></p>
+
+      <details class="drawer" id="glossary">
+        <summary>What do the EU terms mean?</summary>
+        <dl class="glossary">
+          <dt id="g-ria" tabindex="-1">RIA (Research and Innovation Action)</dt>
+          <dd>A project that creates new knowledge or tests a new approach; under the standard rule it needs at least three organisations from three different countries.</dd>
+          <dt id="g-ia" tabindex="-1">IA (Innovation Action)</dt>
+          <dd>A project closer to practice, such as piloting or demonstrating a new product, service or process, with the same standard consortium rule as an RIA.</dd>
+          <dt id="g-csa" tabindex="-1">CSA (Coordination and Support Action)</dt>
+          <dd>Funding for networking, coordination, policy support or dissemination rather than research itself; under the standard rule a single organisation may apply.</dd>
+          <dt id="g-lump-sum" tabindex="-1">Lump sum</dt>
+          <dd>The grant is a fixed amount agreed in advance and paid when the planned work is done, so you report on results instead of every cost.</dd>
+          <dt id="g-two-stage" tabindex="-1">Two-stage</dt>
+          <dd>You first send a short proposal; only applicants who pass that stage are invited to submit a full proposal by the second deadline.</dd>
+          <dt id="g-cluster" tabindex="-1">Cluster</dt>
+          <dd>One of six themed parts of Horizon Europe's collaborative research; Cluster 2, for example, covers culture, creativity and inclusive society.</dd>
+          <dt id="g-destination" tabindex="-1">Destination</dt>
+          <dd>A group of related topics within a cluster that aim at the same expected impacts.</dd>
+          <dt id="g-erc-panel" tabindex="-1">ERC panel</dt>
+          <dd>One of 28 subject panels that evaluate ERC proposals; applicants choose the panel closest to their research, such as SH1 for economics, finance and management.</dd>
+        </dl>
+      </details>
+
+      <details class="drawer" id="shortlist">
+        <summary id="shortlistSummary">Your shortlist (0)</summary>
+        <div class="shortlist-body">
+          <p class="hint">Starred calls are saved only in this browser. Nothing is sent anywhere.</p>
+          <p class="hint" id="shortlistEmpty">Use the star on a call to add it here.</p>
+          <ol id="shortlistItems" class="shortlist-items"></ol>
+          <p class="shortlist-actions" id="shortlistActions">
+            <button type="button" class="button-secondary" id="copyList">Copy list</button>
+            <button type="button" class="button-secondary" id="downloadCsv">Download as CSV</button>
+            <button type="button" class="link-button" id="clearList">Remove all</button>
+          </p>
+          <p class="hint" id="shortlistStatus" role="status"></p>
+        </div>
+      </details>
+
+      <div class="months" id="months" role="group" aria-label="Deadlines per month in 2027. Choose a month to show only its calls."></div>
+
+      <div id="groups"></div>
+
+      <div class="empty" id="empty" hidden>
+        <p><strong>Nothing matches all of your choices.</strong> Try removing one of them:</p>
+        <p class="empty-actions" id="emptyActions"></p>
+      </div>
     </section>
   </main>
 
-  <footer class="wrap site-footer">
-    <p>The data is copied each night from the public search service behind the
+  <section class="wrap about" aria-labelledby="aboutTitle">
+    <h2 id="aboutTitle">About this data</h2>
+    <p>Calls are copied each night from the public search service behind the
       <a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home">EU Funding &amp; Tenders Portal</a>.
-      The portal is the authoritative source. Where a value is missing here, it says “check portal”.
-      “Who applies” is based on the general rules for each type of action and can differ for a particular topic.
-      Discipline tags marked “suggested” were assigned automatically and have not been checked by a person.</p>
-    <p>This page uses no cookies, tracking or analytics.</p>
-    <p class="credit">Coded with love by Marko Orel</p>
+      Where a value is missing here, the page says “check portal”. “Who applies” follows the general rule for each type of action
+      and can differ for a particular topic. Department matches come from search terms in each call's title and description: they
+      suggest where to look and do not judge whether a call suits you. The page uses no cookies, tracking or analytics.</p>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>An independent tool for FPH staff. Not an official VŠE service. The EU Funding &amp; Tenders Portal is the authoritative source.</p>
+      <p id="footerRefreshed">Data refreshed nightly.</p>
+      <p class="credit">Coded with love by Marko Orel <span aria-hidden="true">♥</span></p>
+    </div>
   </footer>
 
   <script src="app.js"></script>

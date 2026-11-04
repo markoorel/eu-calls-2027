@@ -245,5 +245,20 @@ class TestDescriptionCache(unittest.TestCase):
         self.assertEqual(text, "Expected Outcome:\n- one & two")
 
 
+
+class TestContrast(unittest.TestCase):
+    def test_all_pairs_pass(self):
+        import check_contrast
+        failures = [r for r in check_contrast.check() if r[4] < r[5]]
+        self.assertEqual(failures, [])
+
+    def test_detects_failure(self):
+        import check_contrast
+        css = ":root { --text: #AAAAAA; --heading: #000000; --blue: #00649C; --blue-dark: #004E7A; " \
+              "--tint: #E8F1F7; --control: #6E7A83; --white: #FFFFFF; }"
+        failures = [r for r in check_contrast.check(css) if r[4] < r[5]]
+        self.assertTrue(any(r[0] == "text" for r in failures))
+
+
 if __name__ == "__main__":
     unittest.main()
