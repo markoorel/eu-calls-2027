@@ -49,7 +49,7 @@
       "name": "Management",
       "description": "How organisations are run, governed and changed, in business and the public sector.",
       "erc_panels": ["SH1", "SH2"],
-      "search_terms": ["organisations", "governance", "digital transformation", "artificial intelligence adoption", "public sector innovation", "decision-making", "sustainability management"]
+      "search_terms": ["governance", "digital transformation", "artificial intelligence adoption", "public sector innovation", "decision-making", "sustainability management"]
     },
     {
       "id": "marketing",

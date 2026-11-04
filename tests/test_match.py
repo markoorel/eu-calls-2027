@@ -55,7 +55,7 @@ PROFILE = {"id": "x", "name": "X", "erc_panels": ["SH8", "SH1"],
 class TestScore(unittest.TestCase):
     def test_title_tag_description_weights(self):
         call = {"title": "EXAMPLE Cultural heritage and society", "erc_panels": []}
-        desc = {"tags": ["Museums"], "keywords": [], "text": "Reach new audiences. Cultural heritage again."}
+        desc = {"tags": ["Museums"], "keywords": [], "text": "Reach new audiences, and more audiences. Cultural heritage again."}
         result = match.score_call(call, PROFILE, desc)
         self.assertEqual(result["terms"], ["cultural heritage", "museums", "audiences"])
         self.assertEqual(result["score"], match.TITLE_POINTS + match.TAG_POINTS + match.DESCRIPTION_POINTS)
@@ -67,6 +67,11 @@ class TestScore(unittest.TestCase):
         self.assertEqual(result["score"], match.MAIN_PANEL_POINTS + match.OTHER_PANEL_POINTS)
         only_other = match.score_call({"title": "EXAMPLE", "erc_panels": ["SH1"]}, PROFILE, None)
         self.assertEqual(only_other["score"], match.OTHER_PANEL_POINTS)
+
+    def test_single_description_mention_ignored(self):
+        desc = {"tags": [], "keywords": [], "text": "One museum is mentioned once; audiences twice: audiences."}
+        result = match.score_call({"title": "EXAMPLE", "erc_panels": []}, PROFILE, desc)
+        self.assertEqual(result["terms"], ["audiences"])
 
     def test_no_match(self):
         self.assertIsNone(match.score_call({"title": "EXAMPLE batteries", "erc_panels": []}, PROFILE,
@@ -121,7 +126,7 @@ class TestBuildAddsFits(unittest.TestCase):
                 shutil.copy(ROOT / "data" / name, tmp / name)
             (tmp / "manual_calls.json").write_text("[]")
             (tmp / "descriptions.json").write_text(json.dumps({"topics": {
-                "HORIZON-CL2-2027-01-TEST-01": {"text": "Work with museums and their audiences.", "tags": [], "keywords": []}}}))
+                "HORIZON-CL2-2027-01-TEST-01": {"text": "Work with museums and their audiences; museums reach new audiences.", "tags": [], "keywords": []}}}))
             data = build_calls.build(date(2026, 11, 4), False, data_dir=tmp)
             calls = {c["identifier"]: c for c in data["calls"]}
             self.assertEqual(calls["ERC-2027-STG"]["open_to_all_fields"], "ERC")

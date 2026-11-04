@@ -7,7 +7,8 @@ tags.csv has panels, the matched ERC panels.
 Scoring for one call and one department or topic:
   - each search term found in the title: TITLE_POINTS
   - otherwise, found in the portal's tags or keywords: TAG_POINTS
-  - otherwise, found in the description: DESCRIPTION_POINTS
+  - otherwise, found at least DESCRIPTION_MIN_MENTIONS times in the
+    description: DESCRIPTION_POINTS (a single passing mention is ignored)
   - the department's main ERC panel in the call's erc_panels: MAIN_PANEL_POINTS
   - any other of its panels in the call's erc_panels: OTHER_PANEL_POINTS
 A term counts once per call, at the best place it was found.
@@ -30,6 +31,7 @@ DATA = ROOT / "data"
 TITLE_POINTS = 3
 TAG_POINTS = 2
 DESCRIPTION_POINTS = 1
+DESCRIPTION_MIN_MENTIONS = 2
 MAIN_PANEL_POINTS = 3
 OTHER_PANEL_POINTS = 1
 
@@ -89,7 +91,7 @@ def score_call(call: dict, profile: dict, description: dict | None) -> dict | No
             score += TITLE_POINTS
         elif tags and pattern.search(tags):
             score += TAG_POINTS
-        elif text and pattern.search(text):
+        elif text and len(pattern.findall(text)) >= DESCRIPTION_MIN_MENTIONS:
             score += DESCRIPTION_POINTS
         else:
             continue
