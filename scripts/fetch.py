@@ -12,19 +12,23 @@ Usage:  python scripts/fetch.py
 
 from __future__ import annotations
 
+import hashlib
+import html
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
 import uuid
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT_FILE = ROOT / "data" / "raw_topics.json"
+DESCRIPTIONS_FILE = ROOT / "data" / "descriptions.json"
 
 API_URL = "https://api.tech.ec.europa.eu/search-api/prod/rest/search"
 PAGE_SIZE = 100
@@ -196,6 +200,106 @@ def fetch_all() -> dict:
     }
 
 
+# ---------------------------------------------------------------- descriptions
+#
+# The search API does not return full topic descriptions. Each topic has a
+# JSON file on the portal with the description as HTML. The file name must be
+# the identifier in lower case (upper case returns 404; checked 2026-11-04).
+
+TOPIC_DETAILS_URL = (
+    "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/{id}.json"
+)
+DESCRIPTION_YEAR = "2027"          # only topics with a deadline in this year
+FULL_REFRESH_DAYS = 7
+DESCRIPTION_DELAY_SECONDS = 0.3
+
+
+def metadata_hash(meta: dict) -> str:
+    return hashlib.sha256(json.dumps(meta, sort_keys=True).encode()).hexdigest()[:16]
+
+
+def html_to_text(raw: str) -> str:
+    """Plain text from the portal's description HTML."""
+    text = re.sub(r"(?is)<(script|style)\b.*?</\1>", " ", raw or "")
+    text = re.sub(r"(?i)<br\s*/?>|</(p|div|li|h[1-6]|tr)>", "\n", text)
+    text = re.sub(r"(?i)<li[^>]*>", "\n- ", text)
+    text = re.sub(r"(?i)</?(b|i|u|em|strong|span|a|sup|sub|abbr)\b[^>]*>", "", text)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = html.unescape(text).replace("\xa0", " ")
+    lines = [re.sub(r"[ \t]+", " ", line).strip() for line in text.splitlines()]
+    return "\n".join(line for line in lines if line)
+
+
+def fetch_topic_details(identifier: str) -> dict:
+    url = TOPIC_DETAILS_URL.format(id=urllib.parse.quote(identifier.lower()))
+    request = urllib.request.Request(url, headers={"Accept": "application/json", "User-Agent": USER_AGENT})
+    with urllib.request.urlopen(request, timeout=TIMEOUT_SECONDS) as resp:
+        details = json.load(resp)
+    details = details.get("TopicDetails", details)
+    if "description" not in details:
+        raise FetchError(f"{identifier}: topic details have no description")
+    return details
+
+
+def update_descriptions(topics: list[dict], cache_path: Path = DESCRIPTIONS_FILE,
+                        now: datetime | None = None, fetcher=fetch_topic_details) -> dict:
+    """Refresh the description cache for topics with a DESCRIPTION_YEAR deadline.
+
+    Fetches topics that are new or whose metadata changed, or all of them if
+    the last full refresh is FULL_REFRESH_DAYS old. A failed fetch keeps the
+    cached text. Topics no longer in scope are dropped from the cache.
+    """
+    now = now or datetime.now(timezone.utc)
+    cache = {"last_full_refresh": None, "topics": {}}
+    if cache_path.exists():
+        try:
+            cache = json.loads(cache_path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            print("fetch.py: descriptions.json unreadable; rebuilding it", file=sys.stderr)
+    old = cache.get("topics", {})
+    last_full = cache.get("last_full_refresh")
+    full = not last_full or now - datetime.fromisoformat(last_full.replace("Z", "+00:00")) >= timedelta(days=FULL_REFRESH_DAYS)
+
+    in_scope = {}
+    for topic in topics:
+        meta = topic["metadata"]
+        if any(str(d).startswith(DESCRIPTION_YEAR) for d in meta.get("deadlineDate") or []):
+            in_scope[first(meta["identifier"])] = metadata_hash(meta)
+
+    new_topics, fetched, failed = {}, 0, []
+    for identifier, digest in sorted(in_scope.items()):
+        entry = old.get(identifier)
+        if entry and not full and entry.get("metadata_hash") == digest:
+            new_topics[identifier] = entry
+            continue
+        try:
+            details = fetcher(identifier)
+            new_topics[identifier] = {
+                "text": html_to_text(details.get("description", "")),
+                "tags": [str(t) for t in details.get("tags") or []],
+                "keywords": [str(k) for k in details.get("keywords") or []],
+                "metadata_hash": digest,
+                "fetched_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
+            }
+            fetched += 1
+            time.sleep(DESCRIPTION_DELAY_SECONDS)
+        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, FetchError, ValueError) as exc:
+            failed.append(identifier)
+            if entry:
+                new_topics[identifier] = entry  # keep the old text, retry next run
+            print(f"fetch.py: description for {identifier} failed ({exc}); "
+                  f"{'kept the cached text' if entry else 'no cached text'}", file=sys.stderr)
+
+    # Only record a full refresh if most fetches worked.
+    if full and len(failed) <= len(in_scope) * 0.1:
+        last_full = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    result = {"last_full_refresh": last_full, "topics": new_topics}
+    write_atomic(cache_path, result)
+    print(f"fetch.py: descriptions: {len(new_topics)} cached, {fetched} fetched"
+          f"{' (full refresh)' if full else ''}, {len(failed)} failed")
+    return result
+
+
 def write_atomic(path: Path, data: dict) -> None:
     tmp = path.with_suffix(path.suffix + ".tmp")
     tmp.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
@@ -212,6 +316,12 @@ def main() -> int:
     write_atomic(OUT_FILE, data)
     print(f"fetch.py: wrote {data['topic_count']} topics "
           f"({data['total_results']} results) to {OUT_FILE.relative_to(ROOT)}")
+    # Descriptions are extra detail for matching. Problems here never block
+    # the topic data; individual failures keep the cached text.
+    try:
+        update_descriptions(data["topics"])
+    except Exception as exc:  # noqa: BLE001
+        print(f"fetch.py: description update stopped ({exc}); kept descriptions.json", file=sys.stderr)
     return 0
 
 

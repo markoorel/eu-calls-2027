@@ -26,6 +26,8 @@ import sys
 from datetime import date, datetime, timezone
 from pathlib import Path
 
+import match
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 TARGET_YEAR = 2027
@@ -425,6 +427,15 @@ def build(today: date, allow_drop: bool, data_dir: Path = DATA) -> dict:
             apply_tags(calls[key], tag)
 
     result = sorted(calls.values(), key=lambda c: (c["deadlines"][0], c["identifier"]))
+
+    # Department and topic fit, for the guided start on the page.
+    if (data_dir / "departments.json").exists():
+        profiles = match.load_profiles(data_dir / "departments.json")
+        descriptions = match.load_descriptions(data_dir / "descriptions.json")
+        match.match_calls(result, descriptions, profiles)
+        missing = sum(1 for c in result if c["identifier"].upper() not in descriptions)
+        if missing:
+            print(f"build_calls.py: {missing} call(s) have no cached description; matched on title only")
     if not result:
         raise BuildError(f"no calls with a {TARGET_YEAR} deadline; refusing to publish an empty file")
 
