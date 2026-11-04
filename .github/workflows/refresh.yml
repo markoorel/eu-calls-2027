@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["site/**", "data/manual_calls.json", "data/tags.csv", "data/programmes.json", "data/departments.json", "scripts/**"]
+    paths: ["site/**", "data/manual_calls.json", "data/tags.csv", "data/programmes.json", "data/departments.json", "data/career_stages.json", "scripts/**", ".github/workflows/**"]
 
 permissions:
   contents: write
@@ -57,7 +57,14 @@ jobs:
             echo "No data changes."
           else
             git commit -m "Data refresh $(date -u +%Y-%m-%d)"
-            git push
+            # Someone may have pushed while this job ran: rebase and retry.
+            for attempt in 1 2 3; do
+              git pull --rebase origin main && git push && exit 0
+              echo "Push attempt $attempt failed; retrying."
+              git rebase --abort 2>/dev/null || true
+              sleep $((attempt * 5))
+            done
+            exit 1
           fi
 
       - name: Prepare site
