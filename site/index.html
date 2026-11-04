@@ -17,9 +17,40 @@
     </div>
   </header>
 
+  <section class="wrap guide" id="guide" aria-labelledby="guideTitle">
+    <div class="guide-head">
+      <h2 id="guideTitle">Find calls for you</h2>
+      <p class="hint">Answer any of these, or skip them. Your choices are kept in the page address, so you can share the view.</p>
+      <a href="./" class="start-again" id="startAgain">Start again</a>
+    </div>
+    <form id="guideForm" class="guide-form">
+      <fieldset class="question">
+        <legend>Where do you work?</legend>
+        <div class="option-grid" id="whoCards"></div>
+        <p class="chips-label" id="topicsLabel">Or choose an area of interest</p>
+        <div class="chips" id="whoChips" aria-describedby="topicsLabel"></div>
+        <button type="button" class="clear-q" data-clear="who" hidden>Clear this answer</button>
+      </fieldset>
+
+      <fieldset class="question">
+        <legend>What are you looking for?</legend>
+        <div class="option-grid" id="wantCards"></div>
+        <button type="button" class="clear-q" data-clear="want" hidden>Clear this answer</button>
+      </fieldset>
+
+      <fieldset class="question">
+        <legend id="stageLegend">Where are you in your career?</legend>
+        <p class="hint" id="stageHint"></p>
+        <div class="option-grid" id="stageCards"></div>
+        <button type="button" class="clear-q" data-clear="stage" hidden>Clear this answer</button>
+      </fieldset>
+    </form>
+    <p class="jump"><a href="#results" id="jumpLink">See the matching calls</a></p>
+  </section>
+
   <main class="wrap layout">
-    <details class="filter-box" id="filterBox" open>
-    <summary>Filters</summary>
+    <details class="filter-box" id="filterBox">
+    <summary>Advanced filters</summary>
     <form class="filters" id="filters" aria-label="Filter calls">
       <div class="field">
         <label for="q">Search titles and identifiers</label>
@@ -44,7 +75,7 @@
         <label class="choice"><input type="radio" name="discipline" value="LS"> <span>Life sciences (ERC LS)</span></label>
       </fieldset>
 
-      <div class="field">
+      <div class="field" id="panelField" hidden>
         <label for="panel">ERC panel</label>
         <select id="panel" name="panel"><option value="">Any panel</option></select>
         <p class="hint">Calls open to a whole ERC domain match every panel in it.</p>
@@ -70,7 +101,7 @@
     </form>
     </details>
 
-    <section class="results" aria-live="polite">
+    <section class="results" id="results" tabindex="-1" aria-live="polite">
       <p class="count" id="count"></p>
       <ol class="calls" id="calls"></ol>
       <p class="empty" id="empty" hidden>No calls match these filters. Try clearing one of them.</p>
@@ -84,6 +115,7 @@
       “Who applies” is based on the general rules for each type of action and can differ for a particular topic.
       Discipline tags marked “suggested” were assigned automatically and have not been checked by a person.</p>
     <p>This page uses no cookies, tracking or analytics.</p>
+    <p class="credit">Coded with love by Marko Orel</p>
   </footer>
 
   <script src="app.js"></script>

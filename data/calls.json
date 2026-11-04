@@ -1,5 +1,229 @@
 {
- "generated_at": "2026-11-04T21:47:50Z",
+ "guide": {
+  "departments": [
+   {
+    "id": "arts-management",
+    "name": "Arts Management",
+    "description": "Management of cultural organisations, the arts and the creative economy."
+   },
+   {
+    "id": "entrepreneurship",
+    "name": "Entrepreneurship",
+    "description": "How new and small firms start, grow and innovate, including family and social enterprises."
+   },
+   {
+    "id": "human-resource-management",
+    "name": "Human Resource Management",
+    "description": "People at work: skills, careers, the labour market and employee well-being."
+   },
+   {
+    "id": "logistics",
+    "name": "Logistics",
+    "description": "How goods move: supply chains, freight, transport and their resilience."
+   },
+   {
+    "id": "management",
+    "name": "Management",
+    "description": "How organisations are run, governed and changed, in business and the public sector."
+   },
+   {
+    "id": "marketing",
+    "name": "Marketing",
+    "description": "Consumers, markets and communication, including sustainable and digital consumption."
+   },
+   {
+    "id": "managerial-economics",
+    "name": "Managerial Economics",
+    "description": "Economic analysis of firms, markets and policy, including behavioural and experimental work."
+   },
+   {
+    "id": "strategy",
+    "name": "Strategy",
+    "description": "How firms and industries compete, form business models and handle sustainability transitions."
+   },
+   {
+    "id": "managerial-psychology-and-sociology",
+    "name": "Managerial Psychology and Sociology",
+    "description": "Behaviour, well-being and relationships in organisations and society."
+   }
+  ],
+  "topics": [
+   {
+    "id": "behavioural-and-experimental-economics",
+    "name": "Behavioural and experimental economics",
+    "description": "How people actually decide, studied with experiments and behavioural data."
+   },
+   {
+    "id": "business-and-managerial-ethics",
+    "name": "Business and managerial ethics",
+    "description": "Responsible conduct in business and management."
+   },
+   {
+    "id": "entrepreneurship-topic",
+    "name": "Entrepreneurship",
+    "description": "Starting, growing and renewing firms."
+   },
+   {
+    "id": "esg",
+    "name": "ESG",
+    "description": "Environmental, social and governance performance of firms, and how it is reported and financed."
+   },
+   {
+    "id": "family-business",
+    "name": "Family business",
+    "description": "Family-owned firms, their governance and succession."
+   },
+   {
+    "id": "human-resources",
+    "name": "Human resources",
+    "description": "Skills, careers and the management of people."
+   },
+   {
+    "id": "institutions-and-political-economy",
+    "name": "Institutions and political economy",
+    "description": "How rules, institutions and politics shape economic life."
+   },
+   {
+    "id": "logistics-topic",
+    "name": "Logistics",
+    "description": "Supply chains, freight and transport."
+   },
+   {
+    "id": "marketing-research-and-strategic-marketing",
+    "name": "Marketing research and strategic marketing",
+    "description": "Understanding consumers and markets and planning how to reach them."
+   },
+   {
+    "id": "workplace",
+    "name": "Workplace",
+    "description": "Working conditions, workplace health and new ways of working."
+   }
+  ],
+  "career": {
+   "question": "When did you defend your PhD?",
+   "options": [
+    {
+     "id": "phd",
+     "label": "I'm still working on my PhD"
+    },
+    {
+     "id": "2022-plus",
+     "label": "In 2022 or later"
+    },
+    {
+     "id": "2012-2021",
+     "label": "Between 2012 and 2021"
+    },
+    {
+     "id": "before-2012",
+     "label": "Before 2012"
+    }
+   ],
+   "schemes": [
+    {
+     "pattern": "^ERC-2027-COG$",
+     "name": "ERC Consolidator Grant 2027",
+     "rule": "PhD defended more than 5 and up to 15 years before 1 January 2027.",
+     "source_label": "ERC Work Programme 2027, Table 4",
+     "source_url": "https://erc.europa.eu/system/files/2026-07/ERC_Work_Programme_2027.pdf",
+     "labels": {
+      "phd": {
+       "fit": "info",
+       "text": "For PhDs defended 2012–2021."
+      },
+      "2022-plus": {
+       "fit": "info",
+       "text": "For PhDs defended 2012–2021; check eligibility if you have had career breaks."
+      },
+      "2012-2021": {
+       "fit": "likely",
+       "text": "Your PhD falls in the 2012–2021 window."
+      },
+      "before-2012": {
+       "fit": "check",
+       "text": "Leave can extend the window."
+      }
+     }
+    },
+    {
+     "pattern": "^HORIZON-MSCA-\\d{4}-PF-",
+     "name": "MSCA Postdoctoral Fellowships",
+     "rule": "Doctorate held, and at most 8 years' full-time research experience since it, at the call deadline.",
+     "source_label": "MSCA Work Programme 2026–2027, Postdoctoral Fellowships",
+     "source_url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-2-marie-sklodowska-curie-actions_horizon-2026-2027_en.pdf",
+     "labels": {
+      "phd": {
+       "fit": "check",
+       "text": "You need the doctorate by the deadline."
+      },
+      "2022-plus": {
+       "fit": "likely",
+       "text": "Within 8 years of your doctorate."
+      },
+      "2012-2021": {
+       "fit": "check",
+       "text": "The 8-year limit counts research experience, not calendar years."
+      },
+      "before-2012": {
+       "fit": "check",
+       "text": "Only possible with time outside research."
+      }
+     }
+    },
+    {
+     "pattern": "^HORIZON-MSCA-\\d{4}-SE-",
+     "name": "MSCA Staff Exchanges",
+     "rule": "Secondments are open to researchers at any career stage.",
+     "source_label": "MSCA Work Programme 2026–2027, Staff Exchanges",
+     "source_url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-2-marie-sklodowska-curie-actions_horizon-2026-2027_en.pdf",
+     "labels": {
+      "phd": {
+       "fit": "likely",
+       "text": "Open at any career stage."
+      },
+      "2022-plus": {
+       "fit": "likely",
+       "text": "Open at any career stage."
+      },
+      "2012-2021": {
+       "fit": "likely",
+       "text": "Open at any career stage."
+      },
+      "before-2012": {
+       "fit": "likely",
+       "text": "Open at any career stage."
+      }
+     }
+    },
+    {
+     "pattern": "^HORIZON-MSCA-\\d{4}-(DN|COFUND)-",
+     "name": "MSCA Doctoral Networks and COFUND",
+     "rule": "Organisations apply; the funded doctoral or postdoctoral posts are advertised afterwards.",
+     "source_label": "MSCA Work Programme 2026–2027",
+     "source_url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-2-marie-sklodowska-curie-actions_horizon-2026-2027_en.pdf",
+     "labels": {
+      "phd": {
+       "fit": "info",
+       "text": "Your university applies. Funded doctoral or postdoctoral posts are advertised later."
+      },
+      "2022-plus": {
+       "fit": "info",
+       "text": "Your university applies. Funded doctoral or postdoctoral posts are advertised later."
+      },
+      "2012-2021": {
+       "fit": "info",
+       "text": "Your university applies. Funded doctoral or postdoctoral posts are advertised later."
+      },
+      "before-2012": {
+       "fit": "info",
+       "text": "Your university applies. Funded doctoral or postdoctoral posts are advertised later."
+      }
+     }
+    }
+   ]
+  }
+ },
+ "generated_at": "2026-11-04T21:58:42Z",
  "data_refreshed": "2026-11-04T21:32:01Z",
  "target_year": 2027,
  "source": "EU Funding & Tenders Portal search API",
@@ -44,6 +268,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2022-eche-cert-fp",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "managerial-economics": {
@@ -89,6 +314,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-eie-2027-02-connect-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -170,6 +396,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erc-2027-cog",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "own-project"
+   ],
    "open_to_all_fields": "ERC",
    "fits": {}
   },
@@ -200,6 +429,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2026-07-cross-04",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -251,6 +483,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/crea-media-2027-innovbusmod",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -304,6 +537,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-ai4sme",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -377,6 +611,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-coordprep",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "human-resource-management": {
@@ -438,6 +673,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-cyberai",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "management": {
@@ -497,6 +733,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-dualuse",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -563,6 +800,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-euleg",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -662,6 +900,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-ncc",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -751,6 +990,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-regcabh",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -803,6 +1043,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-01-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -841,6 +1084,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-01-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "managerial-economics": {
@@ -902,6 +1148,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-01-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "management": {
@@ -962,6 +1211,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-02-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -1014,6 +1266,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-02-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -1073,6 +1328,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-02-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -1148,6 +1406,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-02-04",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -1207,6 +1468,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-02-05",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "managerial-economics": {
@@ -1249,6 +1513,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/eu4h-2027-sante-og",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "managerial-economics": {
@@ -1291,6 +1556,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/crea-cross-2027-medialiteracy",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -1355,6 +1621,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/crea-media-2027-filmove",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -1382,6 +1649,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/crea-cross-2027-mfp",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -1409,6 +1677,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/crea-cult-2027-lit",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -1461,6 +1730,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-02-05",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -1571,6 +1843,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-ju-eurohpc-2026-qml-07-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "managerial-psychology-and-sociology": {
@@ -1606,6 +1881,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/crea-media-2027-devvgim",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -1636,6 +1912,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -1666,6 +1945,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -1696,6 +1978,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-06",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "strategy": {
@@ -1735,6 +2020,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-08",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -1790,6 +2078,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-16",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -1820,6 +2111,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-17",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "strategy": {
@@ -1858,6 +2152,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-22",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "management": {
@@ -1910,6 +2207,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-42",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -1957,6 +2257,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-47",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -2006,6 +2309,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-49",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -2060,6 +2366,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-50",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -2105,6 +2414,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-61",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -2135,6 +2447,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-62",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -2166,6 +2481,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-02-digital-emerging-52-two-stage",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "human-resource-management": {
@@ -2219,6 +2537,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-02-mat-prod-32-two-stage",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -2257,6 +2578,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-raise-2027-01-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "management": {
@@ -2302,6 +2626,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-raise-2027-01-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "management": {
@@ -2347,6 +2674,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-raise-2027-01-04",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -2374,6 +2704,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/crea-cross-2027-jourpart-collaborations",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "institutions-and-political-economy": {
@@ -2409,6 +2740,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/crea-cross-2027-jourpart-pluralism",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -2452,6 +2784,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/crea-media-2027-tvonline-1",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -2495,6 +2828,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/crea-media-2027-tvonline-2",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -2538,6 +2872,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/crea-media-2027-tvonline-3",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -2583,6 +2918,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-01-09",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -2663,6 +3001,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-01-10",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -2708,6 +3049,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-01-12",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "marketing": {
@@ -2746,6 +3090,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-01-13",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -2776,6 +3123,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-04-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -2822,6 +3172,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-04-08",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -2860,6 +3213,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-04-11",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "management": {
@@ -2912,6 +3268,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-06-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -2977,6 +3336,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-04-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -3036,6 +3398,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-care-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -3066,6 +3431,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-disease-05",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -3096,6 +3464,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-disease-06",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -3126,6 +3497,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-disease-07",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -3156,6 +3530,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-disease-08",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -3186,6 +3563,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-disease-10",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -3216,6 +3596,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-envhlth-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -3246,6 +3629,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-envhlth-missclima-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -3284,6 +3668,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-ind-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -3314,6 +3701,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-stayhlth-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "managerial-economics": {
@@ -3367,6 +3757,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-02-disease-01-two-stage",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -3398,6 +3791,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-02-disease-14-two-stage",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -3429,6 +3825,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-02-ind-02-two-stage",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "management": {
@@ -3475,6 +3874,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-02-tool-01-two-stage",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -3531,6 +3933,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cerv-2026-citizens-rem-gencrime-1",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "management": {
@@ -3581,6 +3984,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cerv-2026-citizens-rem-gencrime-2",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -3638,6 +4042,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cerv-2026-citizens-rem-histmigration",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "management": {
@@ -3695,6 +4100,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cerv-2026-citizens-rem-holocaustjew",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "management": {
@@ -3745,6 +4151,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cerv-2026-citizens-rem-transition",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -3802,6 +4209,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cerv-2026-citizens-values",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -3829,6 +4237,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/crea-media-2027-audfilmedu",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -3864,6 +4273,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/crea-media-2027-codev",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -3902,6 +4312,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-05-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -3966,6 +4379,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2027-eur-univ",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "managerial-economics": {
@@ -4018,6 +4432,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-01-d1-07",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -4056,6 +4473,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-01-d1-08",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -4086,6 +4506,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-01-d1-09",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -4116,6 +4539,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-01-d1-10",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -4146,6 +4572,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-01-d1-11",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -4184,6 +4611,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-01-d1-12",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -4222,6 +4652,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-01-d1-13",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -4267,6 +4700,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-euratom-2027-01-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "strategy": {
@@ -4305,6 +4741,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-widera-2027-04-widening-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -4365,6 +4804,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/just-2027-jtra",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "managerial-psychology-and-sociology": {
@@ -4410,6 +4850,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-widera-2027-05-era-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "managerial-economics": {
@@ -4455,6 +4898,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-widera-2027-05-era-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "human-resource-management": {
@@ -4525,6 +4971,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-widera-2027-05-era-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "managerial-economics": {
@@ -4563,6 +5012,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-widera-2027-05-era-04",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -4630,6 +5082,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-widera-2027-05-era-05",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "strategy": {
@@ -4665,6 +5120,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-12-cbch",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -4714,6 +5170,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-12-natch",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -4766,6 +5223,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-data-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -4796,6 +5256,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-data-08",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -4858,6 +5321,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-data-09",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -4888,6 +5354,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-digital-emerging-04",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -4940,6 +5409,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-digital-emerging-05",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -4999,6 +5471,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-digital-emerging-06",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -5029,6 +5504,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-digital-emerging-10",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -5059,6 +5537,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-digital-emerging-11",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -5089,6 +5570,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-human-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -5119,6 +5603,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-human-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "strategy": {
@@ -5171,6 +5658,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-human-07",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -5251,6 +5741,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-05-digital-emerging-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -5281,6 +5774,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-02-d2-05",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "managerial-economics": {
@@ -5326,6 +5822,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-02-d2-06",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -5356,6 +5855,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-02-d3-07",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -5386,6 +5888,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-02-d3-08",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "strategy": {
@@ -5424,6 +5927,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-02-d3-09",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -5478,6 +5984,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-02-d3-10",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "human-resource-management": {
@@ -5537,6 +6046,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-02-d3-15",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -5589,6 +6101,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-02-d3-24",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "strategy": {
@@ -5634,6 +6149,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-02-d3-30",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -5664,6 +6182,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-02-d3-33",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "strategy": {
@@ -5699,6 +6220,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-msca-2027-cofund-01-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "training"
+   ],
    "open_to_all_fields": "MSCA",
    "fits": {
     "human-resource-management": {
@@ -5741,6 +6265,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-msca-2027-cofund-02-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "training"
+   ],
    "open_to_all_fields": "MSCA",
    "fits": {
     "human-resource-management": {
@@ -5799,6 +6326,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/crea-media-2027-filmdist",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -5830,6 +6358,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-circbio-01-two-stage",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -5932,6 +6463,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-circbio-02-two-stage",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -5980,6 +6514,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-climate-01-two-stage",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -6019,6 +6556,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-farm2fork-01-two-stage",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "managerial-economics": {
@@ -6065,6 +6605,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-farm2fork-02-two-stage",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -6096,6 +6639,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-05-soil-01-two-stage",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -6149,6 +6695,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-05-soil-02-two-stage",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -6202,6 +6751,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-05-soil-03-two-stage",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -6256,6 +6808,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-05-soil-04-two-stage",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "esg": {
@@ -6295,6 +6850,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-05-soil-05-two-stage",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -6348,6 +6906,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-05-soil-06-two-stage",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -6378,6 +6939,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2026-03-disease-13",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "managerial-psychology-and-sociology": {
@@ -6413,6 +6975,10 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-msca-2027-se-01-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium",
+    "training"
+   ],
    "open_to_all_fields": "MSCA",
    "fits": {
     "human-resource-management": {
@@ -6458,6 +7024,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-03-d5-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -6527,6 +7096,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-03-d5-04",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -6565,6 +7137,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-03-d5-05",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -6603,6 +7178,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-03-d5-06",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -6641,6 +7219,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-03-d5-08",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -6671,6 +7252,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-03-d5-14",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -6710,6 +7294,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-03-d5-15",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -6763,6 +7350,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-03-d5-16",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "human-resource-management": {
@@ -6815,6 +7405,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-03-d5-17",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -6855,6 +7448,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-03-d5-18",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -6894,6 +7490,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-03-d5-20",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -6925,6 +7524,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-04-two-stage-d2-07",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -6956,6 +7558,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-04-two-stage-d5-09",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -6983,6 +7588,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/crea-cross-2027-innovlab",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -7039,6 +7645,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-02-democracy-09-two-stage",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -7116,6 +7725,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-02-heritage-09-two-stage",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -7172,6 +7784,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-02-transfo-09-two-stage",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -7202,6 +7817,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-03-governance-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -7248,6 +7866,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-03-governance-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -7309,6 +7930,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-03-governance-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -7354,6 +7978,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-03-governance-04",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -7420,6 +8047,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-03-governance-05",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -7450,6 +8080,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-03-governance-06",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "human-resource-management": {
@@ -7495,6 +8128,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-03-governance-07",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -7525,6 +8161,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-msca-2027-citizens-01-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -7563,6 +8202,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-03-04",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -7615,6 +8257,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-03-06",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -7664,6 +8309,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-03-07",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "managerial-economics": {
@@ -7723,6 +8371,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-infra-2027-01-eosc-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -7753,6 +8402,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-infra-2027-01-eosc-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -7798,6 +8450,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-infra-2027-dev-01-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "management": {
@@ -7836,6 +8491,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-infra-2027-dev-01-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "human-resource-management": {
@@ -7881,6 +8539,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-infra-2027-dev-01-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -7911,6 +8572,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-infra-2027-serv-01-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -7941,6 +8605,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-infra-2027-serv-01-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "strategy": {
@@ -7980,6 +8647,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-infra-2027-serv-01-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -8010,6 +8680,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-infra-2027-tech-01-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -8064,6 +8737,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-infra-2027-tech-01-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "management": {
@@ -8099,6 +8775,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/crea-media-2027-filmsales",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -8129,6 +8806,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-space-03-12",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "strategy": {
@@ -8167,6 +8847,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-space-03-21",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -8197,6 +8880,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-space-03-33",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "strategy": {
@@ -8235,6 +8921,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-space-03-34",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "strategy": {
@@ -8273,6 +8962,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-space-03-71",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -8300,6 +8992,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-msca-2027-pf-01-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "own-project"
+   ],
    "open_to_all_fields": "MSCA",
    "fits": {
     "human-resource-management": {
@@ -8345,6 +9040,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-widera-2027-03-widening-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "own-project"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "human-resource-management": {
@@ -8390,6 +9088,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-widera-2027-02-widening-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "managerial-economics": {
@@ -8442,6 +9143,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-widera-2027-02-widening-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "managerial-economics": {
@@ -8494,6 +9198,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cid-2027-01-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "strategy": {
@@ -8532,6 +9239,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cid-2027-01-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -8599,6 +9309,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-02-cs-eccc-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "management": {
@@ -8637,6 +9350,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-02-cs-eccc-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -8675,6 +9391,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-02-cs-eccc-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "marketing": {
@@ -8720,6 +9439,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-02-cs-eccc-04",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "marketing": {
@@ -8765,6 +9487,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-05-d2-08",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -8810,6 +9535,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-05-d3-31",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -8848,6 +9576,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-05-d4-05",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -8878,6 +9609,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-05-d4-06",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -8908,6 +9642,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-05-d4-07",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -8938,6 +9675,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-05-d4-09",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "strategy": {
@@ -8976,6 +9716,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-eie-2027-01-connect-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -9039,6 +9780,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-eie-2027-01-connect-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -9099,6 +9843,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2027-02-neb-soil-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -9172,6 +9919,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-03-tool-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -9217,6 +9967,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-03-tool-04",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "managerial-economics": {
@@ -9262,6 +10015,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-03-tool-08",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "managerial-economics": {
@@ -9307,6 +10063,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-02-cancer-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "managerial-economics": {
@@ -9352,6 +10111,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-02-cancer-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -9397,6 +10159,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-02-cancer-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -9427,6 +10192,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-02-cancer-04",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -9457,6 +10225,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-02-cancer-05",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -9487,6 +10256,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-02-cancer-06",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -9517,6 +10289,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-03-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "management": {
@@ -9555,6 +10330,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-01-clima-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -9600,6 +10378,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-01-clima-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -9652,6 +10433,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-03-ocean-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -9690,6 +10474,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-03-ocean-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -9758,6 +10545,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-03-ocean-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -9811,6 +10601,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-03-ocean-04",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -9877,6 +10670,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-03-ocean-05",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "management": {
@@ -9936,6 +10732,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-06-soil-cancer",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -9988,6 +10787,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-biodiv-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "managerial-economics": {
@@ -10033,6 +10835,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-biodiv-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "management": {
@@ -10093,6 +10898,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-biodiv-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -10152,6 +10960,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-biodiv-04",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -10232,6 +11043,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-biodiv-05",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -10300,6 +11114,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-biodiv-06",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -10345,6 +11162,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-biodiv-07",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -10375,6 +11195,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-biodiv-08",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "managerial-economics": {
@@ -10413,6 +11236,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-biodiv-09",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "managerial-economics": {
@@ -10458,6 +11284,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-circbio-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -10518,6 +11347,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-circbio-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -10577,6 +11409,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-circbio-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -10636,6 +11471,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-circbio-04",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -10724,6 +11562,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-circbio-05",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -10804,6 +11645,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-circbio-06",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -10884,6 +11728,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-circbio-07",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -10922,6 +11769,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-circbio-08",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -10969,6 +11819,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-circbio-09",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -11021,6 +11874,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-circbio-10",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -11080,6 +11936,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-zeropollution-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -11141,6 +12000,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-zeropollution-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -11171,6 +12033,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-zeropollution-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -11201,6 +12066,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-01-zeropollution-04",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "strategy": {
@@ -11239,6 +12107,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-07-clima-cit-ccri-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "management": {
@@ -11277,6 +12148,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-07-clima-cit-neb-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -11339,6 +12213,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-democracy-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "marketing": {
@@ -11401,6 +12278,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-democracy-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "management": {
@@ -11441,6 +12321,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-democracy-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "human-resource-management": {
@@ -11510,6 +12393,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-democracy-04",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "management": {
@@ -11587,6 +12473,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-democracy-05",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "management": {
@@ -11643,6 +12532,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-democracy-06",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -11704,6 +12596,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-democracy-07",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "management": {
@@ -11774,6 +12669,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-democracy-08",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -11828,6 +12726,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-heritage-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -11905,6 +12806,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-heritage-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -12019,6 +12923,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-heritage-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -12106,6 +13013,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-heritage-04",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -12155,6 +13065,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-heritage-05",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -12246,6 +13159,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-heritage-06",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -12346,6 +13262,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-heritage-07",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -12420,6 +13339,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-heritage-08",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -12467,6 +13389,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-transfo-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -12517,6 +13442,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-transfo-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "managerial-economics": {
@@ -12557,6 +13485,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-transfo-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -12626,6 +13557,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-transfo-04",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "human-resource-management": {
@@ -12675,6 +13609,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-transfo-05",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "managerial-psychology-and-sociology": {
@@ -12716,6 +13653,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-transfo-06",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "human-resource-management": {
@@ -12777,6 +13717,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-transfo-07",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "human-resource-management": {
@@ -12832,6 +13775,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2027-01-transfo-08",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "management": {
@@ -12870,6 +13816,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-climate-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -12922,6 +13871,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-climate-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -12975,6 +13927,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-climate-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -13034,6 +13989,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-climate-04",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "management": {
@@ -13072,6 +14030,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-communities-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -13117,6 +14078,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-communities-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -13187,6 +14151,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-farm2fork-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -13225,6 +14192,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-farm2fork-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "managerial-economics": {
@@ -13278,6 +14248,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-farm2fork-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "managerial-economics": {
@@ -13316,6 +14289,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-farm2fork-04",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -13368,6 +14344,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-farm2fork-05",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -13436,6 +14415,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-farm2fork-06",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "strategy": {
@@ -13474,6 +14456,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-farm2fork-07",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -13528,6 +14513,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-farm2fork-08",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -13558,6 +14546,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2027-02-farm2fork-09",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -13608,6 +14599,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-06-d6-04",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "marketing": {
@@ -13653,6 +14647,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-06-d6-05",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "managerial-economics": {
@@ -13698,6 +14695,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-06-d6-08",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -13736,6 +14736,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-06-d6-11",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -13774,6 +14777,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-06-d6-12",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -13820,6 +14826,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-04-cit-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -13865,6 +14874,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-04-cit-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -13903,6 +14915,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-04-cit-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -13963,6 +14978,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-04-cit-05",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -14023,6 +15039,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2027-04-cit-ccri-04",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -14101,6 +15120,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-01-bm-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -14131,6 +15153,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-01-bm-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -14161,6 +15186,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-01-bm-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -14214,6 +15242,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-01-drs-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -14252,6 +15283,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-01-drs-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -14290,6 +15324,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-01-drs-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -14342,6 +15379,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-01-drs-04",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -14394,6 +15434,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-01-fct-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -14424,6 +15467,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-01-fct-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "human-resource-management": {
@@ -14483,6 +15529,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-01-fct-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "human-resource-management": {
@@ -14528,6 +15577,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-01-fct-04",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -14558,6 +15610,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-01-fct-05",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -14610,6 +15665,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-01-infra-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -14648,6 +15706,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-01-infra-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -14678,6 +15739,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-01-ssri-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -14739,6 +15803,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-01-ssri-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -14800,6 +15867,7 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl3-2027-01-ssri-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -14856,6 +15924,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-euratom-2027-02-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "strategy": {
@@ -14894,6 +15965,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-widera-2027-01-widening-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -14945,6 +16019,10 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-msca-2027-dn-01-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium",
+    "training"
+   ],
    "open_to_all_fields": "MSCA",
    "fits": {
     "entrepreneurship": {
@@ -15004,6 +16082,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-07-d3-11",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -15042,6 +16123,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-07-d3-16",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "entrepreneurship": {
@@ -15094,6 +16178,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-07-d3-17",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -15124,6 +16211,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-07-d3-25",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -15162,6 +16252,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-07-d3-26",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -15200,6 +16293,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-07-d3-27",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {}
   },
@@ -15230,6 +16326,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-07-d3-28",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "management": {
@@ -15282,6 +16381,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-07-d3-32",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "logistics": {
@@ -15320,6 +16422,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2027-01-business-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -15380,6 +16485,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2027-01-business-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -15425,6 +16533,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2027-01-business-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -15470,6 +16581,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2027-01-participation-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -15538,6 +16652,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2027-01-participation-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -15607,6 +16724,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2027-01-participation-03",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -15667,6 +16787,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2027-01-regen-01",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {
@@ -15712,6 +16835,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2027-01-regen-02",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "managerial-psychology-and-sociology": {
@@ -15750,6 +16876,9 @@
    "portal_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2027-01-regen-04",
    "last_checked": "2026-11-04",
    "source": "api",
+   "purposes": [
+    "consortium"
+   ],
    "open_to_all_fields": null,
    "fits": {
     "arts-management": {

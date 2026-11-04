@@ -15,7 +15,17 @@ const SCHEME_LABELS = {
   either: "Alone or in a consortium",
 };
 
-const state = { data: null, calls: [] };
+// Answers to "What are you looking for?". The ids match the purposes that
+// build_calls.py stores on each call.
+const WANT_OPTIONS = [
+  { id: "own-project", title: "A grant for my own project", desc: "Schemes where one researcher applies with a host institution." },
+  { id: "consortium", title: "Joining or building an international consortium", desc: "Projects run by several organisations, usually from different countries." },
+  { id: "training", title: "Funding for doctoral training or staff exchanges", desc: "MSCA doctoral networks, COFUND programmes and staff exchanges." },
+  { id: "all", title: "Not sure, show me everything", desc: "Keep every type of call in the list." },
+];
+const FIT_LABELS = { likely: "Likely fits your career stage", check: "Check eligibility" };
+
+const state = { data: null, calls: [], guide: { who: "", want: "", stage: "" }, profiles: {} };
 const $ = (id) => document.getElementById(id);
 
 function escapeHtml(value) {
@@ -73,6 +83,126 @@ function isOpenNow(call) {
   return parseDate(call.opening_date) <= todayUtc();
 }
 
+// ------------------------------------------------------------ guided start
+
+function optionHtml(name, value, title, desc) {
+  return `<label class="option"><input type="radio" name="${name}" value="${escapeHtml(value)}">
+    <span class="option-title">${escapeHtml(title)}</span>${desc ? `<span class="option-desc">${escapeHtml(desc)}</span>` : ""}</label>`;
+}
+
+function chipHtml(name, value, title) {
+  return `<label class="chip"><input type="radio" name="${name}" value="${escapeHtml(value)}"><span>${escapeHtml(title)}</span></label>`;
+}
+
+function setupGuide() {
+  const guide = state.data.guide || {};
+  for (const d of guide.departments || []) state.profiles[`dept:${d.id}`] = d;
+  for (const t of guide.topics || []) state.profiles[`topic:${t.id}`] = t;
+
+  $("whoCards").innerHTML = (guide.departments || []).map((d) => optionHtml("who", `dept:${d.id}`, d.name, d.description)).join("")
+    + optionHtml("who", "other", "Another faculty or unit", "Show calls from every field.");
+  $("whoChips").innerHTML = (guide.topics || []).map((t) => chipHtml("who", `topic:${t.id}`, t.name)).join("");
+  $("topicsLabel").hidden = !(guide.topics || []).length;
+  $("wantCards").innerHTML = WANT_OPTIONS.map((o) => optionHtml("want", o.id, o.title, o.desc)).join("");
+
+  const career = guide.career;
+  if (career) {
+    $("stageHint").textContent = career.question;
+    $("stageCards").innerHTML = career.options.map((o) => optionHtml("stage", o.id, o.label, "")).join("");
+  } else {
+    $("stageCards").closest(".question").hidden = true;
+  }
+
+  readGuideFromUrl();
+  const form = $("guideForm");
+  // Clicking the selected card again clears the answer (each question can be skipped).
+  form.addEventListener("mousedown", (e) => {
+    const label = e.target.closest("label");
+    const input = label && label.querySelector("input[type=radio]");
+    if (input) input.dataset.wasChecked = input.checked ? "1" : "";
+  });
+  form.addEventListener("click", (e) => {
+    const input = e.target.closest("input[type=radio]");
+    if (!input) return;
+    if (input.dataset.wasChecked === "1") input.checked = false;
+    input.dataset.wasChecked = "";
+    onGuideChange();
+  });
+  form.addEventListener("change", onGuideChange);
+  form.addEventListener("submit", (e) => e.preventDefault());
+  for (const button of form.querySelectorAll(".clear-q")) {
+    button.addEventListener("click", () => {
+      for (const input of form.querySelectorAll(`input[name="${button.dataset.clear}"]`)) input.checked = false;
+      onGuideChange();
+      const first = form.querySelector(`input[name="${button.dataset.clear}"]`);
+      if (first) first.focus();
+    });
+  }
+  $("startAgain").addEventListener("click", (e) => {
+    e.preventDefault();
+    form.reset();
+    $("filters").reset();
+    setTimeout(() => { refreshClusterOptions(); onGuideChange(); window.scrollTo({ top: 0 }); }, 0);
+  });
+  syncGuide();
+}
+
+function syncGuide() {
+  const form = $("guideForm");
+  for (const name of ["who", "want", "stage"]) {
+    const checked = form.querySelector(`input[name="${name}"]:checked`);
+    state.guide[name] = checked ? checked.value : "";
+    form.querySelector(`.clear-q[data-clear="${name}"]`).hidden = !checked;
+  }
+  for (const label of form.querySelectorAll("label.option, label.chip")) {
+    label.classList.toggle("selected", label.querySelector("input").checked);
+  }
+}
+
+function onGuideChange() {
+  syncGuide();
+  onChange();
+}
+
+function readGuideFromUrl() {
+  const params = new URLSearchParams(location.search);
+  const form = $("guideForm");
+  const values = {
+    who: params.get("dept") === "other" ? "other"
+      : params.get("dept") ? `dept:${params.get("dept")}`
+      : params.get("topic") ? `topic:${params.get("topic")}` : "",
+    want: params.get("want") || "",
+    stage: params.get("stage") || "",
+  };
+  for (const [name, value] of Object.entries(values)) {
+    if (!value) continue;
+    const input = form.querySelector(`input[name="${name}"][value="${CSS.escape(value)}"]`);
+    if (input) input.checked = true;
+  }
+}
+
+function guideParams() {
+  const g = state.guide;
+  const params = {};
+  if (g.who === "other") params.dept = "other";
+  else if (g.who.startsWith("dept:")) params.dept = g.who.slice(5);
+  else if (g.who.startsWith("topic:")) params.topic = g.who.slice(6);
+  if (g.want) params.want = g.want;
+  if (g.stage) params.stage = g.stage;
+  return params;
+}
+
+function profileId() {
+  const who = state.guide.who;
+  return who && who !== "other" ? who.split(":")[1] : "";
+}
+
+function careerScheme(call) {
+  const career = state.data.guide && state.data.guide.career;
+  if (!career) return null;
+  return career.schemes.find((s) => new RegExp(s.pattern, "i").test(call.identifier)) || null;
+}
+
 // ------------------------------------------------------------ filters
 
 function fillSelect(select, values, labelFn = (v) => v) {
@@ -102,6 +232,8 @@ function setupFilters() {
     for (let i = 1; i <= counts[domain]; i++) allPanels.push(domain + i);
   }
   fillSelect($("panel"), allPanels.length ? allPanels : panels);
+  // Panels are not shown until tags.csv gives calls their panels.
+  $("panelField").hidden = panels.length === 0;
 
   const months = new Set();
   for (const call of calls) {
@@ -114,6 +246,7 @@ function setupFilters() {
 
   readFiltersFromUrl();
   const form = $("filters");
+  if (Object.values(getFilters()).some(Boolean)) $("filterBox").open = true;
   form.addEventListener("input", onChange);
   form.addEventListener("change", onChange);
   form.addEventListener("submit", (e) => e.preventDefault());
@@ -168,7 +301,7 @@ function readFiltersFromUrl() {
 }
 
 function writeFiltersToUrl(f) {
-  const params = new URLSearchParams();
+  const params = new URLSearchParams(guideParams());
   for (const key of ["q", "programme", "cluster", "discipline", "panel", "scheme", "month"]) {
     if (f[key]) params.set(key, f[key]);
   }
@@ -201,6 +334,12 @@ function matches(call, f) {
     if (!relevant.some((d) => d.startsWith(prefix))) return false;
   }
   if (f.openOnly && !isOpenNow(call)) return false;
+
+  // Guided start.
+  const pid = profileId();
+  if (pid && !call.open_to_all_fields && !(call.fits && call.fits[pid])) return false;
+  const want = state.guide.want;
+  if (want && want !== "all" && !(call.purposes || []).includes(want)) return false;
   return true;
 }
 
@@ -209,7 +348,7 @@ function onChange(event) {
   const f = getFilters();
   writeFiltersToUrl(f);
   const active = Object.values(f).filter(Boolean).length;
-  document.querySelector("#filterBox > summary").textContent = active ? `Filters (${active} active)` : "Filters";
+  document.querySelector("#filterBox > summary").textContent = active ? `Advanced filters (${active} active)` : "Advanced filters";
   render(state.calls.filter((c) => matches(c, f)));
 }
 
@@ -255,6 +394,17 @@ function statusHtml(call) {
   return `<span class="badge badge-forthcoming">Forthcoming${escapeHtml(opens)}</span>`;
 }
 
+function careerHtml(call) {
+  const stage = state.guide.stage;
+  const scheme = stage && careerScheme(call);
+  const label = scheme && scheme.labels[stage];
+  if (!label) return "";
+  const verdict = FIT_LABELS[label.fit]
+    ? `<span class="fit fit-${label.fit}">${FIT_LABELS[label.fit]}</span> ` : "";
+  return `<div class="career">${verdict}${escapeHtml(label.text)}
+    <span class="sub">Rule: ${escapeHtml(scheme.rule)} <a href="${escapeHtml(scheme.source_url)}" rel="noopener">${escapeHtml(scheme.source_label)}</a></span></div>`;
+}
+
 function row(label, html) {
   return `<div class="row"><dt>${label}</dt><dd>${html}</dd></div>`;
 }
@@ -270,6 +420,7 @@ function callHtml(call) {
     </div>
     <h2><a href="${escapeHtml(call.portal_url)}" rel="noopener">${escapeHtml(call.title || call.identifier)}</a></h2>
     <p class="ident">${escapeHtml(call.identifier)}</p>
+    ${careerHtml(call)}
     <dl>
       ${row("Deadline", deadlineHtml(call) + soon)}
       ${row("Who applies", schemeHtml(call))}
@@ -283,13 +434,25 @@ function callHtml(call) {
 }
 
 function render(calls) {
-  const sorted = calls.slice().sort((a, b) => nextDeadline(a).localeCompare(nextDeadline(b)));
+  const pid = profileId();
+  const fitScore = (c) => (c.fits && c.fits[pid] ? c.fits[pid].score : 0);
+  const sorted = calls.slice().sort((a, b) => {
+    if (pid) {
+      const open = Number(!a.open_to_all_fields) - Number(!b.open_to_all_fields);
+      if (open) return open;
+      const score = fitScore(b) - fitScore(a);
+      if (score) return score;
+    }
+    return nextDeadline(a).localeCompare(nextDeadline(b));
+  });
   $("calls").innerHTML = sorted.map(callHtml).join("");
   $("empty").hidden = sorted.length > 0;
   const total = state.calls.length;
+  const order = pid ? "calls open to all fields first, then best match" : "soonest deadline first";
+  $("jumpLink").textContent = `See the ${sorted.length} matching call${sorted.length === 1 ? "" : "s"}`;
   $("count").textContent = sorted.length === total
-    ? `${total} call${total === 1 ? "" : "s"}, soonest deadline first`
-    : `${sorted.length} of ${total} calls match, soonest deadline first`;
+    ? `${total} call${total === 1 ? "" : "s"}, ${order}`
+    : `${sorted.length} of ${total} calls match, ${order}`;
 }
 
 function showRefreshed() {
@@ -315,14 +478,12 @@ async function load() {
   throw new Error("calls.json not found");
 }
 
-// On narrow screens start with the filters folded so the calls are visible.
-if (window.matchMedia("(max-width: 760px)").matches) $("filterBox").open = false;
-
 load().then((data) => {
   state.data = data;
   state.calls = (data.calls || []).filter((c) => c.deadlines && c.deadlines.length);
   showRefreshed();
   setupFilters();
+  setupGuide();
   onChange();
 }).catch(() => {
   $("refreshed").textContent = "The call data could not be loaded. Please try again later, or search the Funding & Tenders Portal directly.";

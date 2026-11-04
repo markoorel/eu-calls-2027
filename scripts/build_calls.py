@@ -428,9 +428,27 @@ def build(today: date, allow_drop: bool, data_dir: Path = DATA) -> dict:
 
     result = sorted(calls.values(), key=lambda c: (c["deadlines"][0], c["identifier"]))
 
+    # Answers to "What are you looking for?".
+    purpose_rules = [(r["purpose"], re.compile(r["pattern"], re.I))
+                     for r in config.get("purpose_rules", {}).get("rules", [])]
+    for call in result:
+        purposes = []
+        if call["scheme"] == "individual":
+            purposes.append("own-project")
+        if call["scheme"] in ("consortium", "either"):
+            purposes.append("consortium")
+        purposes += [p for p, pattern in purpose_rules if pattern.search(call["identifier"]) and p not in purposes]
+        call["purposes"] = purposes
+
     # Department and topic fit, for the guided start on the page.
+    guide = {}
     if (data_dir / "departments.json").exists():
         profiles = match.load_profiles(data_dir / "departments.json")
+        for kind in ("department", "topic"):
+            guide[kind + "s"] = [
+                {"id": p["id"], "name": p["name"], "description": p["description"]}
+                for p in profiles["profiles"].values() if p["kind"] == kind
+            ]
         descriptions = match.load_descriptions(data_dir / "descriptions.json")
         match.match_calls(result, descriptions, profiles)
         missing = sum(1 for c in result if c["identifier"].upper() not in descriptions)
@@ -460,7 +478,12 @@ def build(today: date, allow_drop: bool, data_dir: Path = DATA) -> dict:
     if unused:
         print(f"build_calls.py: {len(unused)} row(s) in tags.csv match no current call")
 
+    if (data_dir / "career_stages.json").exists():
+        career = load_json(data_dir / "career_stages.json")
+        guide["career"] = {k: v for k, v in career.items() if not k.startswith("_")}
+
     return {
+        "guide": guide,
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "data_refreshed": fetched_at,
         "target_year": TARGET_YEAR,

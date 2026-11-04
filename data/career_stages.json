@@ -1,0 +1,66 @@
+{
+  "_comment": "Career-stage labels for individual schemes. Wording approved on 4 November 2026. Each label restates the official rule; the site never decides eligibility. 'fit' is 'likely' (shown as 'Likely fits your career stage'), 'check' (shown as 'Check eligibility') or 'info' (a neutral note, no verdict). Patterns are matched against the topic identifier, ignoring case.",
+
+  "question": "When did you defend your PhD?",
+  "options": [
+    {"id": "phd", "label": "I'm still working on my PhD"},
+    {"id": "2022-plus", "label": "In 2022 or later"},
+    {"id": "2012-2021", "label": "Between 2012 and 2021"},
+    {"id": "before-2012", "label": "Before 2012"}
+  ],
+
+  "schemes": [
+    {
+      "pattern": "^ERC-2027-COG$",
+      "name": "ERC Consolidator Grant 2027",
+      "rule": "PhD defended more than 5 and up to 15 years before 1 January 2027.",
+      "source_label": "ERC Work Programme 2027, Table 4",
+      "source_url": "https://erc.europa.eu/system/files/2026-07/ERC_Work_Programme_2027.pdf",
+      "labels": {
+        "phd":         {"fit": "info",   "text": "For PhDs defended 2012–2021."},
+        "2022-plus":   {"fit": "info",   "text": "For PhDs defended 2012–2021; check eligibility if you have had career breaks."},
+        "2012-2021":   {"fit": "likely", "text": "Your PhD falls in the 2012–2021 window."},
+        "before-2012": {"fit": "check",  "text": "Leave can extend the window."}
+      }
+    },
+    {
+      "pattern": "^HORIZON-MSCA-\\d{4}-PF-",
+      "name": "MSCA Postdoctoral Fellowships",
+      "rule": "Doctorate held, and at most 8 years' full-time research experience since it, at the call deadline.",
+      "source_label": "MSCA Work Programme 2026–2027, Postdoctoral Fellowships",
+      "source_url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-2-marie-sklodowska-curie-actions_horizon-2026-2027_en.pdf",
+      "labels": {
+        "phd":         {"fit": "check",  "text": "You need the doctorate by the deadline."},
+        "2022-plus":   {"fit": "likely", "text": "Within 8 years of your doctorate."},
+        "2012-2021":   {"fit": "check",  "text": "The 8-year limit counts research experience, not calendar years."},
+        "before-2012": {"fit": "check",  "text": "Only possible with time outside research."}
+      }
+    },
+    {
+      "pattern": "^HORIZON-MSCA-\\d{4}-SE-",
+      "name": "MSCA Staff Exchanges",
+      "rule": "Secondments are open to researchers at any career stage.",
+      "source_label": "MSCA Work Programme 2026–2027, Staff Exchanges",
+      "source_url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-2-marie-sklodowska-curie-actions_horizon-2026-2027_en.pdf",
+      "labels": {
+        "phd":         {"fit": "likely", "text": "Open at any career stage."},
+        "2022-plus":   {"fit": "likely", "text": "Open at any career stage."},
+        "2012-2021":   {"fit": "likely", "text": "Open at any career stage."},
+        "before-2012": {"fit": "likely", "text": "Open at any career stage."}
+      }
+    },
+    {
+      "pattern": "^HORIZON-MSCA-\\d{4}-(DN|COFUND)-",
+      "name": "MSCA Doctoral Networks and COFUND",
+      "rule": "Organisations apply; the funded doctoral or postdoctoral posts are advertised afterwards.",
+      "source_label": "MSCA Work Programme 2026–2027",
+      "source_url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-2-marie-sklodowska-curie-actions_horizon-2026-2027_en.pdf",
+      "labels": {
+        "phd":         {"fit": "info", "text": "Your university applies. Funded doctoral or postdoctoral posts are advertised later."},
+        "2022-plus":   {"fit": "info", "text": "Your university applies. Funded doctoral or postdoctoral posts are advertised later."},
+        "2012-2021":   {"fit": "info", "text": "Your university applies. Funded doctoral or postdoctoral posts are advertised later."},
+        "before-2012": {"fit": "info", "text": "Your university applies. Funded doctoral or postdoctoral posts are advertised later."}
+      }
+    }
+  ]
+}

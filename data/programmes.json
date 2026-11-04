@@ -51,6 +51,13 @@
     ]
   },
 
+  "purpose_rules": {
+    "_comment": "Answers to 'What are you looking for?'. 'own-project' comes from scheme = individual and 'consortium' from scheme = consortium or either; these rules add 'training'. Patterns are matched against the topic identifier, ignoring case.",
+    "rules": [
+      {"purpose": "training", "pattern": "^HORIZON-MSCA-\\d{4}-(DN|SE|COFUND)-"}
+    ]
+  },
+
   "tag_rules": {
     "_comment": "Automatic discipline suggestions. They produce tag_status 'suggested' and are replaced by any row for the same identifier in tags.csv.",
     "rules": [

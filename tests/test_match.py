@@ -117,12 +117,37 @@ class TestDepartmentsFile(unittest.TestCase):
                 self.assertRegex(panel, build_calls.ERC_PANEL_RE)
 
 
+class TestCareerStages(unittest.TestCase):
+    """Every scheme needs a label for every option, with a known verdict and a source."""
+
+    def test_complete_and_sourced(self):
+        career = json.loads((ROOT / "data" / "career_stages.json").read_text())
+        ids = {o["id"] for o in career["options"]}
+        self.assertEqual(len(ids), 4)
+        for scheme in career["schemes"]:
+            self.assertEqual(set(scheme["labels"]), ids, scheme["name"])
+            self.assertTrue(scheme["source_url"].startswith("https://"))
+            for label in scheme["labels"].values():
+                self.assertIn(label["fit"], {"likely", "check", "info"})
+
+    def test_patterns(self):
+        import re
+        career = json.loads((ROOT / "data" / "career_stages.json").read_text())
+        def scheme_for(identifier):
+            return next((s["name"] for s in career["schemes"] if re.search(s["pattern"], identifier, re.I)), None)
+        self.assertEqual(scheme_for("ERC-2027-COG"), "ERC Consolidator Grant 2027")
+        self.assertEqual(scheme_for("HORIZON-MSCA-2027-PF-01-01"), "MSCA Postdoctoral Fellowships")
+        self.assertEqual(scheme_for("HORIZON-MSCA-2027-DN-01-01"), "MSCA Doctoral Networks and COFUND")
+        self.assertIsNone(scheme_for("ERC-2028-COG"))  # the 2027 windows do not carry over
+        self.assertIsNone(scheme_for("HORIZON-CL2-2027-01-HERITAGE-04"))
+
+
 class TestBuildAddsFits(unittest.TestCase):
     def test_build_with_departments(self):
         tmp = Path(tempfile.mkdtemp())
         try:
             shutil.copy(ROOT / "tests" / "fixtures" / "raw_topics_sample.json", tmp / "raw_topics.json")
-            for name in ("programmes.json", "departments.json"):
+            for name in ("programmes.json", "departments.json", "career_stages.json"):
                 shutil.copy(ROOT / "data" / name, tmp / name)
             (tmp / "manual_calls.json").write_text("[]")
             (tmp / "descriptions.json").write_text(json.dumps({"topics": {
@@ -133,6 +158,15 @@ class TestBuildAddsFits(unittest.TestCase):
             self.assertIsNone(calls["HORIZON-CL2-2027-01-TEST-01"]["open_to_all_fields"])
             fit = calls["HORIZON-CL2-2027-01-TEST-01"]["fits"]["arts-management"]
             self.assertEqual(fit["terms"], ["audiences", "museums"])
+            # Purposes for "What are you looking for?"
+            self.assertEqual(calls["ERC-2027-STG"]["purposes"], ["own-project"])
+            self.assertEqual(calls["HORIZON-CL2-2027-01-TEST-01"]["purposes"], ["consortium"])
+            self.assertEqual(calls["HORIZON-CL6-2027-TEST-CSA"]["purposes"], ["consortium"])
+            # Names and career rules travel with the data for the page.
+            guide = data["guide"]
+            self.assertEqual(len(guide["departments"]), 9)
+            self.assertEqual(len(guide["topics"]), 10)
+            self.assertEqual([o["id"] for o in guide["career"]["options"]], ["phd", "2022-plus", "2012-2021", "before-2012"])
         finally:
             shutil.rmtree(tmp)
 
