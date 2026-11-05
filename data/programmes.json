@@ -7,6 +7,21 @@
     "43298916": "Euratom Research and Training Programme"
   },
 
+  "default_funder": "EU",
+
+  "exclude_rules": {
+    "_comment": "Topics left out of calls.json even though their programme is listed. Patterns are matched against the identifier, ignoring case. Chosen on 5 November 2026.",
+    "rules": [
+      {"pattern": "^CREA-MEDIA-", "reason": "Creative Europe MEDIA strand funds audiovisual companies; only Culture and Cross-sectoral are kept"},
+      {"pattern": "-ECHE-", "reason": "Erasmus Charter for Higher Education is an accreditation, not funding"}
+    ]
+  },
+
+  "who_can_apply": {
+    "_comment": "Cards for these programmes show a 'Who can apply' line. The sentence comes from data/eligibility.json; without one the page says 'Check eligibility on the portal'.",
+    "programmes": ["Creative Europe", "Erasmus+", "Citizens, Equality, Rights and Values (CERV)"]
+  },
+
   "divisions": [
     {"prefix": "HORIZON-",          "programme": "Horizon Europe", "pillar_or_cluster": null},
     {"prefix": "ERC-",              "programme": "Horizon Europe", "pillar_or_cluster": "European Research Council (ERC)"},

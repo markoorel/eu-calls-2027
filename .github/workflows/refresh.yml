@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["site/**", "data/manual_calls.json", "data/tags.csv", "data/programmes.json", "data/departments.json", "data/career_stages.json", "scripts/**", ".github/workflows/**"]
+    paths: ["site/**", "data/manual_calls.json", "data/tags.csv", "data/programmes.json", "data/departments.json", "data/career_stages.json", "data/eligibility.json", "scripts/**", ".github/workflows/**"]
 
 permissions:
   contents: write

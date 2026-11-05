@@ -1,156 +1,406 @@
 {
   "_comment": "Department terms follow the brief's table exactly; the ten topics' terms are a first draft by Claude Code. Drives the 'Where do you work?' matching. First draft from the FPH redesign brief (4 November 2026); send each department row to its head for corrections. Search terms are matched as whole words or phrases, ignoring case; the matcher also accepts simple variants (plural -s, hyphen or space, -ise/-ize, -our/-or), so write each term once in British spelling. ERC panel codes were checked against Annex 1 'Primary Panel Structure' of the ERC Work Programme 2027 (data/ERC_Work_Programme_2027.pdf).",
-
   "panel_source": "ERC Work Programme 2027, Annex 1 (European Commission Decision C(2026)4907)",
-
   "open_to_all_fields": {
     "_comment": "Calls that accept proposals from any discipline. Matched against the topic identifier, ignoring case.",
     "rules": [
-      {"pattern": "^ERC-\\d{4}-(STG|COG|ADG|SYG|PLUS)$", "label": "ERC"},
-      {"pattern": "^HORIZON-MSCA-\\d{4}-(PF|DN|SE|COFUND)-", "label": "MSCA"},
-      {"pattern": "^HORIZON-EIC-\\d{4}-PATHFINDEROPEN", "label": "EIC Pathfinder Open"}
+      {
+        "pattern": "^ERC-\\d{4}-(STG|COG|ADG|SYG|PLUS)$",
+        "label": "ERC"
+      },
+      {
+        "pattern": "^HORIZON-MSCA-\\d{4}-(PF|DN|SE|COFUND)-",
+        "label": "MSCA"
+      },
+      {
+        "pattern": "^HORIZON-EIC-\\d{4}-PATHFINDEROPEN",
+        "label": "EIC Pathfinder Open"
+      }
     ]
   },
-
+  "teaching_and_education": {
+    "_comment": "Calls shown to every department in the 'Teaching and education projects' group. Erasmus+ higher education cooperation partnerships (KA220-HED) are run by national agencies (DZS in Czechia) and do not appear in the portal data.",
+    "rules": [
+      {
+        "pattern": "^ERASMUS-EDU-",
+        "label": "Erasmus+ higher education"
+      }
+    ]
+  },
+  "programme_sources_comment": "Per department, programmes that are a main source of calls (from the brief of 5 November 2026). A call whose identifier matches gets the points and the label in 'Why this may fit you'.",
   "departments": [
     {
       "id": "arts-management",
       "name": "Arts Management",
       "description": "Management of cultural organisations, the arts and the creative economy.",
-      "erc_panels": ["SH8", "SH1", "SH3"],
+      "erc_panels": [
+        "SH8",
+        "SH1",
+        "SH3"
+      ],
       "panel_note": "The brief listed SH5. In the 2027 structure SH5 covers literary studies, literature and philosophy, while the arts sit in SH8; SH3 (sociology, communication) is used instead for audiences and participation.",
-      "search_terms": ["cultural and creative industries", "cultural heritage", "arts organisations", "creative economy", "audiences", "cultural participation", "museums", "New European Bauhaus"]
+      "search_terms": [
+        "cultural and creative industries",
+        "cultural heritage",
+        "arts organisations",
+        "creative economy",
+        "audiences",
+        "cultural participation",
+        "museums",
+        "New European Bauhaus"
+      ],
+      "programme_sources": [
+        {
+          "pattern": "^CREA-",
+          "label": "Creative Europe",
+          "points": 4
+        }
+      ]
     },
     {
       "id": "entrepreneurship",
       "name": "Entrepreneurship",
       "description": "How new and small firms start, grow and innovate, including family and social enterprises.",
-      "erc_panels": ["SH1", "SH2"],
+      "erc_panels": [
+        "SH1",
+        "SH2"
+      ],
       "panel_note": "SH2 (political science, international relations, law) is a weak fit; ask the department whether SH7 (territorial planning) suits regional innovation better.",
-      "search_terms": ["entrepreneurship", "start-ups", "SMEs", "scale-ups", "family business", "social enterprise", "innovation ecosystems", "regional innovation"]
+      "search_terms": [
+        "entrepreneurship",
+        "start-ups",
+        "SMEs",
+        "scale-ups",
+        "family business",
+        "social enterprise",
+        "innovation ecosystems",
+        "regional innovation"
+      ]
     },
     {
       "id": "human-resource-management",
       "name": "Human Resource Management",
       "description": "People at work: skills, careers, the labour market and employee well-being.",
-      "erc_panels": ["SH1", "SH3", "SH4"],
-      "search_terms": ["skills", "upskilling", "workforce", "labour market", "future of work", "remote and hybrid work", "employee well-being", "diversity and inclusion"]
+      "erc_panels": [
+        "SH1",
+        "SH3",
+        "SH4"
+      ],
+      "search_terms": [
+        "skills",
+        "upskilling",
+        "workforce",
+        "labour market",
+        "future of work",
+        "remote and hybrid work",
+        "employee well-being",
+        "diversity and inclusion"
+      ],
+      "programme_sources": [
+        {
+          "pattern": "^CERV-",
+          "label": "CERV",
+          "points": 4
+        }
+      ]
     },
     {
       "id": "logistics",
       "name": "Logistics",
       "description": "How goods move: supply chains, freight, transport and their resilience.",
-      "erc_panels": ["SH1", "SH7", "PE8"],
+      "erc_panels": [
+        "SH1",
+        "SH7",
+        "PE8"
+      ],
       "panel_note": "PE8 (products and processes engineering) fits engineering-led logistics only; check with the department.",
-      "search_terms": ["supply chain", "logistics", "freight", "transport", "resilience", "circular economy", "last-mile delivery", "ports"]
+      "search_terms": [
+        "supply chain",
+        "logistics",
+        "freight",
+        "transport",
+        "resilience",
+        "circular economy",
+        "last-mile delivery",
+        "ports"
+      ]
     },
     {
       "id": "management",
       "name": "Management",
       "description": "How organisations are run, governed and changed, in business and the public sector.",
-      "erc_panels": ["SH1", "SH2"],
-      "search_terms": ["governance", "digital transformation", "artificial intelligence adoption", "public sector innovation", "decision-making", "sustainability management"]
+      "erc_panels": [
+        "SH1",
+        "SH2"
+      ],
+      "search_terms": [
+        "governance",
+        "digital transformation",
+        "artificial intelligence adoption",
+        "public sector innovation",
+        "decision-making",
+        "sustainability management"
+      ],
+      "programme_sources": [
+        {
+          "pattern": "^ERASMUS-JMO-",
+          "label": "Erasmus+ Jean Monnet",
+          "points": 4
+        }
+      ]
     },
     {
       "id": "marketing",
       "name": "Marketing",
       "description": "Consumers, markets and communication, including sustainable and digital consumption.",
-      "erc_panels": ["SH1", "SH3"],
-      "search_terms": ["consumer behaviour", "sustainable consumption", "digital platforms", "trust", "advertising", "food choices", "citizen engagement"]
+      "erc_panels": [
+        "SH1",
+        "SH3"
+      ],
+      "search_terms": [
+        "consumer behaviour",
+        "sustainable consumption",
+        "digital platforms",
+        "trust",
+        "advertising",
+        "food choices",
+        "citizen engagement"
+      ]
     },
     {
       "id": "managerial-economics",
       "name": "Managerial Economics",
       "description": "Economic analysis of firms, markets and policy, including behavioural and experimental work.",
-      "erc_panels": ["SH1", "SH2"],
-      "search_terms": ["productivity", "competition", "behavioural economics", "experimental economics", "institutions", "public policy", "regulation", "inequality"]
+      "erc_panels": [
+        "SH1",
+        "SH2"
+      ],
+      "search_terms": [
+        "productivity",
+        "competition",
+        "behavioural economics",
+        "experimental economics",
+        "institutions",
+        "public policy",
+        "regulation",
+        "inequality"
+      ],
+      "programme_sources": [
+        {
+          "pattern": "^ERASMUS-JMO-",
+          "label": "Erasmus+ Jean Monnet",
+          "points": 4
+        }
+      ]
     },
     {
       "id": "strategy",
       "name": "Strategy",
       "description": "How firms and industries compete, form business models and handle sustainability transitions.",
-      "erc_panels": ["SH1", "SH2"],
-      "search_terms": ["competitiveness", "industrial policy", "value chains", "business models", "sustainability transitions", "ESG", "strategic autonomy"]
+      "erc_panels": [
+        "SH1",
+        "SH2"
+      ],
+      "search_terms": [
+        "competitiveness",
+        "industrial policy",
+        "value chains",
+        "business models",
+        "sustainability transitions",
+        "ESG",
+        "strategic autonomy"
+      ],
+      "programme_sources": [
+        {
+          "pattern": "^ERASMUS-JMO-",
+          "label": "Erasmus+ Jean Monnet",
+          "points": 4
+        }
+      ]
     },
     {
       "id": "managerial-psychology-and-sociology",
       "name": "Managerial Psychology and Sociology",
       "description": "Behaviour, well-being and relationships in organisations and society.",
-      "erc_panels": ["SH4", "SH3"],
-      "search_terms": ["well-being", "mental health at work", "organisational behaviour", "leadership", "trust", "ethics", "inclusion", "social cohesion"]
+      "erc_panels": [
+        "SH4",
+        "SH3"
+      ],
+      "search_terms": [
+        "well-being",
+        "mental health at work",
+        "organisational behaviour",
+        "leadership",
+        "trust",
+        "ethics",
+        "inclusion",
+        "social cohesion"
+      ],
+      "programme_sources": [
+        {
+          "pattern": "^CERV-",
+          "label": "CERV",
+          "points": 4
+        }
+      ]
     }
   ],
-
   "topics": [
     {
       "id": "behavioural-and-experimental-economics",
       "name": "Behavioural and experimental economics",
       "description": "How people actually decide, studied with experiments and behavioural data.",
-      "erc_panels": ["SH1", "SH4"],
-      "search_terms": ["behavioural economics", "experimental economics", "behavioural insights", "nudging", "decision-making"]
+      "erc_panels": [
+        "SH1",
+        "SH4"
+      ],
+      "search_terms": [
+        "behavioural economics",
+        "experimental economics",
+        "behavioural insights",
+        "nudging",
+        "decision-making"
+      ]
     },
     {
       "id": "business-and-managerial-ethics",
       "name": "Business and managerial ethics",
       "description": "Responsible conduct in business and management.",
-      "erc_panels": ["SH1", "SH5"],
-      "search_terms": ["business ethics", "ethics", "corporate responsibility", "responsible business", "integrity"]
+      "erc_panels": [
+        "SH1",
+        "SH5"
+      ],
+      "search_terms": [
+        "business ethics",
+        "ethics",
+        "corporate responsibility",
+        "responsible business",
+        "integrity"
+      ]
     },
     {
       "id": "entrepreneurship-topic",
       "name": "Entrepreneurship",
       "description": "Starting, growing and renewing firms.",
-      "erc_panels": ["SH1"],
-      "search_terms": ["entrepreneurship", "entrepreneurs", "start-ups", "SMEs", "scale-ups", "social enterprise"]
+      "erc_panels": [
+        "SH1"
+      ],
+      "search_terms": [
+        "entrepreneurship",
+        "entrepreneurs",
+        "start-ups",
+        "SMEs",
+        "scale-ups",
+        "social enterprise"
+      ]
     },
     {
       "id": "esg",
       "name": "ESG",
       "description": "Environmental, social and governance performance of firms, and how it is reported and financed.",
-      "erc_panels": ["SH1", "SH2"],
-      "search_terms": ["ESG", "sustainability reporting", "sustainable finance", "corporate sustainability", "due diligence"]
+      "erc_panels": [
+        "SH1",
+        "SH2"
+      ],
+      "search_terms": [
+        "ESG",
+        "sustainability reporting",
+        "sustainable finance",
+        "corporate sustainability",
+        "due diligence"
+      ]
     },
     {
       "id": "family-business",
       "name": "Family business",
       "description": "Family-owned firms, their governance and succession.",
-      "erc_panels": ["SH1"],
-      "search_terms": ["family business", "family firms", "succession"]
+      "erc_panels": [
+        "SH1"
+      ],
+      "search_terms": [
+        "family business",
+        "family firms",
+        "succession"
+      ]
     },
     {
       "id": "human-resources",
       "name": "Human resources",
       "description": "Skills, careers and the management of people.",
-      "erc_panels": ["SH1", "SH3"],
-      "search_terms": ["human resources", "skills", "talent", "workforce", "labour market"]
+      "erc_panels": [
+        "SH1",
+        "SH3"
+      ],
+      "search_terms": [
+        "human resources",
+        "skills",
+        "talent",
+        "workforce",
+        "labour market"
+      ]
     },
     {
       "id": "institutions-and-political-economy",
       "name": "Institutions and political economy",
       "description": "How rules, institutions and politics shape economic life.",
-      "erc_panels": ["SH2", "SH1"],
-      "search_terms": ["institutions", "political economy", "democracy", "regulation", "public policy"]
+      "erc_panels": [
+        "SH2",
+        "SH1"
+      ],
+      "search_terms": [
+        "institutions",
+        "political economy",
+        "democracy",
+        "regulation",
+        "public policy"
+      ]
     },
     {
       "id": "logistics-topic",
       "name": "Logistics",
       "description": "Supply chains, freight and transport.",
-      "erc_panels": ["SH1", "SH7"],
-      "search_terms": ["logistics", "supply chain", "freight", "last-mile delivery"]
+      "erc_panels": [
+        "SH1",
+        "SH7"
+      ],
+      "search_terms": [
+        "logistics",
+        "supply chain",
+        "freight",
+        "last-mile delivery"
+      ]
     },
     {
       "id": "marketing-research-and-strategic-marketing",
       "name": "Marketing research and strategic marketing",
       "description": "Understanding consumers and markets and planning how to reach them.",
-      "erc_panels": ["SH1", "SH3"],
-      "search_terms": ["consumer behaviour", "consumers", "marketing", "market research", "advertising"]
+      "erc_panels": [
+        "SH1",
+        "SH3"
+      ],
+      "search_terms": [
+        "consumer behaviour",
+        "consumers",
+        "marketing",
+        "market research",
+        "advertising"
+      ]
     },
     {
       "id": "workplace",
       "name": "Workplace",
       "description": "Working conditions, workplace health and new ways of working.",
-      "erc_panels": ["SH3", "SH4"],
-      "search_terms": ["workplace", "working conditions", "future of work", "remote and hybrid work", "occupational safety and health"]
+      "erc_panels": [
+        "SH3",
+        "SH4"
+      ],
+      "search_terms": [
+        "workplace",
+        "working conditions",
+        "future of work",
+        "remote and hybrid work",
+        "occupational safety and health"
+      ]
     }
   ]
 }

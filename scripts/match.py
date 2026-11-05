@@ -11,6 +11,8 @@ Scoring for one call and one department or topic:
     description: DESCRIPTION_POINTS (a single passing mention is ignored)
   - the department's main ERC panel in the call's erc_panels: MAIN_PANEL_POINTS
   - any other of its panels in the call's erc_panels: OTHER_PANEL_POINTS
+  - a programme listed as a main source for the department
+    ("programme_sources" in departments.json): that source's points
 A term counts once per call, at the best place it was found.
 
 Usage (prints the top matches for checking):
@@ -46,7 +48,9 @@ def load_profiles(path: Path = DATA / "departments.json") -> dict:
             profiles[entry["id"]] = {**entry, "kind": kind[:-1]}
     rules = [(re.compile(r["pattern"], re.I), r["label"])
              for r in data.get("open_to_all_fields", {}).get("rules", [])]
-    return {"profiles": profiles, "open_rules": rules}
+    teaching = [(re.compile(r["pattern"], re.I), r["label"])
+                for r in data.get("teaching_and_education", {}).get("rules", [])]
+    return {"profiles": profiles, "open_rules": rules, "teaching_rules": teaching}
 
 
 @lru_cache(maxsize=None)
@@ -102,15 +106,21 @@ def score_call(call: dict, profile: dict, description: dict | None) -> dict | No
         if panel in call_panels:
             score += MAIN_PANEL_POINTS if n == 0 else OTHER_PANEL_POINTS
             panels.append(panel)
+    sources = []
+    for source in profile.get("programme_sources", []):
+        if re.search(source["pattern"], call.get("identifier", ""), re.I):
+            score += source["points"]
+            sources.append(source["label"])
     if not score:
         return None
-    return {"score": score, "terms": terms, "panels": panels}
+    return {"score": score, "terms": terms, "panels": panels, "sources": sources}
 
 
 def match_calls(calls: list[dict], descriptions: dict, config: dict) -> None:
     """Add 'open_to_all_fields' and 'fits' to each call, in place."""
     for call in calls:
         call["open_to_all_fields"] = open_to_all_label(call["identifier"], config["open_rules"])
+        call["teaching"] = open_to_all_label(call["identifier"], config.get("teaching_rules", []))
         description = descriptions.get(call["identifier"].upper())
         fits = {}
         for pid, profile in config["profiles"].items():

@@ -278,6 +278,7 @@ input[type="radio"], input[type="checkbox"] { accent-color: var(--blue); }
 .badge a { color: var(--blue-dark); }
 
 .why { margin: 0 0 8px; }
+.who { margin: 0 0 8px; }
 .career { margin: 0 0 8px; padding: 8px 12px; border-left: 4px solid var(--blue); background: var(--tint); font-size: 0.95rem; }
 .fit-likely::before { content: "✓ "; }
 .fit-check::before { content: "? "; }

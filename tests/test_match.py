@@ -260,5 +260,68 @@ class TestContrast(unittest.TestCase):
         self.assertTrue(any(r[0] == "text" for r in failures))
 
 
+
+class TestNewProgrammes(unittest.TestCase):
+    """Creative Europe, Erasmus+ and CERV rules added on 5 November 2026."""
+
+    def setUp(self):
+        self.tmp = Path(tempfile.mkdtemp())
+        for name in ("programmes.json", "departments.json", "career_stages.json", "eligibility.json"):
+            shutil.copy(ROOT / "data" / name, self.tmp / name)
+        (self.tmp / "manual_calls.json").write_text("[]")
+        def t(ident, title, toa):
+            return {"url": None, "reference": ident, "metadata": {
+                "identifier": [ident], "title": [title], "type": ["1"], "status": ["31094501"],
+                "deadlineDate": ["2027-03-03T00:00:00.000+0000"], "deadlineModel": ["single-stage"],
+                "startDate": ["2026-12-01T00:00:00.000+0000"], "typesOfAction": [toa]}}
+        topics = [
+            t("CREA-MEDIA-2027-FILMDIST", "EXAMPLE film distribution", "CREA Project Grants"),
+            t("CREA-CULT-2027-LIT", "EXAMPLE literary works", "CREA Lump Sum Grants"),
+            t("CREA-CROSS-2027-INNOVLAB", "EXAMPLE innovation lab", "CREA Project Grants"),
+            t("ERASMUS-EDU-2022-ECHE-CERT-FP", "EXAMPLE charter", "ERASMUS ECHE Charter"),
+            t("ERASMUS-EDU-2027-EUR-UNIV", "EXAMPLE alliances", "ERASMUS Lump Sum Grants"),
+            t("ERASMUS-JMO-2027-HEI-TCH-RSCH", "EXAMPLE Jean Monnet", "ERASMUS Lump Sum Grants"),
+            t("CERV-2026-CITIZENS-REM-TRANSITION", "EXAMPLE remembrance", "CERV Lump Sum Grants"),
+        ]
+        (self.tmp / "raw_topics.json").write_text(json.dumps({"fetched_at": "2026-11-05T02:20:00Z", "topics": topics}))
+        self.calls = {c["identifier"]: c for c in build_calls.build(date(2026, 11, 5), False, data_dir=self.tmp)["calls"]}
+
+    def tearDown(self):
+        shutil.rmtree(self.tmp)
+
+    def test_media_strand_and_charter_left_out(self):
+        self.assertNotIn("CREA-MEDIA-2027-FILMDIST", self.calls)
+        self.assertNotIn("ERASMUS-EDU-2022-ECHE-CERT-FP", self.calls)
+        self.assertIn("CREA-CULT-2027-LIT", self.calls)
+
+    def test_who_can_apply_from_call_text_or_check_portal(self):
+        lit = self.calls["CREA-CULT-2027-LIT"]
+        self.assertIn("single organisation or a consortium", lit["who_can_apply"])
+        self.assertEqual(lit["scheme"], "either")
+        self.assertEqual(self.calls["CREA-CROSS-2027-INNOVLAB"]["who_can_apply"], "Check eligibility on the portal")
+        self.assertIsNone(self.calls["CREA-CROSS-2027-INNOVLAB"]["scheme"])   # never guessed
+        self.assertEqual(self.calls["CERV-2026-CITIZENS-REM-TRANSITION"]["who_can_apply"], "Check eligibility on the portal")
+
+    def test_funder(self):
+        self.assertTrue(all(c["funder"] == "EU" for c in self.calls.values()))
+
+    def test_programme_sources(self):
+        self.assertEqual(self.calls["CREA-CROSS-2027-INNOVLAB"]["fits"]["arts-management"]["sources"], ["Creative Europe"])
+        self.assertEqual(self.calls["ERASMUS-JMO-2027-HEI-TCH-RSCH"]["fits"]["strategy"]["sources"], ["Erasmus+ Jean Monnet"])
+        self.assertIn("human-resource-management", self.calls["CERV-2026-CITIZENS-REM-TRANSITION"]["fits"])
+        self.assertNotIn("arts-management", self.calls["CERV-2026-CITIZENS-REM-TRANSITION"]["fits"])
+
+    def test_teaching_group(self):
+        self.assertTrue(self.calls["ERASMUS-EDU-2027-EUR-UNIV"]["teaching"])
+        self.assertFalse(self.calls["ERASMUS-JMO-2027-HEI-TCH-RSCH"]["teaching"])
+        self.assertFalse(self.calls["CREA-CULT-2027-LIT"]["teaching"])
+
+    def test_eligibility_entries_cite_their_source(self):
+        data = json.loads((ROOT / "data" / "eligibility.json").read_text())
+        for ident, entry in data["calls"].items():
+            self.assertTrue(entry["source"].startswith("Topic "), ident)
+            self.assertIn(entry.get("scheme"), (None, "individual", "consortium", "either"), ident)
+
+
 if __name__ == "__main__":
     unittest.main()

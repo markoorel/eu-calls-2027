@@ -205,6 +205,10 @@ def topic_to_call(topic: dict, lookups: dict, today: date, checked: str) -> tupl
     if identifier.upper().endswith("-CANCELLED"):
         return None, "topic cancelled"
 
+    for pattern, reason in lookups.get("exclude_rules", []):
+        if pattern.search(identifier):
+            return None, f"left out: {reason}"
+
     division = match_division(identifier, lookups["divisions"])
     if division is None:
         return None, "programme not listed in programmes.json"
@@ -260,6 +264,7 @@ def topic_to_call(topic: dict, lookups: dict, today: date, checked: str) -> tupl
         "portal_url": PORTAL_TOPIC_URL.format(identifier=identifier.lower()),
         "last_checked": checked,
         "source": "api",
+        "funder": lookups.get("default_funder", "EU"),
     }
     return call, ""
 
@@ -307,6 +312,7 @@ def load_manual(path: Path, today: date) -> list[dict]:
             "portal_url": entry["portal_url"],
             "last_checked": entry["last_checked"],
             "source": "manual",
+            "funder": entry.get("funder") or "EU",
         }
         opening = call["opening_date"]
         call["status"] = "forthcoming" if opening and date.fromisoformat(opening) > today else "open"
@@ -397,6 +403,9 @@ def build(today: date, allow_drop: bool, data_dir: Path = DATA) -> dict:
         "scheme_rules": config["scheme_rules"]["rules"],
         "tag_rules": config["tag_rules"]["rules"],
         "fp_codes": {k: v for k, v in config.get("framework_programme_codes", {}).items() if not k.startswith("_")},
+        "exclude_rules": [(re.compile(r["pattern"], re.I), r["reason"])
+                          for r in config.get("exclude_rules", {}).get("rules", [])],
+        "default_funder": config.get("default_funder", "EU"),
         "warnings": set(),
     }
 
@@ -427,6 +436,24 @@ def build(today: date, allow_drop: bool, data_dir: Path = DATA) -> dict:
             apply_tags(calls[key], tag)
 
     result = sorted(calls.values(), key=lambda c: (c["deadlines"][0], c["identifier"]))
+
+    # "Who can apply" for programmes whose types of action do not settle it.
+    eligibility = load_json(data_dir / "eligibility.json", default={"calls": {}}).get("calls", {})
+    eligibility = {k.upper(): v for k, v in eligibility.items()}
+    who_programmes = set(config.get("who_can_apply", {}).get("programmes", []))
+    for call in result:
+        entry = eligibility.get(call["identifier"].upper())
+        call["who_can_apply"] = None
+        if entry:
+            call["who_can_apply"] = entry["who_can_apply"]
+            if entry.get("scheme") in SCHEMES and not call["scheme"]:
+                call["scheme"] = entry["scheme"]
+                call["scheme_basis"] = "Stated in the call text"
+        elif call["programme"] in who_programmes:
+            call["who_can_apply"] = "Check eligibility on the portal"
+    unmapped = sorted({c["type_of_action"] or "(none)" for c in result if not c["scheme"]})
+    if unmapped:
+        print("build_calls.py: types of action with no scheme rule (left empty, never guessed): " + "; ".join(unmapped))
 
     # Answers to "What are you looking for?".
     purpose_rules = [(r["purpose"], re.compile(r["pattern"], re.I))

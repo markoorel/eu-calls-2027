@@ -528,7 +528,7 @@ function matches(call, f, ignoreMonth = false) {
 
   // Guided start.
   const pid = profileId();
-  if (pid && !call.open_to_all_fields && !(call.fits && call.fits[pid])) return false;
+  if (pid && !call.open_to_all_fields && !call.teaching && !(call.fits && call.fits[pid])) return false;
   const want = state.guide.want;
   if (want && want !== "all" && !(call.purposes || []).includes(want)) return false;
   return true;
@@ -599,10 +599,14 @@ function whyHtml(call) {
   if (call.open_to_all_fields) reasons.push(`Open to all fields (${escapeHtml(call.open_to_all_fields)}).`);
   const profile = currentProfile();
   const fit = profile && call.fits && call.fits[profile.id];
+  if (fit && fit.sources && fit.sources.length) {
+    reasons.push(`${fit.sources.map(escapeHtml).join(" and ")} is a main source of calls for your department.`);
+  }
   if (fit && fit.terms.length) {
     const whose = profile.kind === "department" ? "your department's terms" : `terms for ${profile.name}`;
     reasons.push(`Matches ${escapeHtml(whose)}: ${fit.terms.map(escapeHtml).join(", ")}.`);
   }
+  if (call.teaching && !reasons.length) reasons.push("A teaching and education project, open to every department.");
   if (!reasons.length) return "";
   return `<p class="why"><strong>Why this may fit you:</strong> ${reasons.join(" ")}</p>`;
 }
@@ -669,9 +673,10 @@ function callHtml(call) {
         <span class="star-text">${starred ? "On shortlist" : "Add to shortlist"}</span></button>
     </div>
     ${badgesHtml(call)}
+    ${call.who_can_apply ? `<p class="who"><strong>Who can apply:</strong> ${escapeHtml(call.who_can_apply)}</p>` : ""}
     ${whyHtml(call)}
     ${careerHtml(call)}
-    <p class="meta">${meta}</p>
+    <p class="meta">Funder: ${escapeHtml(call.funder || "EU")} · ${meta}</p>
     <details class="more">
       <summary>Details<span class="visually-hidden">: ${title}</span></summary>
       <dl>
@@ -735,7 +740,8 @@ function render(f) {
   const byDeadline = (a, b) => nextDeadline(a).localeCompare(nextDeadline(b)) || a.identifier.localeCompare(b.identifier);
   const score = (c) => (c.fits && c.fits[pid] ? c.fits[pid].score : 0);
   const openAll = calls.filter((c) => c.open_to_all_fields).sort(byDeadline);
-  const rest = calls.filter((c) => !c.open_to_all_fields)
+  const teaching = calls.filter((c) => !c.open_to_all_fields && c.teaching).sort(byDeadline);
+  const rest = calls.filter((c) => !c.open_to_all_fields && !c.teaching)
     .sort((a, b) => (pid ? score(b) - score(a) : 0) || byDeadline(a, b));
 
   const restTitle = !profile ? "All other calls"
@@ -746,6 +752,8 @@ function render(f) {
   }
   $("groups").innerHTML =
     groupHtml("Open to all fields", "These schemes accept proposals from any discipline, so they are worth a look whatever your field.", openAll)
+    + groupHtml("Teaching and education projects",
+      "Erasmus+ projects about higher education teaching; they fit every department. Erasmus+ cooperation partnerships and staff mobility are applied for through DZS, the Czech national agency, and are not listed here.", teaching)
     + groupHtml(restTitle, restIntro, rest);
 
   $("empty").hidden = calls.length > 0;
@@ -786,6 +794,8 @@ load().then((data) => {
   state.data = data;
   state.calls = (data.calls || []).filter((c) => c.deadlines && c.deadlines.length);
   for (const call of state.calls) state.byId[call.identifier] = call;
+  const programmes = data.programmes || [...new Set(state.calls.map((c) => c.programme))].sort();
+  $("coverage").textContent = programmes.join(", ");
   showRefreshed();
   setupFilters();
   setupGuide();

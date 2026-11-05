@@ -1,0 +1,27 @@
+{
+  "_comment": "One plain sentence per call on who can apply, taken from the call's own text on the Funding & Tenders Portal (description or conditions). Add a 'scheme' only when that text states it. For most Creative Europe and CERV calls the portal says the rules are 'described in the call document' (a PDF); those calls have no entry here and the page says 'Check eligibility on the portal'.",
+  "calls": {
+    "CREA-CULT-2027-LIT": {
+      "who_can_apply": "A single organisation or a consortium of organisations can apply.",
+      "scheme": "either",
+      "source": "Topic description: 'implemented either by a single entity (mono-beneficiary) or by a consortium of organisations (multi-beneficiary)'",
+      "checked": "2026-11-05"
+    },
+    "ERASMUS-EDU-2027-EUR-UNIV": {
+      "who_can_apply": "Alliances of higher education institutions that already cooperate closely across countries.",
+      "scheme": "consortium",
+      "source": "Topic description: 'will support alliances of higher education institutions demonstrating an existing deep institutional transnational cooperation'",
+      "checked": "2026-11-05"
+    },
+    "ERASMUS-EDU-2026-EUED": {
+      "who_can_apply": "Higher education institutions designing transnational joint programmes at bachelor, master or doctoral level.",
+      "source": "Topic description: 'supporting higher education institutions in the design, adaptation, and implementation of innovative and inclusive transnational joint programmes at bachelor, master, or doctoral levels'",
+      "checked": "2026-11-05"
+    },
+    "CREA-CROSS-2027-JOURPART-PLURALISM": {
+      "who_can_apply": "Organisations able to run funding schemes (re-granting) for news media and independent journalism.",
+      "source": "Topic description: 'Applicant organisations should be in a position to set up funding schemes (support to third parties) targeting news media outlets'",
+      "checked": "2026-11-05"
+    }
+  }
+}
