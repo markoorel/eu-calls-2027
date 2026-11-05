@@ -61,10 +61,12 @@ a:hover { color: var(--blue-dark); }
 .hint { color: var(--text); font-size: 0.92rem; }
 
 /* ---------------------------------------------------------- header */
-.site-header { background: var(--blue); color: var(--white); padding: 28px 0 22px; }
-.site-header h1 { margin: 0; font-size: 2rem; color: var(--white); letter-spacing: 0.01em; }
-.site-header .subtitle { margin: 4px 0 12px; font-size: 1.1rem; color: var(--white); }
-.site-header .refreshed { margin: 0; font-weight: 600; color: var(--white); }
+.site-header { background: var(--white); border-bottom: 3px solid var(--blue); padding: 16px 0 14px; }
+.header-inner { display: flex; align-items: center; justify-content: space-between; gap: 8px 24px; flex-wrap: wrap; }
+.logo { margin: 0; line-height: 0; }
+.logo img { display: block; height: 72px; width: auto; max-width: 100%; }
+.site-header .refreshed { margin: 0; font-size: 0.9rem; color: var(--text); text-align: right; }
+.site-header .refreshed.stale { font-weight: 600; }
 .site-header .refreshed.stale::before { content: "Warning: "; }
 
 .notice { margin-top: 16px; }
@@ -305,7 +307,9 @@ input[type="radio"], input[type="checkbox"] { accent-color: var(--blue); }
 
 /* ---------------------------------------------------------- phones */
 @media (max-width: 760px) {
-  .site-header h1 { font-size: 1.6rem; }
+  .header-inner { flex-direction: column; align-items: flex-start; }
+  .logo img { height: 48px; }
+  .site-header .refreshed { text-align: left; }
   .option-grid { grid-template-columns: 1fr; }
   .layout { grid-template-columns: 1fr; gap: 0; }
   .months { grid-template-columns: repeat(6, minmax(0, 1fr)); }

@@ -1,8 +1,8 @@
-# EU Calls 2027 Finder
+# Funding Radar 2027
 
 A static page listing EU research calls with a deadline in 2027, for researchers at the
 Faculty of Business Administration (FPH), VŠE. Live at
-https://mapkoloco.github.io/eu-calls-2027/. Project rules are in `CLAUDE.md`.
+https://markoorel.github.io/eu-calls-2027/. Project rules are in `CLAUDE.md`.
 
 It is an independent staff tool, not an official VŠE service. The EU Funding & Tenders
 Portal stays the authoritative source for every call.
@@ -71,7 +71,9 @@ the page until `tags.csv` gives calls their panels.
 ## Design
 
 Colours and type follow the FPH graphic manual (tokens in `CLAUDE.md` and at the top of
-`site/style.css`). No logo is used. `scripts/check_contrast.py` checks every colour pair
+`site/style.css`). The header shows the Funding Radar logo
+(`site/funding-radar-logo.png`, with 72px and 144px WebP and PNG copies and favicons cut from
+the radar circle). VŠE and FPH logos are not used. `scripts/check_contrast.py` checks every colour pair
 against WCAG AA and runs as part of the tests.
 
 ## Running locally (Python 3.11, no packages needed)

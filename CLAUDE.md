@@ -1,4 +1,5 @@
-# EU Calls 2027 Finder
+# Funding Radar 2027
+(formerly "EU Calls 2027 Finder"; the repository keeps the name eu-calls-2027)
 
 ## Purpose
 A free web page that helps academics at the Prague University of Economics and
@@ -25,7 +26,8 @@ types of action), so the page should start from their department.
 - Font stack: "Gill Sans", "Gill Sans MT", "Myriad Pro", Calibri,
   system-ui, sans-serif. Do not bundle font files (Gill Sans Pro is
   licensed).
-- Do not use the VŠE or FPH logo.
+- Do not use the VŠE or FPH logo. The Funding Radar logo is our own and goes
+  in the header (site/funding-radar-logo.png, with optimised copies).
 - Footer must always contain: "Coded with love by Marko Orel".
 
 ## Stack (keep it this simple)
