@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-04T21:32:01Z",
+ "fetched_at": "2026-11-05T03:05:07Z",
  "source": "https://api.tech.ec.europa.eu/search-api/prod/rest/search",
  "query": {
   "bool": {
@@ -22,8 +22,8 @@
    ]
   }
  },
- "total_results": 1010,
- "topic_count": 1009,
+ "total_results": 1011,
+ "topic_count": 1010,
  "topics": [
   {
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CEF-DIG-2026-CABLE-REPAIR-CAPACITIES-WORKS",
@@ -8082,6 +8082,88 @@
     ],
     "startDate": [
      "2022-11-29T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094502"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2026-EUED",
+   "reference": "52739895TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-11-05T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-EDU-2026-EUED",
+     "ERASMUS-EDU-2026-EUED",
+     "Bologna process - related to Modernisation of Higher Education",
+     "Certification, Verification, Validation, Technical Compliance, Standards",
+     "Curriculum design and development",
+     "Quality assurance",
+     "joint learning offer",
+     "joint programmes"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "European Degree Exploratory Action"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-EDU-2026-EUED"
+    ],
+    "callTitle": [
+     "European Degree Exploratory Action"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-EDU-2026-EUED"
+    ],
+    "programmeDivision": [
+     "43439867"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "DigitalAgenda"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-02-18T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "Bachelor",
+     "Doctorate",
+     "European universities alliances",
+     "Master",
+     "PhD",
+     "STEM",
+     "accreditation",
+     "joint European degree label",
+     "joint programmes",
+     "mobility",
+     "quality assurance",
+     "support for students"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2026\"],\"budgetTopicActionMap\":{\"116041\":[{\"action\":\"ERASMUS-EDU-2026-EUED - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2026\":\"14000000\"},\"plannedOpeningDate\":\"2026-11-05\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-18\"]}]}}"
+    ],
+    "startDate": [
+     "2026-11-05T00:00:00.000+0000"
     ],
     "deadlineModel": [
      "single-stage"
