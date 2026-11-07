@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-06T03:04:28Z",
+ "fetched_at": "2026-11-07T03:03:12Z",
  "source": "https://api.tech.ec.europa.eu/search-api/prod/rest/search",
  "query": {
   "bool": {
@@ -1897,13 +1897,11 @@
      "CREA-CROSS-2027-MFP",
      "CREA-CROSS-2027-MFP",
      "Capacity building",
+     "Creative Europe",
      "Cross-media",
      "Journalists",
      "Multimedia",
-     "Radio and Cross-Media - Culture",
-     "Training",
-     "Training for audiovisual professionals",
-     "Training for cultural and creative professionals"
+     "Training"
     ],
     "language": [
      "en"
@@ -1930,8 +1928,8 @@
      "44548009"
     ],
     "crossCuttingPriorities": [
-     "AI",
-     "DigitalAgenda"
+     "DigitalAgenda",
+     "AI"
     ],
     "programmePeriod": [
      "2021 - 2027"
@@ -1942,7 +1940,10 @@
     "typesOfAction": [
      "CREA Project Grants"
     ],
-    "tags": [],
+    "tags": [
+     "Journalism",
+     "Rapid Response Mechanism"
+    ],
     "budgetOverview": [
      "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"115243\":[{\"action\":\"CREA-CROSS-2027-MFP - CREA-PJG CREA Project Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-10-22\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-01-27\"]}]}}"
     ],
