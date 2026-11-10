@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-09T03:03:31Z",
+ "fetched_at": "2026-11-10T03:02:43Z",
  "source": "https://api.tech.ec.europa.eu/search-api/prod/rest/search",
  "query": {
   "bool": {
@@ -22,8 +22,8 @@
    ]
   }
  },
- "total_results": 985,
- "topic_count": 984,
+ "total_results": 986,
+ "topic_count": 985,
  "topics": [
   {
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CEF-DIG-2026-CABLE-REPAIR-CAPACITIES-WORKS",
@@ -5267,6 +5267,68 @@
     ],
     "startDate": [
      "2026-07-07T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094502"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ED-2026-CZECHIA-FPA",
+   "reference": "52929270TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-11-10T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ED-2026-CZECHIA-FPA",
+     "ED-2026-CZECHIA-FPA"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Selection of partners to carry out EUROPE DIRECT activities in CZECHIA (2027-2030)"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ED-2026-CZECHIA-FPA"
+    ],
+    "callTitle": [
+     "Selection of partners to carry out activities as EUROPE DIRECT centres in CZECHIA (2027-2030)"
+    ],
+    "frameworkProgramme": [
+     "42810547"
+    ],
+    "identifier": [
+     "ED-2026-CZECHIA-FPA"
+    ],
+    "programmeDivision": [
+     "42810547"
+    ],
+    "crossCuttingPriorities": [],
+    "programmePeriod": [
+     "2014 - 2020"
+    ],
+    "deadlineDate": [
+     "2027-01-07T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "Framework Partnership Agreement"
+    ],
+    "tags": [
+     "EUROPE DIRECT"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"116421\":[{\"action\":\"ED-2026-CZECHIA-FPA - ED-FPA Framework Partnership Agreement\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"444000\"},\"plannedOpeningDate\":\"2026-11-10\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-01-07\"]}]}}"
+    ],
+    "startDate": [
+     "2026-11-10T00:00:00.000+0000"
     ],
     "deadlineModel": [
      "single-stage"
@@ -64224,7 +64286,7 @@
      "single-stage"
     ],
     "status": [
-     "31094501"
+     "31094502"
     ]
    }
   },
