@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-10T03:02:43Z",
+ "fetched_at": "2026-11-11T03:04:57Z",
  "source": "https://api.tech.ec.europa.eu/search-api/prod/rest/search",
  "query": {
   "bool": {
@@ -22,8 +22,8 @@
    ]
   }
  },
- "total_results": 986,
- "topic_count": 985,
+ "total_results": 988,
+ "topic_count": 987,
  "topics": [
   {
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CEF-DIG-2026-CABLE-REPAIR-CAPACITIES-WORKS",
@@ -1648,8 +1648,8 @@
      "43435200"
     ],
     "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "AI"
+     "AI",
+     "DigitalAgenda"
     ],
     "programmePeriod": [
      "2021 - 2027"
@@ -7427,66 +7427,6 @@
    }
   },
   {
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EDF-EDIP-USI-2026-LS-IRA-MAB",
-   "reference": "51188687TOPICSen",
-   "metadata": {
-    "es_SortDate": [
-     "2026-06-17T00:00:00.000+0000"
-    ],
-    "keywords": [
-     "EDF-EDIP-USI-2026-LS-IRA-MAB",
-     "EDF-EDIP-USI-2026-LS-IRA"
-    ],
-    "language": [
-     "en"
-    ],
-    "title": [
-     "Missiles, ammunition and bombs"
-    ],
-    "type": [
-     "1"
-    ],
-    "callIdentifier": [
-     "EDF-EDIP-USI-2026-LS-IRA"
-    ],
-    "callTitle": [
-     "1st call for proposals for industrial reinforcement actions under the Ukraine Support Instrument"
-    ],
-    "frameworkProgramme": [
-     "44181033"
-    ],
-    "identifier": [
-     "EDF-EDIP-USI-2026-LS-IRA-MAB"
-    ],
-    "programmeDivision": [
-     "44181033"
-    ],
-    "crossCuttingPriorities": [],
-    "programmePeriod": [
-     "2021 - 2027"
-    ],
-    "deadlineDate": [
-     "2026-11-10T00:00:00.000+0000"
-    ],
-    "typesOfAction": [
-     "EDF Lump Sum Grants"
-    ],
-    "tags": [],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2026\"],\"budgetTopicActionMap\":{\"114364\":[{\"action\":\"EDF-EDIP-USI-2026-LS-IRA-MAB - EDF-LS EDF Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2026\":\"180000000\"},\"plannedOpeningDate\":\"2026-06-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2026-11-10\"]}]}}"
-    ],
-    "startDate": [
-     "2026-06-17T00:00:00.000+0000"
-    ],
-    "deadlineModel": [
-     "single-stage"
-    ],
-    "status": [
-     "31094502"
-    ]
-   }
-  },
-  {
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EDF-EDIP-USI-2027-LS-IRA-CUXS",
    "reference": "51188707TOPICSen",
    "metadata": {
@@ -9603,10 +9543,10 @@
      "HORIZON-BRIDGING-2027-04-08"
     ],
     "programmeDivision": [
+     "43108390",
      "43108541",
      "43120821",
-     "43120830",
-     "43108390"
+     "43120830"
     ],
     "crossCuttingPriorities": [
      "DigitalAgenda",
@@ -9669,16 +9609,16 @@
      "HORIZON-BRIDGING-2027-04-11"
     ],
     "programmeDivision": [
+     "43108390",
      "43108541",
      "43120821",
      "43120830",
      "43121563",
-     "43121573",
-     "43108390"
+     "43121573"
     ],
     "crossCuttingPriorities": [
-     "AI",
-     "DigitalAgenda"
+     "DigitalAgenda",
+     "AI"
     ],
     "programmePeriod": [
      "2021 - 2027"
@@ -44341,6 +44281,195 @@
     "deadlineModel": [],
     "status": [
      "31094502"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2027-ACCELERATOR-01",
+   "reference": "52867543TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-11-10T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "HORIZON-EIC-2027-ACCELERATOR-01",
+     "HORIZON-EIC-2027-ACCELERATOR-01"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Short proposal"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "HORIZON-EIC-2027-ACCELERATOR-01"
+    ],
+    "callTitle": [
+     "Short proposal"
+    ],
+    "frameworkProgramme": [
+     "43108390"
+    ],
+    "identifier": [
+     "HORIZON-EIC-2027-ACCELERATOR-01"
+    ],
+    "programmeDivision": [
+     "43121666",
+     "43121633",
+     "43108390",
+     "43121682"
+    ],
+    "crossCuttingPriorities": [],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-12-16T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "HORIZON EIC Accelerator"
+    ],
+    "tags": [],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"116241\":[{\"action\":\"HORIZON-EIC-2027-ACCELERATOR-01 - HORIZON-EIC-ACC HORIZON EIC Accelerator\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"0\"},\"plannedOpeningDate\":\"2026-11-10\",\"deadlineModel\":\"continuous\",\"deadlineDates\":[\"2027-12-16\"]}]}}"
+    ],
+    "startDate": [
+     "2026-11-10T00:00:00.000+0000"
+    ],
+    "deadlineModel": [],
+    "status": [
+     "31094502"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2027-DEFENCE-01",
+   "reference": "52547845TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-12-01T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "HORIZON-EIC-2027-DEFENCE-01",
+     "HORIZON-EIC-2027-DEFENCE-01"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "EIC STEP Defence"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "HORIZON-EIC-2027-DEFENCE-01"
+    ],
+    "callTitle": [
+     "EIC STEP Scale Up Defence"
+    ],
+    "frameworkProgramme": [
+     "43108390"
+    ],
+    "identifier": [
+     "HORIZON-EIC-2027-DEFENCE-01"
+    ],
+    "programmeDivision": [
+     "43121682",
+     "43121666",
+     "43121633"
+    ],
+    "crossCuttingPriorities": [],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-06-01T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "HORIZON EIC Equity Only"
+    ],
+    "tags": [
+     "STEP-Defence"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"115701\":[{\"action\":\"HORIZON-EIC-2027-DEFENCE-01 - HORIZON-EIC-EQU HORIZON EIC Equity Only\",\"expectedGrants\":10,\"minContribution\":10000000,\"maxContribution\":30000000,\"budgetYearMap\":{\"2027\":\"100000000\"},\"plannedOpeningDate\":\"2026-12-01\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-06-01\"]}]}}"
+    ],
+    "startDate": [
+     "2026-12-01T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2027-STEP",
+   "reference": "52592866TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-11-18T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "HORIZON-EIC-2027-STEP",
+     "HORIZON-EIC-2027-STEP"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "EIC STEP Scale Up"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "HORIZON-EIC-2027-STEP"
+    ],
+    "callTitle": [
+     "EIC STEP Scale Up"
+    ],
+    "frameworkProgramme": [
+     "43108390"
+    ],
+    "identifier": [
+     "HORIZON-EIC-2027-STEP"
+    ],
+    "programmeDivision": [
+     "43121682",
+     "43121666",
+     "43121633"
+    ],
+    "crossCuttingPriorities": [],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-11-24T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "HORIZON EIC Equity Only"
+    ],
+    "tags": [
+     "STEP-Biotech",
+     "STEP-Cleantech",
+     "STEP-Digital/deep tech"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"115968\":[{\"action\":\"HORIZON-EIC-2027-STEP - HORIZON-EIC-EQU HORIZON EIC Equity Only\",\"expectedGrants\":30,\"minContribution\":10000000,\"maxContribution\":30000000,\"budgetYearMap\":{\"2027\":\"290000000\"},\"plannedOpeningDate\":\"2026-11-18\",\"deadlineModel\":\"continuous\",\"deadlineDates\":[\"2027-11-24\"]}]}}"
+    ],
+    "startDate": [
+     "2026-11-18T00:00:00.000+0000"
+    ],
+    "deadlineModel": [],
+    "status": [
+     "31094501"
     ]
    }
   },
