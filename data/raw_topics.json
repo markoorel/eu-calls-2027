@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-12T03:05:46Z",
+ "fetched_at": "2026-11-13T03:02:24Z",
  "source": "https://api.tech.ec.europa.eu/search-api/prod/rest/search",
  "query": {
   "bool": {
@@ -22,8 +22,8 @@
    ]
   }
  },
- "total_results": 990,
- "topic_count": 989,
+ "total_results": 988,
+ "topic_count": 987,
  "topics": [
   {
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CEF-DIG-2026-CABLE-REPAIR-CAPACITIES-WORKS",
@@ -7539,6 +7539,78 @@
    }
   },
   {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EMFAF-2027-PIA-ScientificAdviceFisheries",
+   "reference": "52929366TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-11-12T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "EMFAF-2027-PIA-ScientificAdviceFisheries",
+     "EMFAF-2027-PIA-ScientificAdviceFisheries",
+     "Common fisheries policy (CFP)",
+     "Ecosystem-Based Approach",
+     "Environmental Conservation",
+     "Fisheries",
+     "Marine Conservation",
+     "Marine Ecosystems",
+     "Marine Environment",
+     "Marine Resource Exploitation",
+     "Marine and Ocean Management",
+     "Marine science",
+     "Ocean and Climate Change",
+     "Sustainable Fisheries"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Improving scientific knowledge to strengthen the science-basis of management decisions under the CFP"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "EMFAF-2027-PIA-ScientificAdviceFisheries"
+    ],
+    "callTitle": [
+     "Improving scientific knowledge to strengthen the science-basis of management decisions under the CFP"
+    ],
+    "frameworkProgramme": [
+     "43392145"
+    ],
+    "identifier": [
+     "EMFAF-2027-PIA-ScientificAdviceFisheries"
+    ],
+    "programmeDivision": [
+     "43392162"
+    ],
+    "crossCuttingPriorities": [],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-02-23T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "EMFAF Project Grants"
+    ],
+    "tags": [],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2026\"],\"budgetTopicActionMap\":{\"116441\":[{\"action\":\"EMFAF-2027-PIA-ScientificAdviceFisheries - EMFAF-PJG EMFAF Project Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2026\":\"1800000\"},\"plannedOpeningDate\":\"2026-11-12\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-23\"]}]}}"
+    ],
+    "startDate": [
+     "2026-11-12T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094502"
+    ]
+   }
+  },
+  {
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/EP-COMM-SUBV-NAT-E-2023-CHANGE-MAKERS.json",
    "reference": "45971395EPProjectGrants1682553600000",
    "metadata": {
@@ -8103,7 +8175,7 @@
      "multiple cut-off"
     ],
     "status": [
-     "31094501"
+     "31094502"
     ]
    }
   },
@@ -61755,154 +61827,6 @@
    }
   },
   {
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/I3-2026-INV1",
-   "reference": "51181644TOPICSen",
-   "metadata": {
-    "es_SortDate": [
-     "2026-05-13T00:00:00.000+0000"
-    ],
-    "keywords": [
-     "I3-2026-INV1",
-     "I3-2026-INV1",
-     "Business coaching and mentoring",
-     "Business development",
-     "Business environment (legal and administrative)",
-     "Business management",
-     "Business models",
-     "Business plan",
-     "Business strategies",
-     "Business support services",
-     "Evaluation of programmes/projects",
-     "Innovation methodologies",
-     "Regional development",
-     "SME support",
-     "Smart Specialisation strategies",
-     "Supply chain management"
-    ],
-    "language": [
-     "en"
-    ],
-    "title": [
-     "I3-2026-INV1 - Interregional Innovation Investments Strand 1"
-    ],
-    "type": [
-     "1"
-    ],
-    "callIdentifier": [
-     "I3-2026-INV1"
-    ],
-    "callTitle": [
-     "Interregional Innovation Investments Strand 1"
-    ],
-    "frameworkProgramme": [
-     "44416173"
-    ],
-    "identifier": [
-     "I3-2026-INV1"
-    ],
-    "programmeDivision": [
-     "44416181"
-    ],
-    "crossCuttingPriorities": [],
-    "programmePeriod": [
-     "2021 - 2027"
-    ],
-    "deadlineDate": [
-     "2026-11-12T00:00:00.000+0000"
-    ],
-    "typesOfAction": [
-     "I3 Project Grants"
-    ],
-    "tags": [],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2026\"],\"budgetTopicActionMap\":{\"114762\":[{\"action\":\"I3-2026-INV1 - I3-PJG I3 Project Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2026\":\"28200000\"},\"plannedOpeningDate\":\"2026-05-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2026-11-12\"]}]}}"
-    ],
-    "startDate": [
-     "2026-05-13T00:00:00.000+0000"
-    ],
-    "deadlineModel": [
-     "single-stage"
-    ],
-    "status": [
-     "31094502"
-    ]
-   }
-  },
-  {
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/I3-2026-INV2a",
-   "reference": "51181685TOPICSen",
-   "metadata": {
-    "es_SortDate": [
-     "2026-05-13T00:00:00.000+0000"
-    ],
-    "keywords": [
-     "I3-2026-INV2a",
-     "I3-2026-INV2a",
-     "Business coaching and mentoring",
-     "Business development",
-     "Business environment (legal and administrative)",
-     "Business management",
-     "Business models",
-     "Business plan",
-     "Business strategies",
-     "Business support services",
-     "Evaluation of programmes/projects",
-     "Innovation methodologies",
-     "Regional development",
-     "SME support",
-     "Smart Specialisation strategies",
-     "Supply chain management"
-    ],
-    "language": [
-     "en"
-    ],
-    "title": [
-     "I3-2026-INV2a - Interregional Innovation Investments Strand 2a"
-    ],
-    "type": [
-     "1"
-    ],
-    "callIdentifier": [
-     "I3-2026-INV2a"
-    ],
-    "callTitle": [
-     "Interregional Innovation Investments Strand 2a"
-    ],
-    "frameworkProgramme": [
-     "44416173"
-    ],
-    "identifier": [
-     "I3-2026-INV2a"
-    ],
-    "programmeDivision": [
-     "44416181"
-    ],
-    "crossCuttingPriorities": [],
-    "programmePeriod": [
-     "2021 - 2027"
-    ],
-    "deadlineDate": [
-     "2026-11-12T00:00:00.000+0000"
-    ],
-    "typesOfAction": [
-     "I3 Project Grants"
-    ],
-    "tags": [],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2026\"],\"budgetTopicActionMap\":{\"114782\":[{\"action\":\"I3-2026-INV2a - I3-PJG I3 Project Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2026\":\"30200000\"},\"plannedOpeningDate\":\"2026-05-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2026-11-12\"]}]}}"
-    ],
-    "startDate": [
-     "2026-05-13T00:00:00.000+0000"
-    ],
-    "deadlineModel": [
-     "single-stage"
-    ],
-    "status": [
-     "31094502"
-    ]
-   }
-  },
-  {
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/IMCAP-2027-INFOME",
    "reference": "52766713TOPICSen",
    "metadata": {
@@ -64812,69 +64736,6 @@
     ],
     "startDate": [
      "2023-03-29T00:00:00.000+0000"
-    ],
-    "deadlineModel": [
-     "single-stage"
-    ],
-    "status": [
-     "31094502"
-    ]
-   }
-  },
-  {
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/SOCPL-2026-INFO-REPR",
-   "reference": "50143228TOPICSen",
-   "metadata": {
-    "es_SortDate": [
-     "2026-09-02T00:00:00.000+0000"
-    ],
-    "keywords": [
-     "SOCPL-2026-INFO-REPR",
-     "SOCPL-2026-INFO-REPR"
-    ],
-    "language": [
-     "en"
-    ],
-    "title": [
-     "SOCPL-2026-INFO-REPR"
-    ],
-    "type": [
-     "1"
-    ],
-    "callIdentifier": [
-     "SOCPL-2026-INFO-REPR"
-    ],
-    "callTitle": [
-     "Information, consultation & participation of representatives of undertakings"
-    ],
-    "frameworkProgramme": [
-     "43252517"
-    ],
-    "identifier": [
-     "SOCPL-2026-INFO-REPR"
-    ],
-    "programmeDivision": [
-     "43252542"
-    ],
-    "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "AI"
-    ],
-    "programmePeriod": [
-     "2021 - 2027"
-    ],
-    "deadlineDate": [
-     "2026-11-12T00:00:00.000+0000"
-    ],
-    "typesOfAction": [
-     "SOCPL Project Grants"
-    ],
-    "tags": [],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2026\"],\"budgetTopicActionMap\":{\"113144\":[{\"action\":\"SOCPL-2026-INFO-REPR - SOCPL-PJG SOCPL Project Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2026\":\"2500000\"},\"plannedOpeningDate\":\"2026-09-02\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2026-11-12\"]}]}}"
-    ],
-    "startDate": [
-     "2026-09-02T00:00:00.000+0000"
     ],
     "deadlineModel": [
      "single-stage"
