@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-16T03:15:07Z",
+ "fetched_at": "2026-11-17T03:03:35Z",
  "source": "https://api.tech.ec.europa.eu/search-api/prod/rest/search",
  "query": {
   "bool": {
@@ -23055,6 +23055,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "Advanced integrated photonic devices for extended features and ultra-low power consumption (RIA) (Photonics Partnership)"
+    ],
     "type": [
      "1"
     ],
@@ -23070,17 +23073,34 @@
     "identifier": [
      "HORIZON-CL4-2027-05-DIGITAL-EMERGING-03"
     ],
+    "programmeDivision": [
+     "43108390",
+     "43108541",
+     "43120193",
+     "43120203"
+    ],
+    "crossCuttingPriorities": [
+     "PART-COPROGR",
+     "AI",
+     "DigitalAgenda"
+    ],
     "programmePeriod": [
      "2021 - 2027"
     ],
     "deadlineDate": [
      "2027-03-18T00:00:00.000+0000"
     ],
+    "typesOfAction": [
+     "HORIZON  Research and Innovation Actions"
+    ],
     "tags": [
      "chips",
      "integrated circuits",
      "low power consumption",
      "photonics"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112919\":[{\"action\":\"HORIZON-CL4-2027-05-DIGITAL-EMERGING-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":3000000,\"maxContribution\":5000000,\"budgetYearMap\":{\"2027\":\"25000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}]}}"
     ],
     "startDate": [
      "2026-11-17T00:00:00.000+0000"
@@ -23089,27 +23109,7 @@
      "single-stage"
     ],
     "status": [
-     "31094501"
-    ],
-    "title": [
-     "Advanced integrated photonic devices for extended features and ultra-low power consumption (RIA) (Photonics Partnership)"
-    ],
-    "programmeDivision": [
-     "43120203",
-     "43120193",
-     "43108541",
-     "43108390"
-    ],
-    "crossCuttingPriorities": [
-     "PART-COPROGR",
-     "DigitalAgenda",
-     "AI"
-    ],
-    "typesOfAction": [
-     "HORIZON  Research and Innovation Actions"
-    ],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112919\":[{\"action\":\"HORIZON-CL4-2027-05-DIGITAL-EMERGING-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":3000000,\"maxContribution\":5000000,\"budgetYearMap\":{\"2027\":\"25000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}]}}"
+     "31094502"
     ]
    }
   },
@@ -61718,7 +61718,7 @@
     ],
     "deadlineModel": [],
     "status": [
-     "31094501"
+     "31094502"
     ]
    }
   },
