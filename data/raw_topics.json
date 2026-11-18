@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-17T03:03:35Z",
+ "fetched_at": "2026-11-18T03:06:38Z",
  "source": "https://api.tech.ec.europa.eu/search-api/prod/rest/search",
  "query": {
   "bool": {
@@ -22,8 +22,8 @@
    ]
   }
  },
- "total_results": 988,
- "topic_count": 987,
+ "total_results": 982,
+ "topic_count": 981,
  "topics": [
   {
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CEF-DIG-2026-CABLE-REPAIR-CAPACITIES-WORKS",
@@ -22220,6 +22220,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "New approaches for decentralized, federated and sustainable AI data processing (RIA)"
+    ],
     "type": [
      "1"
     ],
@@ -22235,28 +22238,6 @@
     "identifier": [
      "HORIZON-CL4-2027-04-DATA-03"
     ],
-    "programmePeriod": [
-     "2021 - 2027"
-    ],
-    "deadlineDate": [
-     "2027-03-18T00:00:00.000+0000"
-    ],
-    "tags": [
-     "Cloud computing",
-     "Edge computing"
-    ],
-    "startDate": [
-     "2026-11-17T00:00:00.000+0000"
-    ],
-    "deadlineModel": [
-     "single-stage"
-    ],
-    "status": [
-     "31094501"
-    ],
-    "title": [
-     "New approaches for decentralized, federated and sustainable AI data processing (RIA)"
-    ],
     "programmeDivision": [
      "43108390",
      "43108541",
@@ -22265,14 +22246,33 @@
      "43120231"
     ],
     "crossCuttingPriorities": [
-     "AI",
-     "DigitalAgenda"
+     "DigitalAgenda",
+     "AI"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-03-18T00:00:00.000+0000"
     ],
     "typesOfAction": [
      "HORIZON  Research and Innovation Actions"
     ],
+    "tags": [
+     "Cloud computing",
+     "Edge computing"
+    ],
     "budgetOverview": [
      "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112913\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-04 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":14000000,\"maxContribution\":14000000,\"budgetYearMap\":{\"2027\":\"42000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112912\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-07 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"7000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112915\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":19000000,\"maxContribution\":19000000,\"budgetYearMap\":{\"2027\":\"38000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112914\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-05 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":1,\"minContribution\":18000000,\"maxContribution\":18000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112917\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-10 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"4000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112916\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":17500000,\"maxContribution\":17500000,\"budgetYearMap\":{\"2027\":\"35000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112918\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-11 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":1,\"minContribution\":44000000,\"maxContribution\":44000000,\"budgetYearMap\":{\"2027\":\"44000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112909\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-02 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112908\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-09 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":9000000,\"maxContribution\":10000000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112911\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-01 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":8,\"minContribution\":4800000,\"maxContribution\":5600000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112910\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-06 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":1500000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}]}}"
+    ],
+    "startDate": [
+     "2026-11-17T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094502"
     ]
    }
   },
@@ -22291,6 +22291,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "Demand-side 3C pilot demonstrators on converged Telco Edge Cloud Infrastructure (IA)"
+    ],
     "type": [
      "1"
     ],
@@ -22306,11 +22309,26 @@
     "identifier": [
      "HORIZON-CL4-2027-04-DATA-08"
     ],
+    "programmeDivision": [
+     "43108390",
+     "43108541",
+     "43120193",
+     "43120203",
+     "43120218",
+     "43120226"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "DigitalAgenda"
+    ],
     "programmePeriod": [
      "2021 - 2027"
     ],
     "deadlineDate": [
      "2027-03-18T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "HORIZON Innovation Actions"
     ],
     "tags": [
      "3C Network",
@@ -22321,6 +22339,9 @@
      "Telco Edge Cloud",
      "data governance"
     ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112913\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-04 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":14000000,\"maxContribution\":14000000,\"budgetYearMap\":{\"2027\":\"42000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112912\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-07 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"7000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112915\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":19000000,\"maxContribution\":19000000,\"budgetYearMap\":{\"2027\":\"38000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112914\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-05 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":1,\"minContribution\":18000000,\"maxContribution\":18000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112917\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-10 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"4000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112916\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":17500000,\"maxContribution\":17500000,\"budgetYearMap\":{\"2027\":\"35000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112918\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-11 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":1,\"minContribution\":44000000,\"maxContribution\":44000000,\"budgetYearMap\":{\"2027\":\"44000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112909\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-02 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112908\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-09 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":9000000,\"maxContribution\":10000000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112911\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-01 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":8,\"minContribution\":4800000,\"maxContribution\":5600000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112910\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-06 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":1500000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}]}}"
+    ],
     "startDate": [
      "2026-11-17T00:00:00.000+0000"
     ],
@@ -22328,28 +22349,7 @@
      "single-stage"
     ],
     "status": [
-     "31094501"
-    ],
-    "title": [
-     "Demand-side 3C pilot demonstrators on converged Telco Edge Cloud Infrastructure (IA)"
-    ],
-    "programmeDivision": [
-     "43108390",
-     "43108541",
-     "43120193",
-     "43120203",
-     "43120218",
-     "43120226"
-    ],
-    "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "AI"
-    ],
-    "typesOfAction": [
-     "HORIZON Innovation Actions"
-    ],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112913\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-04 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":14000000,\"maxContribution\":14000000,\"budgetYearMap\":{\"2027\":\"42000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112912\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-07 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"7000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112915\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":19000000,\"maxContribution\":19000000,\"budgetYearMap\":{\"2027\":\"38000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112914\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-05 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":1,\"minContribution\":18000000,\"maxContribution\":18000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112917\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-10 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"4000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112916\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":17500000,\"maxContribution\":17500000,\"budgetYearMap\":{\"2027\":\"35000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112918\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-11 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":1,\"minContribution\":44000000,\"maxContribution\":44000000,\"budgetYearMap\":{\"2027\":\"44000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112909\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-02 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112908\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-09 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":9000000,\"maxContribution\":10000000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112911\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-01 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":8,\"minContribution\":4800000,\"maxContribution\":5600000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112910\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-06 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":1500000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}]}}"
+     "31094502"
     ]
    }
   },
@@ -22368,6 +22368,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "Energy efficiency and sustainability of AI data processing in Data Centres (IA)"
+    ],
     "type": [
      "1"
     ],
@@ -22383,30 +22386,6 @@
     "identifier": [
      "HORIZON-CL4-2027-04-DATA-09"
     ],
-    "programmePeriod": [
-     "2021 - 2027"
-    ],
-    "deadlineDate": [
-     "2027-03-18T00:00:00.000+0000"
-    ],
-    "tags": [
-     "Cloud computing",
-     "Edge computing",
-     "data centre technologies",
-     "energy efficiency"
-    ],
-    "startDate": [
-     "2026-11-17T00:00:00.000+0000"
-    ],
-    "deadlineModel": [
-     "single-stage"
-    ],
-    "status": [
-     "31094501"
-    ],
-    "title": [
-     "Energy efficiency and sustainability of AI data processing in Data Centres (IA)"
-    ],
     "programmeDivision": [
      "43108390",
      "43108541",
@@ -22415,14 +22394,35 @@
      "43120231"
     ],
     "crossCuttingPriorities": [
-     "AI",
-     "DigitalAgenda"
+     "DigitalAgenda",
+     "AI"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-03-18T00:00:00.000+0000"
     ],
     "typesOfAction": [
      "HORIZON Innovation Actions"
     ],
+    "tags": [
+     "Cloud computing",
+     "Edge computing",
+     "data centre technologies",
+     "energy efficiency"
+    ],
     "budgetOverview": [
      "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112913\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-04 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":14000000,\"maxContribution\":14000000,\"budgetYearMap\":{\"2027\":\"42000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112912\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-07 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"7000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112915\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":19000000,\"maxContribution\":19000000,\"budgetYearMap\":{\"2027\":\"38000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112914\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-05 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":1,\"minContribution\":18000000,\"maxContribution\":18000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112917\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-10 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"4000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112916\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":17500000,\"maxContribution\":17500000,\"budgetYearMap\":{\"2027\":\"35000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112918\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-11 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":1,\"minContribution\":44000000,\"maxContribution\":44000000,\"budgetYearMap\":{\"2027\":\"44000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112909\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-02 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112908\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-09 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":9000000,\"maxContribution\":10000000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112911\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-01 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":8,\"minContribution\":4800000,\"maxContribution\":5600000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112910\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-06 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":1500000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}]}}"
+    ],
+    "startDate": [
+     "2026-11-17T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094502"
     ]
    }
   },
@@ -22441,6 +22441,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "Apply AI: Challenge-Driven AI Innovation Booster in Apply AI prioritised sectors (RIA) (Partnership in AI, Data and Robotics)"
+    ],
     "type": [
      "1"
     ],
@@ -22456,31 +22459,6 @@
     "identifier": [
      "HORIZON-CL4-2027-04-DIGITAL-EMERGING-04"
     ],
-    "programmePeriod": [
-     "2021 - 2027"
-    ],
-    "deadlineDate": [
-     "2027-03-18T00:00:00.000+0000"
-    ],
-    "tags": [
-     "Apply AI",
-     "Artificial Intelligence",
-     "Challenge",
-     "Competition",
-     "Robotics"
-    ],
-    "startDate": [
-     "2026-11-17T00:00:00.000+0000"
-    ],
-    "deadlineModel": [
-     "single-stage"
-    ],
-    "status": [
-     "31094501"
-    ],
-    "title": [
-     "Apply AI: Challenge-Driven AI Innovation Booster in Apply AI prioritised sectors (RIA) (Partnership in AI, Data and Robotics)"
-    ],
     "programmeDivision": [
      "43108390",
      "43108541",
@@ -22489,15 +22467,37 @@
      "43120218"
     ],
     "crossCuttingPriorities": [
+     "DigitalAgenda",
      "AI",
-     "PART-COPROGR",
-     "DigitalAgenda"
+     "PART-COPROGR"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-03-18T00:00:00.000+0000"
     ],
     "typesOfAction": [
      "HORIZON  Research and Innovation Actions"
     ],
+    "tags": [
+     "Apply AI",
+     "Artificial Intelligence",
+     "Challenge",
+     "Competition",
+     "Robotics"
+    ],
     "budgetOverview": [
      "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112913\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-04 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":14000000,\"maxContribution\":14000000,\"budgetYearMap\":{\"2027\":\"42000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112912\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-07 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"7000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112915\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":19000000,\"maxContribution\":19000000,\"budgetYearMap\":{\"2027\":\"38000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112914\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-05 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":1,\"minContribution\":18000000,\"maxContribution\":18000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112917\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-10 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"4000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112916\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":17500000,\"maxContribution\":17500000,\"budgetYearMap\":{\"2027\":\"35000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112918\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-11 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":1,\"minContribution\":44000000,\"maxContribution\":44000000,\"budgetYearMap\":{\"2027\":\"44000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112909\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-02 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112908\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-09 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":9000000,\"maxContribution\":10000000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112911\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-01 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":8,\"minContribution\":4800000,\"maxContribution\":5600000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112910\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-06 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":1500000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}]}}"
+    ],
+    "startDate": [
+     "2026-11-17T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094502"
     ]
    }
   },
@@ -22519,6 +22519,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "Apply AI: AI-Driven Robotics for Industry: Enabling System Integration and Adoption (IA) (Partnership in AI, Data and Robotics)"
+    ],
     "type": [
      "1"
     ],
@@ -22534,29 +22537,6 @@
     "identifier": [
      "HORIZON-CL4-2027-04-DIGITAL-EMERGING-05"
     ],
-    "programmePeriod": [
-     "2021 - 2027"
-    ],
-    "deadlineDate": [
-     "2027-03-18T00:00:00.000+0000"
-    ],
-    "tags": [
-     "Artificial Intelligence",
-     "Integration",
-     "Robotics"
-    ],
-    "startDate": [
-     "2026-11-17T00:00:00.000+0000"
-    ],
-    "deadlineModel": [
-     "single-stage"
-    ],
-    "status": [
-     "31094501"
-    ],
-    "title": [
-     "Apply AI: AI-Driven Robotics for Industry: Enabling System Integration and Adoption (IA) (Partnership in AI, Data and Robotics)"
-    ],
     "programmeDivision": [
      "43108390",
      "43108541",
@@ -22565,15 +22545,35 @@
      "43120218"
     ],
     "crossCuttingPriorities": [
+     "DigitalAgenda",
      "AI",
-     "PART-COPROGR",
-     "DigitalAgenda"
+     "PART-COPROGR"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-03-18T00:00:00.000+0000"
     ],
     "typesOfAction": [
      "HORIZON Innovation Actions"
     ],
+    "tags": [
+     "Artificial Intelligence",
+     "Integration",
+     "Robotics"
+    ],
     "budgetOverview": [
      "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112913\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-04 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":14000000,\"maxContribution\":14000000,\"budgetYearMap\":{\"2027\":\"42000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112912\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-07 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"7000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112915\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":19000000,\"maxContribution\":19000000,\"budgetYearMap\":{\"2027\":\"38000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112914\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-05 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":1,\"minContribution\":18000000,\"maxContribution\":18000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112917\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-10 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"4000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112916\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":17500000,\"maxContribution\":17500000,\"budgetYearMap\":{\"2027\":\"35000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112918\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-11 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":1,\"minContribution\":44000000,\"maxContribution\":44000000,\"budgetYearMap\":{\"2027\":\"44000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112909\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-02 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112908\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-09 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":9000000,\"maxContribution\":10000000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112911\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-01 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":8,\"minContribution\":4800000,\"maxContribution\":5600000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112910\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-06 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":1500000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}]}}"
+    ],
+    "startDate": [
+     "2026-11-17T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094502"
     ]
    }
   },
@@ -22592,6 +22592,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "International cooperation in AI (IA)"
+    ],
     "type": [
      "1"
     ],
@@ -22607,15 +22610,35 @@
     "identifier": [
      "HORIZON-CL4-2027-04-DIGITAL-EMERGING-06"
     ],
+    "programmeDivision": [
+     "43108390",
+     "43108541",
+     "43120193",
+     "43120203"
+    ],
+    "crossCuttingPriorities": [
+     "INCO",
+     "Africa",
+     "DigitalAgenda",
+     "AI",
+     "SocInnov",
+     "MEDIT"
+    ],
     "programmePeriod": [
      "2021 - 2027"
     ],
     "deadlineDate": [
      "2027-03-18T00:00:00.000+0000"
     ],
+    "typesOfAction": [
+     "HORIZON Innovation Actions"
+    ],
     "tags": [
      "GenAI",
      "international cooperation"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112913\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-04 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":14000000,\"maxContribution\":14000000,\"budgetYearMap\":{\"2027\":\"42000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112912\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-07 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"7000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112915\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":19000000,\"maxContribution\":19000000,\"budgetYearMap\":{\"2027\":\"38000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112914\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-05 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":1,\"minContribution\":18000000,\"maxContribution\":18000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112917\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-10 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"4000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112916\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":17500000,\"maxContribution\":17500000,\"budgetYearMap\":{\"2027\":\"35000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112918\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-11 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":1,\"minContribution\":44000000,\"maxContribution\":44000000,\"budgetYearMap\":{\"2027\":\"44000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112909\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-02 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112908\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-09 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":9000000,\"maxContribution\":10000000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112911\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-01 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":8,\"minContribution\":4800000,\"maxContribution\":5600000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112910\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-06 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":1500000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}]}}"
     ],
     "startDate": [
      "2026-11-17T00:00:00.000+0000"
@@ -22624,30 +22647,7 @@
      "single-stage"
     ],
     "status": [
-     "31094501"
-    ],
-    "title": [
-     "International cooperation in AI (IA)"
-    ],
-    "programmeDivision": [
-     "43108390",
-     "43108541",
-     "43120193",
-     "43120203"
-    ],
-    "crossCuttingPriorities": [
-     "AI",
-     "DigitalAgenda",
-     "INCO",
-     "Africa",
-     "MEDIT",
-     "SocInnov"
-    ],
-    "typesOfAction": [
-     "HORIZON Innovation Actions"
-    ],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112913\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-04 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":14000000,\"maxContribution\":14000000,\"budgetYearMap\":{\"2027\":\"42000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112912\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-07 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"7000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112915\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":19000000,\"maxContribution\":19000000,\"budgetYearMap\":{\"2027\":\"38000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112914\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-05 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":1,\"minContribution\":18000000,\"maxContribution\":18000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112917\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-10 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"4000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112916\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":17500000,\"maxContribution\":17500000,\"budgetYearMap\":{\"2027\":\"35000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112918\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-11 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":1,\"minContribution\":44000000,\"maxContribution\":44000000,\"budgetYearMap\":{\"2027\":\"44000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112909\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-02 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112908\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-09 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":9000000,\"maxContribution\":10000000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112911\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-01 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":8,\"minContribution\":4800000,\"maxContribution\":5600000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112910\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-06 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":1500000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}]}}"
+     "31094502"
     ]
    }
   },
@@ -22666,6 +22666,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "Horizon scanning and foresight in future enabling digital technologies (CSA)"
+    ],
     "type": [
      "1"
     ],
@@ -22681,27 +22684,6 @@
     "identifier": [
      "HORIZON-CL4-2027-04-DIGITAL-EMERGING-10"
     ],
-    "programmePeriod": [
-     "2021 - 2027"
-    ],
-    "deadlineDate": [
-     "2027-03-18T00:00:00.000+0000"
-    ],
-    "tags": [
-     "foresight"
-    ],
-    "startDate": [
-     "2026-11-17T00:00:00.000+0000"
-    ],
-    "deadlineModel": [
-     "single-stage"
-    ],
-    "status": [
-     "31094501"
-    ],
-    "title": [
-     "Horizon scanning and foresight in future enabling digital technologies (CSA)"
-    ],
     "programmeDivision": [
      "43108390",
      "43108541",
@@ -22714,11 +22696,29 @@
      "AI",
      "SocietalEngagement"
     ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-03-18T00:00:00.000+0000"
+    ],
     "typesOfAction": [
      "HORIZON Coordination and Support Actions"
     ],
+    "tags": [
+     "foresight"
+    ],
     "budgetOverview": [
      "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112913\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-04 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":14000000,\"maxContribution\":14000000,\"budgetYearMap\":{\"2027\":\"42000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112912\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-07 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"7000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112915\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":19000000,\"maxContribution\":19000000,\"budgetYearMap\":{\"2027\":\"38000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112914\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-05 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":1,\"minContribution\":18000000,\"maxContribution\":18000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112917\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-10 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"4000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112916\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":17500000,\"maxContribution\":17500000,\"budgetYearMap\":{\"2027\":\"35000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112918\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-11 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":1,\"minContribution\":44000000,\"maxContribution\":44000000,\"budgetYearMap\":{\"2027\":\"44000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112909\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-02 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112908\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-09 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":9000000,\"maxContribution\":10000000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112911\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-01 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":8,\"minContribution\":4800000,\"maxContribution\":5600000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112910\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-06 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":1500000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}]}}"
+    ],
+    "startDate": [
+     "2026-11-17T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094502"
     ]
    }
   },
@@ -22737,6 +22737,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "EU Frontier AI Initiative:  Developing frontier AI solutions that are safe and computationally efficient within Apply AI (RIA)"
+    ],
     "type": [
      "1"
     ],
@@ -22752,29 +22755,6 @@
     "identifier": [
      "HORIZON-CL4-2027-04-DIGITAL-EMERGING-11"
     ],
-    "programmePeriod": [
-     "2021 - 2027"
-    ],
-    "deadlineDate": [
-     "2027-03-18T00:00:00.000+0000"
-    ],
-    "tags": [
-     "Frugal AI",
-     "Generative AI",
-     "Safe AI"
-    ],
-    "startDate": [
-     "2026-11-17T00:00:00.000+0000"
-    ],
-    "deadlineModel": [
-     "single-stage"
-    ],
-    "status": [
-     "31094501"
-    ],
-    "title": [
-     "EU Frontier AI Initiative:  Developing frontier AI solutions that are safe and computationally efficient within Apply AI (RIA)"
-    ],
     "programmeDivision": [
      "43108390",
      "43108541",
@@ -22783,14 +22763,34 @@
      "43120218"
     ],
     "crossCuttingPriorities": [
-     "AI",
-     "DigitalAgenda"
+     "DigitalAgenda",
+     "AI"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-03-18T00:00:00.000+0000"
     ],
     "typesOfAction": [
      "HORIZON  Research and Innovation Actions"
     ],
+    "tags": [
+     "Frugal AI",
+     "Generative AI",
+     "Safe AI"
+    ],
     "budgetOverview": [
      "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112913\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-04 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":14000000,\"maxContribution\":14000000,\"budgetYearMap\":{\"2027\":\"42000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112912\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-07 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"7000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112915\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":19000000,\"maxContribution\":19000000,\"budgetYearMap\":{\"2027\":\"38000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112914\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-05 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":1,\"minContribution\":18000000,\"maxContribution\":18000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112917\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-10 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"4000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112916\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":17500000,\"maxContribution\":17500000,\"budgetYearMap\":{\"2027\":\"35000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112918\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-11 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":1,\"minContribution\":44000000,\"maxContribution\":44000000,\"budgetYearMap\":{\"2027\":\"44000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112909\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-02 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112908\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-09 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":9000000,\"maxContribution\":10000000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112911\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-01 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":8,\"minContribution\":4800000,\"maxContribution\":5600000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112910\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-06 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":1500000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}]}}"
+    ],
+    "startDate": [
+     "2026-11-17T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094502"
     ]
    }
   },
@@ -22836,10 +22836,10 @@
      "43120203"
     ],
     "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "PART-COPROGR",
      "SSH",
-     "AI"
+     "DigitalAgenda",
+     "AI",
+     "PART-COPROGR"
     ],
     "programmePeriod": [
      "2021 - 2027"
@@ -22878,7 +22878,7 @@
      "single-stage"
     ],
     "status": [
-     "31094501"
+     "31094502"
     ]
    }
   },
@@ -22897,6 +22897,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "Create a thriving and competitive Virtual Worlds and Web 4.0 ecosystem (CSA) (Virtual Worlds Partnership)"
+    ],
     "type": [
      "1"
     ],
@@ -22912,11 +22915,26 @@
     "identifier": [
      "HORIZON-CL4-2027-04-HUMAN-02"
     ],
+    "programmeDivision": [
+     "43108390",
+     "43108541",
+     "43120193",
+     "43120203"
+    ],
+    "crossCuttingPriorities": [
+     "SSH",
+     "DigitalAgenda",
+     "AI",
+     "PART-COPROGR"
+    ],
     "programmePeriod": [
      "2021 - 2027"
     ],
     "deadlineDate": [
      "2027-03-18T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "HORIZON Coordination and Support Actions"
     ],
     "tags": [
      "Coordination",
@@ -22933,6 +22951,9 @@
      "safe",
      "standardisation"
     ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112913\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-04 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":14000000,\"maxContribution\":14000000,\"budgetYearMap\":{\"2027\":\"42000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112912\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-07 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"7000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112915\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":19000000,\"maxContribution\":19000000,\"budgetYearMap\":{\"2027\":\"38000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112914\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-05 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":1,\"minContribution\":18000000,\"maxContribution\":18000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112917\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-10 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"4000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112916\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":17500000,\"maxContribution\":17500000,\"budgetYearMap\":{\"2027\":\"35000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112918\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-11 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":1,\"minContribution\":44000000,\"maxContribution\":44000000,\"budgetYearMap\":{\"2027\":\"44000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112909\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-02 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112908\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-09 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":9000000,\"maxContribution\":10000000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112911\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-01 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":8,\"minContribution\":4800000,\"maxContribution\":5600000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112910\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-06 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":1500000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}]}}"
+    ],
     "startDate": [
      "2026-11-17T00:00:00.000+0000"
     ],
@@ -22940,28 +22961,7 @@
      "single-stage"
     ],
     "status": [
-     "31094501"
-    ],
-    "title": [
-     "Create a thriving and competitive Virtual Worlds and Web 4.0 ecosystem (CSA) (Virtual Worlds Partnership)"
-    ],
-    "programmeDivision": [
-     "43108390",
-     "43108541",
-     "43120193",
-     "43120203"
-    ],
-    "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "PART-COPROGR",
-     "SSH",
-     "AI"
-    ],
-    "typesOfAction": [
-     "HORIZON Coordination and Support Actions"
-    ],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112913\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-04 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":14000000,\"maxContribution\":14000000,\"budgetYearMap\":{\"2027\":\"42000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112912\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-07 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"7000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112915\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":19000000,\"maxContribution\":19000000,\"budgetYearMap\":{\"2027\":\"38000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112914\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-05 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":1,\"minContribution\":18000000,\"maxContribution\":18000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112917\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-10 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"4000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112916\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":17500000,\"maxContribution\":17500000,\"budgetYearMap\":{\"2027\":\"35000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112918\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-11 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":1,\"minContribution\":44000000,\"maxContribution\":44000000,\"budgetYearMap\":{\"2027\":\"44000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112909\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-02 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112908\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-09 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":9000000,\"maxContribution\":10000000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112911\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-01 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":8,\"minContribution\":4800000,\"maxContribution\":5600000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112910\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-06 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":1500000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}]}}"
+     "31094502"
     ]
    }
   },
@@ -22981,6 +22981,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "Facilitate the engagement of European stakeholders in international digital standardisation (CSA)"
+    ],
     "type": [
      "1"
     ],
@@ -22996,17 +22999,34 @@
     "identifier": [
      "HORIZON-CL4-2027-04-HUMAN-07"
     ],
+    "programmeDivision": [
+     "43108390",
+     "43108541",
+     "43120193",
+     "43120203"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "SSH",
+     "DigitalAgenda"
+    ],
     "programmePeriod": [
      "2021 - 2027"
     ],
     "deadlineDate": [
      "2027-03-18T00:00:00.000+0000"
     ],
+    "typesOfAction": [
+     "HORIZON Coordination and Support Actions"
+    ],
     "tags": [
      "Digital standards",
      "Open-Source",
      "Research and Innovation",
      "Support to SMEs"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112913\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-04 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":14000000,\"maxContribution\":14000000,\"budgetYearMap\":{\"2027\":\"42000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112912\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-07 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"7000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112915\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":19000000,\"maxContribution\":19000000,\"budgetYearMap\":{\"2027\":\"38000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112914\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-05 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":1,\"minContribution\":18000000,\"maxContribution\":18000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112917\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-10 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"4000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112916\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":17500000,\"maxContribution\":17500000,\"budgetYearMap\":{\"2027\":\"35000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112918\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-11 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":1,\"minContribution\":44000000,\"maxContribution\":44000000,\"budgetYearMap\":{\"2027\":\"44000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112909\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-02 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112908\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-09 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":9000000,\"maxContribution\":10000000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112911\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-01 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":8,\"minContribution\":4800000,\"maxContribution\":5600000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112910\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-06 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":1500000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}]}}"
     ],
     "startDate": [
      "2026-11-17T00:00:00.000+0000"
@@ -23015,27 +23035,7 @@
      "single-stage"
     ],
     "status": [
-     "31094501"
-    ],
-    "title": [
-     "Facilitate the engagement of European stakeholders in international digital standardisation (CSA)"
-    ],
-    "programmeDivision": [
-     "43108390",
-     "43108541",
-     "43120193",
-     "43120203"
-    ],
-    "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "AI",
-     "SSH"
-    ],
-    "typesOfAction": [
-     "HORIZON Coordination and Support Actions"
-    ],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112913\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-04 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":14000000,\"maxContribution\":14000000,\"budgetYearMap\":{\"2027\":\"42000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112912\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-07 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"7000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112915\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":19000000,\"maxContribution\":19000000,\"budgetYearMap\":{\"2027\":\"38000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112914\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-05 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":1,\"minContribution\":18000000,\"maxContribution\":18000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112917\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-10 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"4000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112916\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":17500000,\"maxContribution\":17500000,\"budgetYearMap\":{\"2027\":\"35000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112918\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-11 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":1,\"minContribution\":44000000,\"maxContribution\":44000000,\"budgetYearMap\":{\"2027\":\"44000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112909\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-02 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112908\":[{\"action\":\"HORIZON-CL4-2027-04-DATA-09 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":9000000,\"maxContribution\":10000000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112911\":[{\"action\":\"HORIZON-CL4-2027-04-HUMAN-01 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":8,\"minContribution\":4800000,\"maxContribution\":5600000,\"budgetYearMap\":{\"2027\":\"39000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}],\"112910\":[{\"action\":\"HORIZON-CL4-2027-04-DIGITAL-EMERGING-06 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":1500000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-18\"]}]}}"
+     "31094502"
     ]
    }
   },
@@ -30548,6 +30548,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "Advancing understanding, modelling and prediction of extreme events in a changing climate"
+    ],
     "type": [
      "1"
     ],
@@ -30563,13 +30566,32 @@
     "identifier": [
      "HORIZON-CL5-2027-01-D1-07"
     ],
+    "programmeDivision": [
+     "43108390",
+     "43108541",
+     "43120821",
+     "43120830"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "LAC",
+     "DigitalAgenda",
+     "Africa",
+     "INCO"
+    ],
     "programmePeriod": [
      "2021 - 2027"
     ],
     "deadlineDate": [
      "2027-03-04T00:00:00.000+0000"
     ],
+    "typesOfAction": [
+     "HORIZON  Research and Innovation Actions"
+    ],
     "tags": [],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112921\":[{\"action\":\"HORIZON-CL5-2027-01-D1-11 - HORIZON-COFUND HORIZON Programme Cofund Actions\",\"expectedGrants\":1,\"minContribution\":15000000,\"maxContribution\":15000000,\"budgetYearMap\":{\"2027\":\"15000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112920\":[{\"action\":\"HORIZON-CL5-2027-01-D1-08 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"14000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112923\":[{\"action\":\"HORIZON-CL5-2027-01-D1-13 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"24000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112922\":[{\"action\":\"HORIZON-CL5-2027-01-D1-12 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":5,\"minContribution\":5000000,\"maxContribution\":5000000,\"budgetYearMap\":{\"2027\":\"25000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112925\":[{\"action\":\"HORIZON-CL5-2027-01-D1-10 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":5000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112924\":[{\"action\":\"HORIZON-CL5-2027-01-D1-09 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"9000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112926\":[{\"action\":\"HORIZON-CL5-2027-01-D1-07 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":6000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}]}}"
+    ],
     "startDate": [
      "2026-11-17T00:00:00.000+0000"
     ],
@@ -30578,28 +30600,6 @@
     ],
     "status": [
      "31094501"
-    ],
-    "title": [
-     "Advancing understanding, modelling and prediction of extreme events in a changing climate"
-    ],
-    "programmeDivision": [
-     "43108390",
-     "43108541",
-     "43120821",
-     "43120830"
-    ],
-    "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "Africa",
-     "AI",
-     "LAC",
-     "INCO"
-    ],
-    "typesOfAction": [
-     "HORIZON  Research and Innovation Actions"
-    ],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112921\":[{\"action\":\"HORIZON-CL5-2027-01-D1-11 - HORIZON-COFUND HORIZON Programme Cofund Actions\",\"expectedGrants\":1,\"minContribution\":15000000,\"maxContribution\":15000000,\"budgetYearMap\":{\"2027\":\"15000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112920\":[{\"action\":\"HORIZON-CL5-2027-01-D1-08 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"14000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112923\":[{\"action\":\"HORIZON-CL5-2027-01-D1-13 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"24000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112922\":[{\"action\":\"HORIZON-CL5-2027-01-D1-12 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":5,\"minContribution\":5000000,\"maxContribution\":5000000,\"budgetYearMap\":{\"2027\":\"25000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112925\":[{\"action\":\"HORIZON-CL5-2027-01-D1-10 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":5000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112924\":[{\"action\":\"HORIZON-CL5-2027-01-D1-09 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"9000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112926\":[{\"action\":\"HORIZON-CL5-2027-01-D1-07 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":6000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}]}}"
     ]
    }
   },
@@ -30617,6 +30617,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "Palaeoclimate science for a better understanding of Earth system dynamics"
+    ],
     "type": [
      "1"
     ],
@@ -30632,13 +30635,30 @@
     "identifier": [
      "HORIZON-CL5-2027-01-D1-08"
     ],
+    "programmeDivision": [
+     "43108390",
+     "43108541",
+     "43120821",
+     "43120830"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "DigitalAgenda",
+     "OCEAN"
+    ],
     "programmePeriod": [
      "2021 - 2027"
     ],
     "deadlineDate": [
      "2027-03-04T00:00:00.000+0000"
     ],
+    "typesOfAction": [
+     "HORIZON  Research and Innovation Actions"
+    ],
     "tags": [],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112921\":[{\"action\":\"HORIZON-CL5-2027-01-D1-11 - HORIZON-COFUND HORIZON Programme Cofund Actions\",\"expectedGrants\":1,\"minContribution\":15000000,\"maxContribution\":15000000,\"budgetYearMap\":{\"2027\":\"15000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112920\":[{\"action\":\"HORIZON-CL5-2027-01-D1-08 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"14000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112923\":[{\"action\":\"HORIZON-CL5-2027-01-D1-13 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"24000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112922\":[{\"action\":\"HORIZON-CL5-2027-01-D1-12 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":5,\"minContribution\":5000000,\"maxContribution\":5000000,\"budgetYearMap\":{\"2027\":\"25000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112925\":[{\"action\":\"HORIZON-CL5-2027-01-D1-10 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":5000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112924\":[{\"action\":\"HORIZON-CL5-2027-01-D1-09 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"9000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112926\":[{\"action\":\"HORIZON-CL5-2027-01-D1-07 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":6000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}]}}"
+    ],
     "startDate": [
      "2026-11-17T00:00:00.000+0000"
     ],
@@ -30647,26 +30667,6 @@
     ],
     "status": [
      "31094501"
-    ],
-    "title": [
-     "Palaeoclimate science for a better understanding of Earth system dynamics"
-    ],
-    "programmeDivision": [
-     "43108390",
-     "43108541",
-     "43120821",
-     "43120830"
-    ],
-    "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "AI",
-     "OCEAN"
-    ],
-    "typesOfAction": [
-     "HORIZON  Research and Innovation Actions"
-    ],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112921\":[{\"action\":\"HORIZON-CL5-2027-01-D1-11 - HORIZON-COFUND HORIZON Programme Cofund Actions\",\"expectedGrants\":1,\"minContribution\":15000000,\"maxContribution\":15000000,\"budgetYearMap\":{\"2027\":\"15000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112920\":[{\"action\":\"HORIZON-CL5-2027-01-D1-08 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"14000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112923\":[{\"action\":\"HORIZON-CL5-2027-01-D1-13 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"24000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112922\":[{\"action\":\"HORIZON-CL5-2027-01-D1-12 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":5,\"minContribution\":5000000,\"maxContribution\":5000000,\"budgetYearMap\":{\"2027\":\"25000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112925\":[{\"action\":\"HORIZON-CL5-2027-01-D1-10 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":5000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112924\":[{\"action\":\"HORIZON-CL5-2027-01-D1-09 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"9000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112926\":[{\"action\":\"HORIZON-CL5-2027-01-D1-07 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":6000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}]}}"
     ]
    }
   },
@@ -30684,6 +30684,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "Assessing the performance of policy instruments to inform climate change mitigation action"
+    ],
     "type": [
      "1"
     ],
@@ -30699,13 +30702,30 @@
     "identifier": [
      "HORIZON-CL5-2027-01-D1-09"
     ],
+    "programmeDivision": [
+     "43108390",
+     "43108541",
+     "43120821",
+     "43120830"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "SSH",
+     "DigitalAgenda"
+    ],
     "programmePeriod": [
      "2021 - 2027"
     ],
     "deadlineDate": [
      "2027-03-04T00:00:00.000+0000"
     ],
+    "typesOfAction": [
+     "HORIZON  Research and Innovation Actions"
+    ],
     "tags": [],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112921\":[{\"action\":\"HORIZON-CL5-2027-01-D1-11 - HORIZON-COFUND HORIZON Programme Cofund Actions\",\"expectedGrants\":1,\"minContribution\":15000000,\"maxContribution\":15000000,\"budgetYearMap\":{\"2027\":\"15000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112920\":[{\"action\":\"HORIZON-CL5-2027-01-D1-08 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"14000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112923\":[{\"action\":\"HORIZON-CL5-2027-01-D1-13 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"24000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112922\":[{\"action\":\"HORIZON-CL5-2027-01-D1-12 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":5,\"minContribution\":5000000,\"maxContribution\":5000000,\"budgetYearMap\":{\"2027\":\"25000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112925\":[{\"action\":\"HORIZON-CL5-2027-01-D1-10 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":5000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112924\":[{\"action\":\"HORIZON-CL5-2027-01-D1-09 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"9000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112926\":[{\"action\":\"HORIZON-CL5-2027-01-D1-07 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":6000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}]}}"
+    ],
     "startDate": [
      "2026-11-17T00:00:00.000+0000"
     ],
@@ -30714,26 +30734,6 @@
     ],
     "status": [
      "31094501"
-    ],
-    "title": [
-     "Assessing the performance of policy instruments to inform climate change mitigation action"
-    ],
-    "programmeDivision": [
-     "43108390",
-     "43108541",
-     "43120821",
-     "43120830"
-    ],
-    "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "SSH",
-     "AI"
-    ],
-    "typesOfAction": [
-     "HORIZON  Research and Innovation Actions"
-    ],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112921\":[{\"action\":\"HORIZON-CL5-2027-01-D1-11 - HORIZON-COFUND HORIZON Programme Cofund Actions\",\"expectedGrants\":1,\"minContribution\":15000000,\"maxContribution\":15000000,\"budgetYearMap\":{\"2027\":\"15000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112920\":[{\"action\":\"HORIZON-CL5-2027-01-D1-08 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"14000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112923\":[{\"action\":\"HORIZON-CL5-2027-01-D1-13 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"24000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112922\":[{\"action\":\"HORIZON-CL5-2027-01-D1-12 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":5,\"minContribution\":5000000,\"maxContribution\":5000000,\"budgetYearMap\":{\"2027\":\"25000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112925\":[{\"action\":\"HORIZON-CL5-2027-01-D1-10 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":5000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112924\":[{\"action\":\"HORIZON-CL5-2027-01-D1-09 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"9000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112926\":[{\"action\":\"HORIZON-CL5-2027-01-D1-07 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":6000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}]}}"
     ]
    }
   },
@@ -30751,6 +30751,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "Understanding and avoiding maladaptation to climate change"
+    ],
     "type": [
      "1"
     ],
@@ -30766,13 +30769,30 @@
     "identifier": [
      "HORIZON-CL5-2027-01-D1-10"
     ],
+    "programmeDivision": [
+     "43108390",
+     "43108541",
+     "43120821",
+     "43120830"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "SSH",
+     "DigitalAgenda"
+    ],
     "programmePeriod": [
      "2021 - 2027"
     ],
     "deadlineDate": [
      "2027-03-04T00:00:00.000+0000"
     ],
+    "typesOfAction": [
+     "HORIZON  Research and Innovation Actions"
+    ],
     "tags": [],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112921\":[{\"action\":\"HORIZON-CL5-2027-01-D1-11 - HORIZON-COFUND HORIZON Programme Cofund Actions\",\"expectedGrants\":1,\"minContribution\":15000000,\"maxContribution\":15000000,\"budgetYearMap\":{\"2027\":\"15000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112920\":[{\"action\":\"HORIZON-CL5-2027-01-D1-08 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"14000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112923\":[{\"action\":\"HORIZON-CL5-2027-01-D1-13 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"24000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112922\":[{\"action\":\"HORIZON-CL5-2027-01-D1-12 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":5,\"minContribution\":5000000,\"maxContribution\":5000000,\"budgetYearMap\":{\"2027\":\"25000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112925\":[{\"action\":\"HORIZON-CL5-2027-01-D1-10 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":5000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112924\":[{\"action\":\"HORIZON-CL5-2027-01-D1-09 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"9000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112926\":[{\"action\":\"HORIZON-CL5-2027-01-D1-07 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":6000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}]}}"
+    ],
     "startDate": [
      "2026-11-17T00:00:00.000+0000"
     ],
@@ -30781,26 +30801,6 @@
     ],
     "status": [
      "31094501"
-    ],
-    "title": [
-     "Understanding and avoiding maladaptation to climate change"
-    ],
-    "programmeDivision": [
-     "43108390",
-     "43108541",
-     "43120821",
-     "43120830"
-    ],
-    "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "SSH",
-     "AI"
-    ],
-    "typesOfAction": [
-     "HORIZON  Research and Innovation Actions"
-    ],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112921\":[{\"action\":\"HORIZON-CL5-2027-01-D1-11 - HORIZON-COFUND HORIZON Programme Cofund Actions\",\"expectedGrants\":1,\"minContribution\":15000000,\"maxContribution\":15000000,\"budgetYearMap\":{\"2027\":\"15000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112920\":[{\"action\":\"HORIZON-CL5-2027-01-D1-08 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"14000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112923\":[{\"action\":\"HORIZON-CL5-2027-01-D1-13 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"24000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112922\":[{\"action\":\"HORIZON-CL5-2027-01-D1-12 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":5,\"minContribution\":5000000,\"maxContribution\":5000000,\"budgetYearMap\":{\"2027\":\"25000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112925\":[{\"action\":\"HORIZON-CL5-2027-01-D1-10 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":5000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112924\":[{\"action\":\"HORIZON-CL5-2027-01-D1-09 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"9000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112926\":[{\"action\":\"HORIZON-CL5-2027-01-D1-07 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":6000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}]}}"
     ]
    }
   },
@@ -30818,6 +30818,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "Africa-EU CO-FUND action on climate"
+    ],
     "type": [
      "1"
     ],
@@ -30833,13 +30836,31 @@
     "identifier": [
      "HORIZON-CL5-2027-01-D1-11"
     ],
+    "programmeDivision": [
+     "43108390",
+     "43108541",
+     "43120821",
+     "43120830"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "DigitalAgenda",
+     "Africa",
+     "INCO"
+    ],
     "programmePeriod": [
      "2021 - 2027"
     ],
     "deadlineDate": [
      "2027-03-04T00:00:00.000+0000"
     ],
+    "typesOfAction": [
+     "HORIZON Programme Cofund Actions"
+    ],
     "tags": [],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112921\":[{\"action\":\"HORIZON-CL5-2027-01-D1-11 - HORIZON-COFUND HORIZON Programme Cofund Actions\",\"expectedGrants\":1,\"minContribution\":15000000,\"maxContribution\":15000000,\"budgetYearMap\":{\"2027\":\"15000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112920\":[{\"action\":\"HORIZON-CL5-2027-01-D1-08 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"14000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112923\":[{\"action\":\"HORIZON-CL5-2027-01-D1-13 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"24000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112922\":[{\"action\":\"HORIZON-CL5-2027-01-D1-12 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":5,\"minContribution\":5000000,\"maxContribution\":5000000,\"budgetYearMap\":{\"2027\":\"25000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112925\":[{\"action\":\"HORIZON-CL5-2027-01-D1-10 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":5000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112924\":[{\"action\":\"HORIZON-CL5-2027-01-D1-09 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"9000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112926\":[{\"action\":\"HORIZON-CL5-2027-01-D1-07 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":6000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}]}}"
+    ],
     "startDate": [
      "2026-11-17T00:00:00.000+0000"
     ],
@@ -30848,27 +30869,6 @@
     ],
     "status": [
      "31094501"
-    ],
-    "title": [
-     "Africa-EU CO-FUND action on climate"
-    ],
-    "programmeDivision": [
-     "43108390",
-     "43108541",
-     "43120821",
-     "43120830"
-    ],
-    "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "Africa",
-     "AI",
-     "INCO"
-    ],
-    "typesOfAction": [
-     "HORIZON Programme Cofund Actions"
-    ],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112921\":[{\"action\":\"HORIZON-CL5-2027-01-D1-11 - HORIZON-COFUND HORIZON Programme Cofund Actions\",\"expectedGrants\":1,\"minContribution\":15000000,\"maxContribution\":15000000,\"budgetYearMap\":{\"2027\":\"15000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112920\":[{\"action\":\"HORIZON-CL5-2027-01-D1-08 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"14000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112923\":[{\"action\":\"HORIZON-CL5-2027-01-D1-13 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"24000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112922\":[{\"action\":\"HORIZON-CL5-2027-01-D1-12 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":5,\"minContribution\":5000000,\"maxContribution\":5000000,\"budgetYearMap\":{\"2027\":\"25000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112925\":[{\"action\":\"HORIZON-CL5-2027-01-D1-10 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":5000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112924\":[{\"action\":\"HORIZON-CL5-2027-01-D1-09 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"9000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112926\":[{\"action\":\"HORIZON-CL5-2027-01-D1-07 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":6000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}]}}"
     ]
    }
   },
@@ -30886,6 +30886,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "Better understanding and attribution of land and ocean carbon sources and sinks"
+    ],
     "type": [
      "1"
     ],
@@ -30901,13 +30904,34 @@
     "identifier": [
      "HORIZON-CL5-2027-01-D1-12"
     ],
+    "programmeDivision": [
+     "43108390",
+     "43108541",
+     "43120821",
+     "43120830"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "LAC",
+     "EoscAndFairData",
+     "DigitalAgenda",
+     "Africa",
+     "INCO",
+     "OCEAN"
+    ],
     "programmePeriod": [
      "2021 - 2027"
     ],
     "deadlineDate": [
      "2027-03-04T00:00:00.000+0000"
     ],
+    "typesOfAction": [
+     "HORIZON  Research and Innovation Actions"
+    ],
     "tags": [],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112921\":[{\"action\":\"HORIZON-CL5-2027-01-D1-11 - HORIZON-COFUND HORIZON Programme Cofund Actions\",\"expectedGrants\":1,\"minContribution\":15000000,\"maxContribution\":15000000,\"budgetYearMap\":{\"2027\":\"15000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112920\":[{\"action\":\"HORIZON-CL5-2027-01-D1-08 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"14000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112923\":[{\"action\":\"HORIZON-CL5-2027-01-D1-13 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"24000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112922\":[{\"action\":\"HORIZON-CL5-2027-01-D1-12 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":5,\"minContribution\":5000000,\"maxContribution\":5000000,\"budgetYearMap\":{\"2027\":\"25000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112925\":[{\"action\":\"HORIZON-CL5-2027-01-D1-10 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":5000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112924\":[{\"action\":\"HORIZON-CL5-2027-01-D1-09 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"9000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112926\":[{\"action\":\"HORIZON-CL5-2027-01-D1-07 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":6000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}]}}"
+    ],
     "startDate": [
      "2026-11-17T00:00:00.000+0000"
     ],
@@ -30916,30 +30940,6 @@
     ],
     "status": [
      "31094501"
-    ],
-    "title": [
-     "Better understanding and attribution of land and ocean carbon sources and sinks"
-    ],
-    "programmeDivision": [
-     "43108390",
-     "43108541",
-     "43120821",
-     "43120830"
-    ],
-    "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "Africa",
-     "AI",
-     "LAC",
-     "OCEAN",
-     "EoscAndFairData",
-     "INCO"
-    ],
-    "typesOfAction": [
-     "HORIZON  Research and Innovation Actions"
-    ],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112921\":[{\"action\":\"HORIZON-CL5-2027-01-D1-11 - HORIZON-COFUND HORIZON Programme Cofund Actions\",\"expectedGrants\":1,\"minContribution\":15000000,\"maxContribution\":15000000,\"budgetYearMap\":{\"2027\":\"15000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112920\":[{\"action\":\"HORIZON-CL5-2027-01-D1-08 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":2,\"minContribution\":7000000,\"maxContribution\":7000000,\"budgetYearMap\":{\"2027\":\"14000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112923\":[{\"action\":\"HORIZON-CL5-2027-01-D1-13 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":4000000,\"maxContribution\":4000000,\"budgetYearMap\":{\"2027\":\"24000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112922\":[{\"action\":\"HORIZON-CL5-2027-01-D1-12 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":5,\"minContribution\":5000000,\"maxContribution\":5000000,\"budgetYearMap\":{\"2027\":\"25000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112925\":[{\"action\":\"HORIZON-CL5-2027-01-D1-10 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":5000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112924\":[{\"action\":\"HORIZON-CL5-2027-01-D1-09 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"9000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}],\"112926\":[{\"action\":\"HORIZON-CL5-2027-01-D1-07 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":3,\"minContribution\":6000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"18000000\"},\"plannedOpeningDate\":\"2026-11-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-04\"]}]}}"
     ]
    }
   },
@@ -30983,10 +30983,10 @@
     ],
     "crossCuttingPriorities": [
      "CHINA",
-     "EoscAndFairData",
-     "SSH",
      "DigitalAgenda",
+     "SSH",
      "AI",
+     "EoscAndFairData",
      "INCO"
     ],
     "programmePeriod": [
@@ -51223,195 +51223,6 @@
    }
   },
   {
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-EUROHPC-2026-NAPT-11-01",
-   "reference": "52255623TOPICSen",
-   "metadata": {
-    "es_SortDate": [
-     "2026-08-13T00:00:00.000+0000"
-    ],
-    "keywords": [
-     "HORIZON-JU-EUROHPC-2026-NAPT-11-01",
-     "HORIZON-JU-EUROHPC-2026-NAPT-11",
-     "Quantum Technologies (e.g. computing and communication)"
-    ],
-    "language": [
-     "en"
-    ],
-    "title": [
-     "Neutral-Atom Platform Technologies"
-    ],
-    "type": [
-     "1"
-    ],
-    "callIdentifier": [
-     "HORIZON-JU-EUROHPC-2026-NAPT-11"
-    ],
-    "callTitle": [
-     "Neutral-Atom Platform Technologies"
-    ],
-    "frameworkProgramme": [
-     "43108390"
-    ],
-    "identifier": [
-     "HORIZON-JU-EUROHPC-2026-NAPT-11-01"
-    ],
-    "programmeDivision": [
-     "43108541",
-     "43108390",
-     "43120193"
-    ],
-    "crossCuttingPriorities": [],
-    "programmePeriod": [
-     "2021 - 2027"
-    ],
-    "deadlineDate": [
-     "2026-11-17T00:00:00.000+0000"
-    ],
-    "typesOfAction": [
-     "HORIZON JU Research and Innovation Actions"
-    ],
-    "tags": [],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2026\"],\"budgetTopicActionMap\":{\"115306\":[{\"action\":\"HORIZON-JU-EUROHPC-2026-NAPT-11-01 - HORIZON-JU-RIA HORIZON JU Research and Innovation Actions\",\"expectedGrants\":1,\"minContribution\":19000000,\"maxContribution\":20000000,\"budgetYearMap\":{\"2026\":\"20000000\"},\"plannedOpeningDate\":\"2026-08-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2026-11-17\"]}]}}"
-    ],
-    "startDate": [
-     "2026-08-13T00:00:00.000+0000"
-    ],
-    "deadlineModel": [
-     "single-stage"
-    ],
-    "status": [
-     "31094502"
-    ]
-   }
-  },
-  {
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-EUROHPC-2026-NQKD-12-01",
-   "reference": "52271561TOPICSen",
-   "metadata": {
-    "es_SortDate": [
-     "2026-08-13T00:00:00.000+0000"
-    ],
-    "keywords": [
-     "HORIZON-JU-EUROHPC-2026-NQKD-12-01",
-     "HORIZON-JU-EUROHPC-2026-NQKD-12",
-     "Quantum Key Distribution (QKD)",
-     "Quantum Technologies (e.g. computing and communication)"
-    ],
-    "language": [
-     "en"
-    ],
-    "title": [
-     "Next-Generation QKD Systems"
-    ],
-    "type": [
-     "1"
-    ],
-    "callIdentifier": [
-     "HORIZON-JU-EUROHPC-2026-NQKD-12"
-    ],
-    "callTitle": [
-     "Next-Generation QKD Systems"
-    ],
-    "frameworkProgramme": [
-     "43108390"
-    ],
-    "identifier": [
-     "HORIZON-JU-EUROHPC-2026-NQKD-12-01"
-    ],
-    "programmeDivision": [
-     "43120193",
-     "43108541",
-     "43108390"
-    ],
-    "crossCuttingPriorities": [],
-    "programmePeriod": [
-     "2021 - 2027"
-    ],
-    "deadlineDate": [
-     "2026-11-17T00:00:00.000+0000"
-    ],
-    "typesOfAction": [
-     "HORIZON JU Research and Innovation Actions"
-    ],
-    "tags": [],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2026\"],\"budgetTopicActionMap\":{\"115351\":[{\"action\":\"HORIZON-JU-EUROHPC-2026-NQKD-12-01 - HORIZON-JU-RIA HORIZON JU Research and Innovation Actions\",\"expectedGrants\":1,\"minContribution\":21000000,\"maxContribution\":24000000,\"budgetYearMap\":{\"2026\":\"24000000\"},\"plannedOpeningDate\":\"2026-08-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2026-11-17\"]}]}}"
-    ],
-    "startDate": [
-     "2026-08-13T00:00:00.000+0000"
-    ],
-    "deadlineModel": [
-     "single-stage"
-    ],
-    "status": [
-     "31094502"
-    ]
-   }
-  },
-  {
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-EUROHPC-2026-QEXP-14-01",
-   "reference": "52210456TOPICSen",
-   "metadata": {
-    "es_SortDate": [
-     "2026-08-13T00:00:00.000+0000"
-    ],
-    "keywords": [
-     "HORIZON-JU-EUROHPC-2026-QEXP-14-01",
-     "HORIZON-JU-EUROHPC-2026-QEXP-14"
-    ],
-    "language": [
-     "en"
-    ],
-    "title": [
-     "Quantum Experimental Pilot Lines for Quantum Technologies"
-    ],
-    "type": [
-     "1"
-    ],
-    "callIdentifier": [
-     "HORIZON-JU-EUROHPC-2026-QEXP-14"
-    ],
-    "callTitle": [
-     "Quantum Experimental Pilot Lines for Quantum Technologies"
-    ],
-    "frameworkProgramme": [
-     "43108390"
-    ],
-    "identifier": [
-     "HORIZON-JU-EUROHPC-2026-QEXP-14-01"
-    ],
-    "programmeDivision": [
-     "43120193",
-     "43108541",
-     "43108390"
-    ],
-    "crossCuttingPriorities": [],
-    "programmePeriod": [
-     "2021 - 2027"
-    ],
-    "deadlineDate": [
-     "2026-11-17T00:00:00.000+0000"
-    ],
-    "typesOfAction": [
-     "HORIZON JU Research and Innovation Actions"
-    ],
-    "tags": [],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2026\"],\"budgetTopicActionMap\":{\"115303\":[{\"action\":\"HORIZON-JU-EUROHPC-2026-QEXP-14-01 - HORIZON-JU-RIA HORIZON JU Research and Innovation Actions\",\"expectedGrants\":1,\"minContribution\":14000000,\"maxContribution\":15000000,\"budgetYearMap\":{\"2026\":\"15000000\"},\"plannedOpeningDate\":\"2026-08-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2026-11-17\"]}]}}"
-    ],
-    "startDate": [
-     "2026-08-13T00:00:00.000+0000"
-    ],
-    "deadlineModel": [
-     "single-stage"
-    ],
-    "status": [
-     "31094502"
-    ]
-   }
-  },
-  {
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-EUROHPC-2026-QML-07-01",
    "reference": "51348921TOPICSen",
    "metadata": {
@@ -51464,192 +51275,6 @@
     ],
     "startDate": [
      "2026-06-02T00:00:00.000+0000"
-    ],
-    "deadlineModel": [
-     "single-stage"
-    ],
-    "status": [
-     "31094502"
-    ]
-   }
-  },
-  {
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-EUROHPC-2026-QTI-13-01",
-   "reference": "52247349TOPICSen",
-   "metadata": {
-    "es_SortDate": [
-     "2026-08-13T00:00:00.000+0000"
-    ],
-    "keywords": [
-     "HORIZON-JU-EUROHPC-2026-QTI-13-01",
-     "HORIZON-JU-EUROHPC-2026-QTI-13"
-    ],
-    "language": [
-     "en"
-    ],
-    "title": [
-     "Quantum-Testing Infrastructure for Quantum Technologies"
-    ],
-    "type": [
-     "1"
-    ],
-    "callIdentifier": [
-     "HORIZON-JU-EUROHPC-2026-QTI-13"
-    ],
-    "callTitle": [
-     "Quantum-Testing Infrastructure for Quantum Technologies"
-    ],
-    "frameworkProgramme": [
-     "43108390"
-    ],
-    "identifier": [
-     "HORIZON-JU-EUROHPC-2026-QTI-13-01"
-    ],
-    "programmeDivision": [
-     "43120193",
-     "43108541",
-     "43108390"
-    ],
-    "crossCuttingPriorities": [],
-    "programmePeriod": [
-     "2021 - 2027"
-    ],
-    "deadlineDate": [
-     "2026-11-17T00:00:00.000+0000"
-    ],
-    "typesOfAction": [
-     "HORIZON JU Research and Innovation Actions"
-    ],
-    "tags": [],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2026\"],\"budgetTopicActionMap\":{\"115722\":[{\"action\":\"HORIZON-JU-EUROHPC-2026-QTI-13-01 - HORIZON-JU-RIA HORIZON JU Research and Innovation Actions\",\"expectedGrants\":1,\"minContribution\":19000000,\"maxContribution\":20000000,\"budgetYearMap\":{\"2026\":\"20000000\"},\"plannedOpeningDate\":\"2026-08-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2026-11-17\"]}]}}"
-    ],
-    "startDate": [
-     "2026-08-13T00:00:00.000+0000"
-    ],
-    "deadlineModel": [
-     "single-stage"
-    ],
-    "status": [
-     "31094502"
-    ]
-   }
-  },
-  {
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-EUROHPC-2026-SPT-10-01",
-   "reference": "52210430TOPICSen",
-   "metadata": {
-    "es_SortDate": [
-     "2026-08-13T00:00:00.000+0000"
-    ],
-    "keywords": [
-     "HORIZON-JU-EUROHPC-2026-SPT-10-01",
-     "HORIZON-JU-EUROHPC-2026-SPT-10"
-    ],
-    "language": [
-     "en"
-    ],
-    "title": [
-     "Superconducting Platform Technologies"
-    ],
-    "type": [
-     "1"
-    ],
-    "callIdentifier": [
-     "HORIZON-JU-EUROHPC-2026-SPT-10"
-    ],
-    "callTitle": [
-     "Superconducting Platform Technologies"
-    ],
-    "frameworkProgramme": [
-     "43108390"
-    ],
-    "identifier": [
-     "HORIZON-JU-EUROHPC-2026-SPT-10-01"
-    ],
-    "programmeDivision": [
-     "43120193",
-     "43108541",
-     "43108390"
-    ],
-    "crossCuttingPriorities": [],
-    "programmePeriod": [
-     "2021 - 2027"
-    ],
-    "deadlineDate": [
-     "2026-11-17T00:00:00.000+0000"
-    ],
-    "typesOfAction": [
-     "HORIZON JU Research and Innovation Actions"
-    ],
-    "tags": [],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2026\"],\"budgetTopicActionMap\":{\"115302\":[{\"action\":\"HORIZON-JU-EUROHPC-2026-SPT-10-01 - HORIZON-JU-RIA HORIZON JU Research and Innovation Actions\",\"expectedGrants\":1,\"minContribution\":19000000,\"maxContribution\":20000000,\"budgetYearMap\":{\"2026\":\"20000000\"},\"plannedOpeningDate\":\"2026-08-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2026-11-17\"]}]}}"
-    ],
-    "startDate": [
-     "2026-08-13T00:00:00.000+0000"
-    ],
-    "deadlineModel": [
-     "single-stage"
-    ],
-    "status": [
-     "31094502"
-    ]
-   }
-  },
-  {
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-EUROHPC-2026-TIPT-09-01",
-   "reference": "52210416TOPICSen",
-   "metadata": {
-    "es_SortDate": [
-     "2026-08-13T00:00:00.000+0000"
-    ],
-    "keywords": [
-     "HORIZON-JU-EUROHPC-2026-TIPT-09-01",
-     "HORIZON-JU-EUROHPC-2026-TIPT-09"
-    ],
-    "language": [
-     "en"
-    ],
-    "title": [
-     "Trapped-Ion Platform Technologies"
-    ],
-    "type": [
-     "1"
-    ],
-    "callIdentifier": [
-     "HORIZON-JU-EUROHPC-2026-TIPT-09"
-    ],
-    "callTitle": [
-     "Trapped-Ion Platform Technologies"
-    ],
-    "frameworkProgramme": [
-     "43108390"
-    ],
-    "identifier": [
-     "HORIZON-JU-EUROHPC-2026-TIPT-09-01"
-    ],
-    "programmeDivision": [
-     "43120193",
-     "43108541",
-     "43108390"
-    ],
-    "crossCuttingPriorities": [],
-    "programmePeriod": [
-     "2021 - 2027"
-    ],
-    "deadlineDate": [
-     "2026-11-17T00:00:00.000+0000"
-    ],
-    "typesOfAction": [
-     "HORIZON JU Research and Innovation Actions"
-    ],
-    "tags": [],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2026\"],\"budgetTopicActionMap\":{\"115301\":[{\"action\":\"HORIZON-JU-EUROHPC-2026-TIPT-09-01 - HORIZON-JU-RIA HORIZON JU Research and Innovation Actions\",\"expectedGrants\":1,\"minContribution\":19000000,\"maxContribution\":20000000,\"budgetYearMap\":{\"2026\":\"20000000\"},\"plannedOpeningDate\":\"2026-08-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2026-11-17\"]}]}}"
-    ],
-    "startDate": [
-     "2026-08-13T00:00:00.000+0000"
     ],
     "deadlineModel": [
      "single-stage"
