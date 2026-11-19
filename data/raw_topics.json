@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-18T03:06:38Z",
+ "fetched_at": "2026-11-19T03:07:12Z",
  "source": "https://api.tech.ec.europa.eu/search-api/prod/rest/search",
  "query": {
   "bool": {
@@ -22,8 +22,8 @@
    ]
   }
  },
- "total_results": 982,
- "topic_count": 981,
+ "total_results": 989,
+ "topic_count": 988,
  "topics": [
   {
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CEF-DIG-2026-CABLE-REPAIR-CAPACITIES-WORKS",
@@ -7910,6 +7910,97 @@
    }
   },
   {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-EMJM-DESIGN",
+   "reference": "52740317TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-11-19T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-EDU-2027-EMJM-DESIGN",
+     "ERASMUS-EDU-2027-EMJM-DESIGN"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Erasmus Mundus Design Measures"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-EDU-2027-EMJM-DESIGN"
+    ],
+    "callTitle": [
+     "Erasmus Mundus Design Measures"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-EDU-2027-EMJM-DESIGN"
+    ],
+    "programmeDivision": [
+     "43431382"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "DigitalAgenda"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-02-16T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "EHEA",
+     "EMDM",
+     "EMJM",
+     "HEI",
+     "Joint Masters",
+     "course",
+     "courses",
+     "degree",
+     "degrees",
+     "design measure",
+     "double degree",
+     "erasmus mundus",
+     "european approach",
+     "european higher education area",
+     "higher education institution",
+     "higher education institutions",
+     "integrated programme",
+     "integrated programmes",
+     "joint degree",
+     "joint degrees",
+     "joint master",
+     "joint programme",
+     "joint programmes",
+     "new partnership",
+     "quality assurance",
+     "study period",
+     "study periods"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"116062\":[{\"action\":\"ERASMUS-EDU-2027-EMJM-DESIGN - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-19\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-16\"]}]}}"
+    ],
+    "startDate": [
+     "2026-11-19T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094502"
+    ]
+   }
+  },
+  {
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-EUR-UNIV",
    "reference": "52762960TOPICSen",
    "metadata": {
@@ -7978,6 +8069,501 @@
     ],
     "status": [
      "31094502"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-PEX-EMJM-MOB",
+   "reference": "52740251TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-11-19T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-EDU-2027-PEX-EMJM-MOB",
+     "ERASMUS-EDU-2027-PEX-EMJM-MOB"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Erasmus Mundus Joint Masters"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-EDU-2027-PEX-EMJM-MOB"
+    ],
+    "callTitle": [
+     "Erasmus Mundus Joint Masters"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-EDU-2027-PEX-EMJM-MOB"
+    ],
+    "programmeDivision": [
+     "43431369"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "DigitalAgenda"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-02-16T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS EMJM Unit Grants"
+    ],
+    "tags": [
+     "Course",
+     "Courses",
+     "Degree",
+     "Degrees",
+     "Design measures",
+     "Double degree",
+     "Double degrees",
+     "EHEA",
+     "EMDM",
+     "EMJM",
+     "Erasmus Mundus",
+     "European Approach",
+     "European Higher Education Area",
+     "Graduates",
+     "Guest lecturers",
+     "HEI",
+     "Higher education institution",
+     "Higher education institutions",
+     "Integrated programme",
+     "Joint degree",
+     "Joint degrees",
+     "Joint master",
+     "Joint masters",
+     "Joint programme",
+     "Joint programmes",
+     "Joint study programme",
+     "Joint study programmes",
+     "Master",
+     "Masters",
+     "Mobility",
+     "Multiple degree",
+     "Multiple degrees",
+     "New partnership",
+     "New partnerships",
+     "Quality assurance",
+     "Scholars",
+     "Scholarship",
+     "Scholarships",
+     "Skills",
+     "Student",
+     "Students",
+     "Study period",
+     "Study periods",
+     "upskilling"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"116061\":[{\"action\":\"ERASMUS-EDU-2027-PEX-EMJM-MOB - ERASMUS-EMJM-UN ERASMUS EMJM Unit Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"164621400\"},\"plannedOpeningDate\":\"2026-11-19\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-16\"]}]}}"
+    ],
+    "startDate": [
+     "2026-11-19T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-SPORT-2027-CB",
+   "reference": "53294913TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-12-17T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-SPORT-2027-CB",
+     "ERASMUS-SPORT-2027-CB",
+     "Objct 1 - Raising the capacity of grassroots sport organisations",
+     "Objct 2 - Encouraging the practice of sport and physical activity in Third countries not associated to the Programme",
+     "Objct 3 - Promoting social inclusion through sport",
+     "Objct 4 - Promoting positive values through sport (such as fair play, tolerance, team spirit)",
+     "Objct 5 - Fostering cooperation across different regions of the world through joint initiatives",
+     "Theme 1 - Promotion of common values, non-discrimination and gender equality through sport",
+     "Theme 2 - Development of skills (though sport) needed to improve the social involvement of disadvantaged groups (e.g. independence, leadership etc.)",
+     "Theme 3 - Integration of migrants",
+     "Theme 4 - Post-conflict reconciliation"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "ERASMUS-SPORT-2027-CB - Capacity Building in the Field of Sport"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-SPORT-2027-CB"
+    ],
+    "callTitle": [
+     "Capacity Building in the Field of Sport"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-SPORT-2027-CB"
+    ],
+    "programmeDivision": [
+     "43441760"
+    ],
+    "crossCuttingPriorities": [
+     "DigitalAgenda",
+     "AI"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-03-09T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "CB",
+     "Capacity Building",
+     "Capacity building in the field of sport",
+     "Erasmus+",
+     "SPORT",
+     "Sport"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117281\":[{\"action\":\"ERASMUS-SPORT-2027-CB - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"2620000\"},\"plannedOpeningDate\":\"2026-12-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-09\"]}]}}"
+    ],
+    "startDate": [
+     "2026-12-17T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-SPORT-2027-LSSNCESE",
+   "reference": "53050046TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-11-24T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-SPORT-2027-LSSNCESE",
+     "ERASMUS-SPORT-2027-LSSNCESE",
+     "Discrimination in sport",
+     "Encouraging healthy lifestyle for all",
+     "Integrity and positive values in sport",
+     "Social Inclusion",
+     "Voluntary activities in sport"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Large scale not-for-profit European sport event"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-SPORT-2027-LSSNCESE"
+    ],
+    "callTitle": [
+     "Large scale not-for-profit European sport event"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-SPORT-2027-LSSNCESE"
+    ],
+    "programmeDivision": [
+     "43441786"
+    ],
+    "crossCuttingPriorities": [
+     "DigitalAgenda",
+     "AI"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-01-19T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Project Grants"
+    ],
+    "tags": [
+     "European-wide sport event",
+     "Inclusion of people with disabilities",
+     "Inclusion through sport",
+     "Large-scale sport event"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"116861\":[{\"action\":\"ERASMUS-SPORT-2027-LSSNCESE - ERASMUS-PJG ERASMUS Project Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-11-24\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-01-19\"]}]}}"
+    ],
+    "startDate": [
+     "2026-11-24T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-SPORT-2027-SCP",
+   "reference": "53346112TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-12-17T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-SPORT-2027-SCP",
+     "ERASMUS-SPORT-2027",
+     "Anti-doping (incl. in recreational sport)",
+     "Discrimination in sport",
+     "Dual careers of athletes",
+     "Education and skills development through sport",
+     "Employability through sport",
+     "European Week of Sport",
+     "Gender equality in sport",
+     "Good governance  in sport",
+     "Grassroots sport",
+     "Health-enhancing physical activity",
+     "Integrity and positive values in sport",
+     "Match-fixing",
+     "Mobility in sport",
+     "Prevention of harassment, abuse and violence in Sport",
+     "Quality coaching in sport",
+     "Racism and intolerance in sport",
+     "Skill development in sport",
+     "Social inclusion in and through sport (i.a. of disabled people, migrants, vulnerable groups)",
+     "Sport",
+     "Violence in sport",
+     "Voluntary activities in sport"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Cooperation Partnerships"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-SPORT-2027"
+    ],
+    "callTitle": [
+     "SPORT 2027"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-SPORT-2027-SCP"
+    ],
+    "programmeDivision": [
+     "43434104"
+    ],
+    "crossCuttingPriorities": [
+     "DigitalAgenda",
+     "AI"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-03-09T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117321\":[{\"action\":\"ERASMUS-SPORT-2027-SSCP - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"69243000\"},\"plannedOpeningDate\":\"2026-12-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-09\"]},{\"action\":\"ERASMUS-SPORT-2027-SCP - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"69243000\"},\"plannedOpeningDate\":\"2026-12-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-09\"]}]}}"
+    ],
+    "startDate": [
+     "2026-12-17T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-SPORT-2027-SNCESE",
+   "reference": "52968501TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-11-24T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-SPORT-2027-SNCESE",
+     "ERASMUS-SPORT-2027-SNCESE",
+     "Discrimination in sport",
+     "European Week of Sport",
+     "Gender equality in sport",
+     "Health-enhancing physical activity",
+     "Social inclusion in and through sport (i.a. of disabled people, migrants, vulnerable groups)",
+     "Voluntary activities in sport"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Not-for-profit European sport events"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-SPORT-2027-SNCESE"
+    ],
+    "callTitle": [
+     "Not-for-profit European sport events"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-SPORT-2027-SNCESE"
+    ],
+    "programmeDivision": [
+     "43434175"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "DigitalAgenda"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-01-19T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"116641\":[{\"action\":\"ERASMUS-SPORT-2027-SNCESE - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"12000000\"},\"plannedOpeningDate\":\"2026-11-24\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-01-19\"]}]}}"
+    ],
+    "startDate": [
+     "2026-11-24T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-SPORT-2027-SSCP",
+   "reference": "53346144TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-12-17T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-SPORT-2027-SSCP",
+     "ERASMUS-SPORT-2027",
+     "Discrimination in sport",
+     "Dual careers of athletes",
+     "Education and skills development through sport",
+     "Employability through sport",
+     "European Week of Sport",
+     "Gender equality in sport",
+     "Good governance  in sport",
+     "Grassroots sport",
+     "Health-enhancing physical activity",
+     "Integrity and positive values in sport",
+     "Match-fixing",
+     "Mobility in sport",
+     "Prevention of harassment, abuse and violence in Sport",
+     "Quality coaching in sport",
+     "Racism and intolerance in sport",
+     "Skill development in sport",
+     "Social inclusion in and through sport (i.a. of disabled people, migrants, vulnerable groups)",
+     "Sport",
+     "Violence in sport"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Small-scale Partnerships"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-SPORT-2027"
+    ],
+    "callTitle": [
+     "SPORT 2027"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-SPORT-2027-SSCP"
+    ],
+    "programmeDivision": [
+     "43434170"
+    ],
+    "crossCuttingPriorities": [
+     "DigitalAgenda",
+     "AI"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-03-09T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117321\":[{\"action\":\"ERASMUS-SPORT-2027-SSCP - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"69243000\"},\"plannedOpeningDate\":\"2026-12-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-09\"]},{\"action\":\"ERASMUS-SPORT-2027-SCP - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"69243000\"},\"plannedOpeningDate\":\"2026-12-17\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-09\"]}]}}"
+    ],
+    "startDate": [
+     "2026-12-17T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
     ]
    }
   },
@@ -44657,7 +45243,8 @@
     "programmeDivision": [
      "43121682",
      "43121666",
-     "43121633"
+     "43121633",
+     "43108390"
     ],
     "crossCuttingPriorities": [],
     "programmePeriod": [
@@ -44671,8 +45258,8 @@
     ],
     "tags": [
      "STEP-Biotech",
-     "STEP-Cleantech",
-     "STEP-Digital/deep tech"
+     "STEP-Digital/deep tech",
+     "STEP-Cleantech"
     ],
     "budgetOverview": [
      "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"115968\":[{\"action\":\"HORIZON-EIC-2027-STEP - HORIZON-EIC-EQU HORIZON EIC Equity Only\",\"expectedGrants\":30,\"minContribution\":10000000,\"maxContribution\":30000000,\"budgetYearMap\":{\"2027\":\"290000000\"},\"plannedOpeningDate\":\"2026-11-18\",\"deadlineModel\":\"continuous\",\"deadlineDates\":[\"2027-11-24\"]}]}}"
@@ -44682,7 +45269,7 @@
     ],
     "deadlineModel": [],
     "status": [
-     "31094501"
+     "31094502"
     ]
    }
   },
