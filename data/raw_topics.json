@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T03:00:51Z",
+ "fetched_at": "2026-11-21T03:01:44Z",
  "source": "https://api.tech.ec.europa.eu/search-api/prod/rest/search",
  "query": {
   "bool": {
@@ -22,8 +22,8 @@
    ]
   }
  },
- "total_results": 988,
- "topic_count": 987,
+ "total_results": 997,
+ "topic_count": 996,
  "topics": [
   {
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CEF-DIG-2026-CABLE-REPAIR-CAPACITIES-WORKS",
@@ -7910,6 +7910,484 @@
    }
   },
   {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-CB-VET-CA",
+   "reference": "53498805TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2027-02-09T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-EDU-2027-CB-VET-CA",
+     "ERASMUS-EDU-2027-CB-VET",
+     "Active labour market policies",
+     "Capacity of VET providers",
+     "Curriculum design and development",
+     "Key competences",
+     "Management and governance of VET system",
+     "Mobility in Vocational Education & Training (VET)",
+     "Training of trainers (multiplication)",
+     "Training programme",
+     "VET",
+     "Vocational Education and Training (VET)",
+     "apprenticeships",
+     "digital"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Capacity building in VET in Caribbean"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-EDU-2027-CB-VET"
+    ],
+    "callTitle": [
+     "Capacity building in the field of Vocational Education and Training (VET)"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-EDU-2027-CB-VET-CA"
+    ],
+    "programmeDivision": [
+     "43431406"
+    ],
+    "crossCuttingPriorities": [
+     "DigitalAgenda",
+     "AI"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-05-12T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "Capacity building",
+     "Caribbeans",
+     "Erasmus+",
+     "Vocational education and training"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117585\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-LA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117584\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"7900000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117586\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-CA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"300000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117581\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-WB - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"5750000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117583\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"8000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117582\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-NE - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3800000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}]}}"
+    ],
+    "startDate": [
+     "2027-02-09T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-CB-VET-LA",
+   "reference": "53498831TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2027-02-09T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-EDU-2027-CB-VET-LA",
+     "ERASMUS-EDU-2027-CB-VET",
+     "Active labour market policies",
+     "Capacity of VET providers",
+     "Curriculum design and development",
+     "Key competences",
+     "Management and governance of VET system",
+     "Mobility in Vocational Education & Training (VET)",
+     "Training of trainers (multiplication)",
+     "Training programme",
+     "VET",
+     "Vocational Education and Training (VET)",
+     "apprenticeships",
+     "digital"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Capacity building in VET in Latin America"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-EDU-2027-CB-VET"
+    ],
+    "callTitle": [
+     "Capacity building in the field of Vocational Education and Training (VET)"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-EDU-2027-CB-VET-LA"
+    ],
+    "programmeDivision": [
+     "43431406"
+    ],
+    "crossCuttingPriorities": [
+     "DigitalAgenda",
+     "AI"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-05-12T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "Capacity building",
+     "Erasmus+",
+     "Latin America",
+     "VET"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117585\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-LA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117584\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"7900000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117586\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-CA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"300000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117581\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-WB - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"5750000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117583\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"8000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117582\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-NE - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3800000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}]}}"
+    ],
+    "startDate": [
+     "2027-02-09T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-CB-VET-NE",
+   "reference": "53498857TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2027-02-09T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-EDU-2027-CB-VET-NE",
+     "ERASMUS-EDU-2027-CB-VET",
+     "Active labour market policies",
+     "Capacity of VET providers",
+     "Curriculum design and development",
+     "Key competences",
+     "Management and governance of VET system",
+     "Mobility in Vocational Education & Training (VET)",
+     "Training of trainers (multiplication)",
+     "Training programme",
+     "VET teachers",
+     "apprenticeships",
+     "digital"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Capacity building in VET in Neighborhood East"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-EDU-2027-CB-VET"
+    ],
+    "callTitle": [
+     "Capacity building in the field of Vocational Education and Training (VET)"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-EDU-2027-CB-VET-NE"
+    ],
+    "programmeDivision": [
+     "43431406"
+    ],
+    "crossCuttingPriorities": [
+     "DigitalAgenda",
+     "AI"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-05-12T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "CB VET",
+     "Capacity building",
+     "Erasmus +",
+     "Neighborhood East"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117585\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-LA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117584\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"7900000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117586\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-CA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"300000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117581\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-WB - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"5750000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117583\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"8000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117582\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-NE - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3800000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}]}}"
+    ],
+    "startDate": [
+     "2027-02-09T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-CB-VET-SMC",
+   "reference": "53498882TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2027-02-09T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-EDU-2027-CB-VET-SMC",
+     "ERASMUS-EDU-2027-CB-VET",
+     "Active labour market policies",
+     "Capacity of VET providers",
+     "Curriculum design and development",
+     "Key competences",
+     "Management and governance of VET system",
+     "Mobility in Vocational Education & Training (VET)",
+     "Training of trainers (multiplication)",
+     "Training programme",
+     "VET teachers",
+     "apprenticeships",
+     "digital"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Capacity building in VET in South Mediterranean Countries"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-EDU-2027-CB-VET"
+    ],
+    "callTitle": [
+     "Capacity building in the field of Vocational Education and Training (VET)"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-EDU-2027-CB-VET-SMC"
+    ],
+    "programmeDivision": [
+     "43431406"
+    ],
+    "crossCuttingPriorities": [
+     "DigitalAgenda",
+     "AI"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-05-12T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "CB VET",
+     "Capacity building",
+     "Erasmus+",
+     "South Mediterranean countries",
+     "VET"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117585\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-LA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117584\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"7900000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117586\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-CA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"300000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117581\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-WB - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"5750000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117583\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"8000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117582\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-NE - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3800000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}]}}"
+    ],
+    "startDate": [
+     "2027-02-09T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-CB-VET-SSA",
+   "reference": "53498908TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2027-02-09T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-EDU-2027-CB-VET-SSA",
+     "ERASMUS-EDU-2027-CB-VET",
+     "Active labour market policies",
+     "Capacity of VET providers",
+     "Curriculum design and development",
+     "Key competences",
+     "Management and governance of VET system",
+     "Mobility in Vocational Education & Training (VET)",
+     "Training of trainers (multiplication)",
+     "Training programme",
+     "VET teachers",
+     "apprenticeships",
+     "digital"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Capacity building in VET in Sub-Saharan Africa"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-EDU-2027-CB-VET"
+    ],
+    "callTitle": [
+     "Capacity building in the field of Vocational Education and Training (VET)"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-EDU-2027-CB-VET-SSA"
+    ],
+    "programmeDivision": [
+     "43431406"
+    ],
+    "crossCuttingPriorities": [
+     "DigitalAgenda",
+     "AI"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-05-12T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "Capacity building",
+     "Erasmus+",
+     "Sub-Saharan Africa",
+     "VET"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117585\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-LA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117584\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"7900000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117586\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-CA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"300000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117581\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-WB - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"5750000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117583\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"8000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117582\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-NE - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3800000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}]}}"
+    ],
+    "startDate": [
+     "2027-02-09T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-CB-VET-WB",
+   "reference": "53498933TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2027-02-09T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-EDU-2027-CB-VET-WB",
+     "ERASMUS-EDU-2027-CB-VET",
+     "Active labour market policies",
+     "Curriculum design and development",
+     "Identification of skills needs",
+     "Key competences",
+     "Links between VET system and labour market",
+     "Mobility in Vocational Education & Training (VET)",
+     "Skills & competences",
+     "Training programme",
+     "Vocational Education and Training (VET)",
+     "apprenticeships",
+     "digital",
+     "work-based learning"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Capacity building in VET in Western Balkans"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-EDU-2027-CB-VET"
+    ],
+    "callTitle": [
+     "Capacity building in the field of Vocational Education and Training (VET)"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-EDU-2027-CB-VET-WB"
+    ],
+    "programmeDivision": [
+     "43431406"
+    ],
+    "crossCuttingPriorities": [
+     "DigitalAgenda",
+     "AI"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-05-12T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "Capacity building",
+     "Erasmus+",
+     "VET",
+     "Western Balkans"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117585\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-LA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117584\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"7900000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117586\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-CA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"300000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117581\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-WB - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"5750000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117583\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"8000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117582\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-NE - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3800000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}]}}"
+    ],
+    "startDate": [
+     "2027-02-09T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-EMJM-DESIGN",
    "reference": "52740317TOPICSen",
    "metadata": {
@@ -8073,6 +8551,177 @@
    }
   },
   {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-PEX-COVE-TOP1",
+   "reference": "53488661TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2027-06-08T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-EDU-2027-PEX-COVE-TOP1",
+     "ERASMUS-EDU-2027-PEX-COVE",
+     "Education and skills development through sport",
+     "Education-enterprises partnerships",
+     "IT skills and competence",
+     "Identification of skills needs",
+     "Initial Vocational Education & Training (VET)",
+     "Knowledge triangle between education",
+     "Links between VET system and labour market",
+     "New employement profiles and identification of skills",
+     "School education",
+     "Secondary Upper Education / VET",
+     "Secondary education and vocational education and training",
+     "Skills & competences",
+     "Vocational Education and Training (VET)",
+     "digital skills",
+     "entrepreneurial skills",
+     "green skills",
+     "innovation in education",
+     "skills intelligence"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Centres of Vocational Excellence"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-EDU-2027-PEX-COVE"
+    ],
+    "callTitle": [
+     "Centres of Vocational Excellence"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-EDU-2027-PEX-COVE-TOP1"
+    ],
+    "programmeDivision": [
+     "43433688"
+    ],
+    "crossCuttingPriorities": [
+     "DigitalAgenda",
+     "AI"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-09-16T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "COVE",
+     "Centres of Vocational Excellence",
+     "Erasmus+",
+     "Skills",
+     "VET",
+     "Vocational training"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117541\":[{\"action\":\"ERASMUS-EDU-2027-PEX-COVE-TOP2 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"1500000\"},\"plannedOpeningDate\":\"2027-06-08\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-09-16\"]}],\"117542\":[{\"action\":\"ERASMUS-EDU-2027-PEX-COVE-TOP1 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"73000000\"},\"plannedOpeningDate\":\"2027-06-08\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-09-16\"]}]}}"
+    ],
+    "startDate": [
+     "2027-06-08T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-PEX-COVE-TOP2",
+   "reference": "53488696TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2027-06-08T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-EDU-2027-PEX-COVE-TOP2",
+     "ERASMUS-EDU-2027-PEX-COVE",
+     "Capacity of VET providers",
+     "Communities of practices",
+     "Identification of skills needs",
+     "Links between VET system and labour market",
+     "Management and governance of VET system",
+     "Networks and exchanges of good practice",
+     "New employement profiles and identification of skills",
+     "Secondary Upper Education / VET",
+     "Skills & competences",
+     "VET",
+     "digital skills",
+     "green skills",
+     "reskilling",
+     "upskilling"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Community of practice"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-EDU-2027-PEX-COVE"
+    ],
+    "callTitle": [
+     "Centres of Vocational Excellence"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-EDU-2027-PEX-COVE-TOP2"
+    ],
+    "programmeDivision": [
+     "43433688"
+    ],
+    "crossCuttingPriorities": [
+     "DigitalAgenda",
+     "AI"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-09-16T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "COVE",
+     "Centres of Vocational Excellence",
+     "Community of practices",
+     "Erasmus+",
+     "VET"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117541\":[{\"action\":\"ERASMUS-EDU-2027-PEX-COVE-TOP2 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"1500000\"},\"plannedOpeningDate\":\"2027-06-08\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-09-16\"]}],\"117542\":[{\"action\":\"ERASMUS-EDU-2027-PEX-COVE-TOP1 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"73000000\"},\"plannedOpeningDate\":\"2027-06-08\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-09-16\"]}]}}"
+    ],
+    "startDate": [
+     "2027-06-08T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-PEX-EMJM-MOB",
    "reference": "52740251TOPICSen",
    "metadata": {
@@ -8177,6 +8826,77 @@
     ],
     "status": [
      "31094502"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-PEX-TEACH-ACA",
+   "reference": "53295353TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-12-09T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-EDU-2027-PEX-TEACH-ACA",
+     "ERASMUS-EDU-2027-PEX-TEACH-ACA"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Erasmus + Teacher Academies"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-EDU-2027-PEX-TEACH-ACA"
+    ],
+    "callTitle": [
+     "Erasmus+ Teacher Academies"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-EDU-2027-PEX-TEACH-ACA"
+    ],
+    "programmeDivision": [
+     "43431401"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "DigitalAgenda"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-02-23T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "Teacher Education Institutions",
+     "Teacher training",
+     "continuous teacher training",
+     "initial teacher education",
+     "schools",
+     "skills and competences for teachers",
+     "teacher education"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117301\":[{\"action\":\"ERASMUS-EDU-2027-PEX-TEACH-ACA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"37500000\"},\"plannedOpeningDate\":\"2026-12-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-23\"]}]}}"
+    ],
+    "startDate": [
+     "2026-12-09T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
     ]
    }
   },
@@ -31159,11 +31879,11 @@
      "43120830"
     ],
     "crossCuttingPriorities": [
-     "AI",
-     "LAC",
      "DigitalAgenda",
+     "INCO",
      "Africa",
-     "INCO"
+     "LAC",
+     "AI"
     ],
     "programmePeriod": [
      "2021 - 2027"
@@ -31185,7 +31905,7 @@
      "single-stage"
     ],
     "status": [
-     "31094501"
+     "31094502"
     ]
    }
   },
@@ -31228,9 +31948,9 @@
      "43120830"
     ],
     "crossCuttingPriorities": [
-     "AI",
      "DigitalAgenda",
-     "OCEAN"
+     "OCEAN",
+     "AI"
     ],
     "programmePeriod": [
      "2021 - 2027"
@@ -31252,7 +31972,7 @@
      "single-stage"
     ],
     "status": [
-     "31094501"
+     "31094502"
     ]
    }
   },
@@ -31295,9 +32015,9 @@
      "43120830"
     ],
     "crossCuttingPriorities": [
-     "AI",
      "SSH",
-     "DigitalAgenda"
+     "DigitalAgenda",
+     "AI"
     ],
     "programmePeriod": [
      "2021 - 2027"
@@ -31319,7 +32039,7 @@
      "single-stage"
     ],
     "status": [
-     "31094501"
+     "31094502"
     ]
    }
   },
@@ -31362,9 +32082,9 @@
      "43120830"
     ],
     "crossCuttingPriorities": [
-     "AI",
      "SSH",
-     "DigitalAgenda"
+     "DigitalAgenda",
+     "AI"
     ],
     "programmePeriod": [
      "2021 - 2027"
@@ -31386,7 +32106,7 @@
      "single-stage"
     ],
     "status": [
-     "31094501"
+     "31094502"
     ]
    }
   },
@@ -31429,10 +32149,10 @@
      "43120830"
     ],
     "crossCuttingPriorities": [
-     "AI",
      "DigitalAgenda",
+     "INCO",
      "Africa",
-     "INCO"
+     "AI"
     ],
     "programmePeriod": [
      "2021 - 2027"
@@ -31454,7 +32174,7 @@
      "single-stage"
     ],
     "status": [
-     "31094501"
+     "31094502"
     ]
    }
   },
@@ -31497,13 +32217,13 @@
      "43120830"
     ],
     "crossCuttingPriorities": [
-     "AI",
-     "LAC",
-     "EoscAndFairData",
      "DigitalAgenda",
-     "Africa",
      "INCO",
-     "OCEAN"
+     "Africa",
+     "OCEAN",
+     "LAC",
+     "AI",
+     "EoscAndFairData"
     ],
     "programmePeriod": [
      "2021 - 2027"
@@ -31525,7 +32245,7 @@
      "single-stage"
     ],
     "status": [
-     "31094501"
+     "31094502"
     ]
    }
   },
@@ -31568,12 +32288,12 @@
      "43120830"
     ],
     "crossCuttingPriorities": [
-     "CHINA",
      "DigitalAgenda",
+     "INCO",
      "SSH",
-     "AI",
+     "CHINA",
      "EoscAndFairData",
-     "INCO"
+     "AI"
     ],
     "programmePeriod": [
      "2021 - 2027"
@@ -31595,7 +32315,7 @@
      "single-stage"
     ],
     "status": [
-     "31094501"
+     "31094502"
     ]
    }
   },
