@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-24T03:08:11Z",
+ "fetched_at": "2026-11-25T03:17:12Z",
  "source": "https://api.tech.ec.europa.eu/search-api/prod/rest/search",
  "query": {
   "bool": {
@@ -22,8 +22,8 @@
    ]
   }
  },
- "total_results": 1001,
- "topic_count": 1000,
+ "total_results": 999,
+ "topic_count": 998,
  "topics": [
   {
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CEF-DIG-2026-CABLE-REPAIR-CAPACITIES-WORKS",
@@ -57815,71 +57815,6 @@
    }
   },
   {
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2026-DN-01-01",
-   "reference": "50220812TOPICSen",
-   "metadata": {
-    "es_SortDate": [
-     "2026-05-28T00:00:00.000+0000"
-    ],
-    "keywords": [
-     "HORIZON-MSCA-2026-DN-01-01",
-     "HORIZON-MSCA-2026-DN-01"
-    ],
-    "language": [
-     "en"
-    ],
-    "type": [
-     "1"
-    ],
-    "callIdentifier": [
-     "HORIZON-MSCA-2026-DN-01"
-    ],
-    "callTitle": [
-     "MSCA Doctoral Networks 2026"
-    ],
-    "frameworkProgramme": [
-     "43108390"
-    ],
-    "identifier": [
-     "HORIZON-MSCA-2026-DN-01-01"
-    ],
-    "programmePeriod": [
-     "2021 - 2027"
-    ],
-    "deadlineDate": [
-     "2026-11-24T00:00:00.000+0000"
-    ],
-    "tags": [],
-    "startDate": [
-     "2026-05-28T00:00:00.000+0000"
-    ],
-    "deadlineModel": [
-     "single-stage"
-    ],
-    "status": [
-     "31094502"
-    ],
-    "title": [
-     "MSCA Doctoral Networks 2026"
-    ],
-    "programmeDivision": [
-     "43108486",
-     "43108473",
-     "43108394",
-     "43108390"
-    ],
-    "crossCuttingPriorities": [],
-    "typesOfAction": [
-     "HORIZON TMA MSCA Doctoral Networks",
-     "HORIZON TMA MSCA Doctoral Networks - Joint Doctorates",
-     "HORIZON TMA MSCA Doctoral Networks - Industrial Doctorates"
-    ],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2026\"],\"budgetTopicActionMap\":{\"113402\":[{\"action\":\"HORIZON-MSCA-2026-DN-01-01 - HORIZON-TMA-MSCA-DN HORIZON TMA MSCA Doctoral Networks\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2026\":\"628033846\"},\"plannedOpeningDate\":\"2026-05-28\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2026-11-24\"]},{\"action\":\"HORIZON-MSCA-2026-DN-01-01 - HORIZON-TMA-MSCA-DN-JD HORIZON TMA MSCA Doctoral Networks - Joint Doctorates\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2026\":\"628033846\"},\"plannedOpeningDate\":\"2026-05-28\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2026-11-24\"]},{\"action\":\"HORIZON-MSCA-2026-DN-01-01 - HORIZON-TMA-MSCA-DN-ID HORIZON TMA MSCA Doctoral Networks - Industrial Doctorates\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2026\":\"628033846\"},\"plannedOpeningDate\":\"2026-05-28\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2026-11-24\"]}]}}"
-    ]
-   }
-  },
-  {
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-CITIZENS-01-01",
    "reference": "50143142TOPICSen",
    "metadata": {
@@ -60931,75 +60866,6 @@
     ],
     "budgetOverview": [
      "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"113230\":[{\"action\":\"HORIZON-NEB-2027-02-NEB-SOIL-01 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":2,\"minContribution\":7500000,\"maxContribution\":7500000,\"budgetYearMap\":{\"2027\":\"15000000\"},\"plannedOpeningDate\":\"2027-05-05\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-09-15\"]}]}}"
-    ]
-   }
-  },
-  {
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-RAISE-2026-01-03",
-   "reference": "50220831TOPICSen",
-   "metadata": {
-    "es_SortDate": [
-     "2026-05-28T00:00:00.000+0000"
-    ],
-    "keywords": [
-     "HORIZON-RAISE-2026-01-03",
-     "HORIZON-RAISE-2026-01-MSCA"
-    ],
-    "language": [
-     "en"
-    ],
-    "title": [
-     "RAISE Doctoral Networks for AI in Science (RAISE pilot)"
-    ],
-    "type": [
-     "1"
-    ],
-    "callIdentifier": [
-     "HORIZON-RAISE-2026-01-MSCA"
-    ],
-    "callTitle": [
-     "RAISE Doctoral Networks for AI in Science"
-    ],
-    "frameworkProgramme": [
-     "43108390"
-    ],
-    "identifier": [
-     "HORIZON-RAISE-2026-01-03"
-    ],
-    "programmeDivision": [
-     "43120193",
-     "43108541",
-     "43108390"
-    ],
-    "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "AI"
-    ],
-    "programmePeriod": [
-     "2021 - 2027"
-    ],
-    "deadlineDate": [
-     "2026-11-24T00:00:00.000+0000"
-    ],
-    "typesOfAction": [
-     "HORIZON TMA MSCA Doctoral Networks",
-     "HORIZON TMA MSCA Doctoral Networks - Joint Doctorates",
-     "HORIZON TMA MSCA Doctoral Networks - Industrial Doctorates"
-    ],
-    "tags": [
-     "AI, RAISE, AI in Science, Doctoral Networks"
-    ],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2026\"],\"budgetTopicActionMap\":{\"113500\":[{\"action\":\"HORIZON-RAISE-2026-01-03 - HORIZON-TMA-MSCA-DN HORIZON TMA MSCA Doctoral Networks\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2026\":\"30000000\"},\"plannedOpeningDate\":\"2026-05-28\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2026-11-24\"]},{\"action\":\"HORIZON-RAISE-2026-01-03 - HORIZON-TMA-MSCA-DN-JD HORIZON TMA MSCA Doctoral Networks - Joint Doctorates\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2026\":\"30000000\"},\"plannedOpeningDate\":\"2026-05-28\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2026-11-24\"]},{\"action\":\"HORIZON-RAISE-2026-01-03 - HORIZON-TMA-MSCA-DN-ID HORIZON TMA MSCA Doctoral Networks - Industrial Doctorates\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2026\":\"30000000\"},\"plannedOpeningDate\":\"2026-05-28\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2026-11-24\"]}]}}"
-    ],
-    "startDate": [
-     "2026-05-28T00:00:00.000+0000"
-    ],
-    "deadlineModel": [
-     "single-stage"
-    ],
-    "status": [
-     "31094502"
     ]
    }
   },
