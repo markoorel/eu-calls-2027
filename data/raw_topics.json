@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-26T03:15:25Z",
+ "fetched_at": "2026-11-27T03:17:48Z",
  "source": "https://api.tech.ec.europa.eu/search-api/prod/rest/search",
  "query": {
   "bool": {
@@ -22,8 +22,8 @@
    ]
   }
  },
- "total_results": 1022,
- "topic_count": 1021,
+ "total_results": 1039,
+ "topic_count": 1038,
  "topics": [
   {
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/CEF-E-2023-PCI-STUDIES.json",
@@ -7894,8 +7894,8 @@
      "43431406"
     ],
     "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "AI"
+     "AI",
+     "DigitalAgenda"
     ],
     "programmePeriod": [
      "2021 - 2027"
@@ -7913,7 +7913,7 @@
      "Vocational education and training"
     ],
     "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117585\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-LA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117584\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"7900000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117586\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-CA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"300000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117581\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-WB - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"5750000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117583\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"8000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117582\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-NE - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3800000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}]}}"
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117585\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-LA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117584\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"7900000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117586\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-CA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"500000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117581\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-WB - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"5750000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117583\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"8000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117582\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-NE - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3600000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}]}}"
     ],
     "startDate": [
      "2027-02-09T00:00:00.000+0000"
@@ -7974,8 +7974,8 @@
      "43431406"
     ],
     "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "AI"
+     "AI",
+     "DigitalAgenda"
     ],
     "programmePeriod": [
      "2021 - 2027"
@@ -7993,7 +7993,7 @@
      "VET"
     ],
     "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117585\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-LA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117584\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"7900000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117586\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-CA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"300000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117581\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-WB - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"5750000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117583\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"8000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117582\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-NE - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3800000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}]}}"
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117585\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-LA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117584\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"7900000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117586\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-CA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"500000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117581\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-WB - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"5750000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117583\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"8000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117582\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-NE - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3600000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}]}}"
     ],
     "startDate": [
      "2027-02-09T00:00:00.000+0000"
@@ -8053,8 +8053,8 @@
      "43431406"
     ],
     "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "AI"
+     "AI",
+     "DigitalAgenda"
     ],
     "programmePeriod": [
      "2021 - 2027"
@@ -8072,7 +8072,7 @@
      "Neighborhood East"
     ],
     "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117585\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-LA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117584\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"7900000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117586\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-CA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"300000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117581\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-WB - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"5750000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117583\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"8000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117582\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-NE - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3800000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}]}}"
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117585\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-LA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117584\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"7900000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117586\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-CA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"500000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117581\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-WB - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"5750000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117583\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"8000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117582\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-NE - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3600000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}]}}"
     ],
     "startDate": [
      "2027-02-09T00:00:00.000+0000"
@@ -8132,8 +8132,8 @@
      "43431406"
     ],
     "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "AI"
+     "AI",
+     "DigitalAgenda"
     ],
     "programmePeriod": [
      "2021 - 2027"
@@ -8152,7 +8152,7 @@
      "VET"
     ],
     "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117585\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-LA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117584\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"7900000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117586\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-CA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"300000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117581\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-WB - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"5750000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117583\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"8000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117582\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-NE - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3800000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}]}}"
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117585\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-LA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117584\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"7900000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117586\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-CA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"500000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117581\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-WB - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"5750000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117583\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"8000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117582\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-NE - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3600000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}]}}"
     ],
     "startDate": [
      "2027-02-09T00:00:00.000+0000"
@@ -8212,8 +8212,8 @@
      "43431406"
     ],
     "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "AI"
+     "AI",
+     "DigitalAgenda"
     ],
     "programmePeriod": [
      "2021 - 2027"
@@ -8231,7 +8231,7 @@
      "VET"
     ],
     "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117585\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-LA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117584\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"7900000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117586\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-CA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"300000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117581\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-WB - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"5750000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117583\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"8000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117582\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-NE - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3800000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}]}}"
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117585\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-LA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117584\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"7900000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117586\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-CA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"500000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117581\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-WB - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"5750000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117583\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"8000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117582\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-NE - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3600000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}]}}"
     ],
     "startDate": [
      "2027-02-09T00:00:00.000+0000"
@@ -8292,8 +8292,8 @@
      "43431406"
     ],
     "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "AI"
+     "AI",
+     "DigitalAgenda"
     ],
     "programmePeriod": [
      "2021 - 2027"
@@ -8311,10 +8311,1253 @@
      "Western Balkans"
     ],
     "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117585\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-LA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117584\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"7900000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117586\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-CA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"300000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117581\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-WB - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"5750000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117583\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"8000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117582\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-NE - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3800000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}]}}"
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117585\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-LA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117584\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"7900000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117586\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-CA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"500000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117581\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-WB - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"5750000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117583\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"8000000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}],\"117582\":[{\"action\":\"ERASMUS-EDU-2027-CB-VET-NE - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3600000\"},\"plannedOpeningDate\":\"2027-02-09\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-05-12\"]}]}}"
     ],
     "startDate": [
      "2027-02-09T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-CBHE-CROSS-REGIONAL",
+   "reference": "53198573TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-12-03T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-EDU-2027-CBHE-CROSS-REGIONAL",
+     "ERASMUS-EDU-2027-CBHE",
+     "Chemistry",
+     "Climate change",
+     "Competitiveness, Innovation, Research & Develop",
+     "Computer sciences - Operating systems (software development only)",
+     "Continuing professional training",
+     "Creation of processes and new forms of cooperation",
+     "Curriculum design and development",
+     "Democratic engagement and civic participation",
+     "Economics",
+     "Education-enterprises partnerships",
+     "Educational policy",
+     "Engineering",
+     "Entrepreneurship",
+     "Environment",
+     "Equal opportunities",
+     "Geology",
+     "Global Gateway",
+     "Global Governance, International Law, Human Rights",
+     "Globalisation, Migration",
+     "Governance and funding of education and training institutions",
+     "HUMANITIES",
+     "Identification of skills needs",
+     "Inclusive Education",
+     "Informal and non formal learning",
+     "Innovation in learning, teaching and assessment practices supported by digital technologies",
+     "Integration and upscaling of digital technologies and media in education",
+     "Life sciences",
+     "Mathematics",
+     "Minority",
+     "Modernisation of Higher Education",
+     "Pedagogical developments (e.g peer/collaborative/blended/shadow learning)",
+     "Physics",
+     "Political systems & Institutions, Governance",
+     "Promotion of employability",
+     "Quality assurance",
+     "Social sciences",
+     "Sustainable Development Goals - Quality Education",
+     "Teacher training and education science",
+     "Using results for policy development (streaming)",
+     "Virtual learning",
+     "continuous learning",
+     "environmental sustainability",
+     "gender equality",
+     "mobility (virtual, physical and blended)",
+     "recognition of qualifications"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Capacity Building in Higher Education: Cross-Regional"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-EDU-2027-CBHE"
+    ],
+    "callTitle": [
+     "Capacity Building in Higher Education"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-EDU-2027-CBHE-CROSS-REGIONAL"
+    ],
+    "programmeDivision": [
+     "49810732"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "DigitalAgenda"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-02-09T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "Capacity Building",
+     "Erasmus+",
+     "Global Gateway",
+     "Higher Education"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117201\":[{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-11 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-10 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-9 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-CROSS-REGIONAL - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-8a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-1 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-2 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-3 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-5a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-6 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-7a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]}]}}"
+    ],
+    "startDate": [
+     "2026-12-03T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-CBHE-REGION-1",
+   "reference": "53198631TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-12-03T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-EDU-2027-CBHE-REGION-1",
+     "ERASMUS-EDU-2027-CBHE",
+     "Chemistry",
+     "Climate change",
+     "Competitiveness, Innovation, Research & Develop",
+     "Computer sciences - Operating systems (software development only)",
+     "Continuing professional training",
+     "Creation of processes and new forms of cooperation",
+     "Curriculum design and development",
+     "Democratic engagement and civic participation",
+     "Economics",
+     "Education-enterprises partnerships",
+     "Educational policy",
+     "Engineering",
+     "Entrepreneurship",
+     "Environment",
+     "Equal opportunities",
+     "Geology",
+     "Global Gateway",
+     "Global Governance, International Law, Human Rights",
+     "Globalisation, Migration",
+     "Governance and funding of education and training institutions",
+     "HUMANITIES",
+     "Identification of skills needs",
+     "Inclusive Education",
+     "Informal and non formal learning",
+     "Innovation in learning, teaching and assessment practices supported by digital technologies",
+     "Integration and upscaling of digital technologies and media in education",
+     "Life sciences",
+     "Mathematics",
+     "Minority",
+     "Modernisation of Higher Education",
+     "Pedagogical developments (e.g peer/collaborative/blended/shadow learning)",
+     "Physics",
+     "Political systems & Institutions, Governance",
+     "Promotion of employability",
+     "Quality assurance",
+     "Social sciences",
+     "Sustainable Development Goals - Quality Education",
+     "Teacher training and education science",
+     "Using results for policy development (streaming)",
+     "Virtual learning",
+     "continuous learning",
+     "environmental sustainability",
+     "gender equality",
+     "mobility (virtual, physical and blended)",
+     "recognition of qualifications"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Capacity Building in Higher Education: Western Balkans"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-EDU-2027-CBHE"
+    ],
+    "callTitle": [
+     "Capacity Building in Higher Education"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-EDU-2027-CBHE-REGION-1"
+    ],
+    "programmeDivision": [
+     "49810682"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "DigitalAgenda"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-02-09T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "Capacity Building",
+     "Erasmus+",
+     "Global Gateway",
+     "Higher Education"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117201\":[{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-11 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-10 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-9 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-CROSS-REGIONAL - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-8a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-1 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-2 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-3 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-5a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-6 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-7a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]}]}}"
+    ],
+    "startDate": [
+     "2026-12-03T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-CBHE-REGION-10",
+   "reference": "53198689TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-12-03T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-EDU-2027-CBHE-REGION-10",
+     "ERASMUS-EDU-2027-CBHE",
+     "Chemistry",
+     "Climate change",
+     "Competitiveness, Innovation, Research & Develop",
+     "Computer sciences - Operating systems (software development only)",
+     "Continuing professional training",
+     "Creation of processes and new forms of cooperation",
+     "Curriculum design and development",
+     "Democratic engagement and civic participation",
+     "Economics",
+     "Education-enterprises partnerships",
+     "Educational policy",
+     "Engineering",
+     "Entrepreneurship",
+     "Environment",
+     "Equal opportunities",
+     "Geology",
+     "Global Gateway",
+     "Global Governance, International Law, Human Rights",
+     "Globalisation, Migration",
+     "Governance and funding of education and training institutions",
+     "HUMANITIES",
+     "Identification of skills needs",
+     "Inclusive Education",
+     "Informal and non formal learning",
+     "Innovation in learning, teaching and assessment practices supported by digital technologies",
+     "Integration and upscaling of digital technologies and media in education",
+     "Life sciences",
+     "Mathematics",
+     "Minority",
+     "Modernisation of Higher Education",
+     "Pedagogical developments (e.g peer/collaborative/blended/shadow learning)",
+     "Physics",
+     "Political systems & Institutions, Governance",
+     "Promotion of employability",
+     "Quality assurance",
+     "Social sciences",
+     "Sustainable Development Goals - Quality Education",
+     "Teacher training and education science",
+     "Using results for policy development (streaming)",
+     "Virtual learning",
+     "continuous learning",
+     "environmental sustainability",
+     "gender equality",
+     "mobility (virtual, physical and blended)",
+     "recognition of qualifications"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Capacity Building in Higher Education: Latin America"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-EDU-2027-CBHE"
+    ],
+    "callTitle": [
+     "Capacity Building in Higher Education"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-EDU-2027-CBHE-REGION-10"
+    ],
+    "programmeDivision": [
+     "49810722"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "DigitalAgenda"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-02-09T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "Capacity Building",
+     "Erasmus+",
+     "Global Gateway",
+     "Higher Education"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117201\":[{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-11 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-10 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-9 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-CROSS-REGIONAL - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-8a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-1 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-2 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-3 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-5a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-6 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-7a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]}]}}"
+    ],
+    "startDate": [
+     "2026-12-03T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-CBHE-REGION-11",
+   "reference": "53198747TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-12-03T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-EDU-2027-CBHE-REGION-11",
+     "ERASMUS-EDU-2027-CBHE",
+     "Chemistry",
+     "Climate change",
+     "Competitiveness, Innovation, Research & Develop",
+     "Computer sciences - Operating systems (software development only)",
+     "Continuing professional training",
+     "Creation of processes and new forms of cooperation",
+     "Curriculum design and development",
+     "Democratic engagement and civic participation",
+     "Economics",
+     "Education-enterprises partnerships",
+     "Educational policy",
+     "Engineering",
+     "Entrepreneurship",
+     "Environment",
+     "Equal opportunities",
+     "Geology",
+     "Global Gateway",
+     "Global Governance, International Law, Human Rights",
+     "Globalisation, Migration",
+     "Governance and funding of education and training institutions",
+     "HUMANITIES",
+     "Identification of skills needs",
+     "Inclusive Education",
+     "Informal and non formal learning",
+     "Innovation in learning, teaching and assessment practices supported by digital technologies",
+     "Integration and upscaling of digital technologies and media in education",
+     "Life sciences",
+     "Mathematics",
+     "Minority",
+     "Modernisation of Higher Education",
+     "Pedagogical developments (e.g peer/collaborative/blended/shadow learning)",
+     "Physics",
+     "Political systems & Institutions, Governance",
+     "Promotion of employability",
+     "Quality assurance",
+     "Social sciences",
+     "Sustainable Development Goals - Quality Education",
+     "Teacher training and education science",
+     "Using results for policy development (streaming)",
+     "Virtual learning",
+     "continuous learning",
+     "environmental sustainability",
+     "gender equality",
+     "mobility (virtual, physical and blended)",
+     "recognition of qualifications"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Capacity Building in Higher Education: Caribbean"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-EDU-2027-CBHE"
+    ],
+    "callTitle": [
+     "Capacity Building in Higher Education"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-EDU-2027-CBHE-REGION-11"
+    ],
+    "programmeDivision": [
+     "49810727"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "DigitalAgenda"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-02-09T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "Capacity Building",
+     "Erasmus+",
+     "Global Gateway",
+     "Higher Education"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117201\":[{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-11 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-10 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-9 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-CROSS-REGIONAL - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-8a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-1 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-2 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-3 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-5a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-6 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-7a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]}]}}"
+    ],
+    "startDate": [
+     "2026-12-03T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-CBHE-REGION-2",
+   "reference": "53198805TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-12-03T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-EDU-2027-CBHE-REGION-2",
+     "ERASMUS-EDU-2027-CBHE",
+     "Chemistry",
+     "Climate change",
+     "Competitiveness, Innovation, Research & Develop",
+     "Computer sciences - Operating systems (software development only)",
+     "Continuing professional training",
+     "Creation of processes and new forms of cooperation",
+     "Curriculum design and development",
+     "Democratic engagement and civic participation",
+     "Economics",
+     "Education-enterprises partnerships",
+     "Educational policy",
+     "Engineering",
+     "Entrepreneurship",
+     "Environment",
+     "Equal opportunities",
+     "Geology",
+     "Global Gateway",
+     "Global Governance, International Law, Human Rights",
+     "Globalisation, Migration",
+     "Governance and funding of education and training institutions",
+     "HUMANITIES",
+     "Identification of skills needs",
+     "Inclusive Education",
+     "Informal and non formal learning",
+     "Innovation in learning, teaching and assessment practices supported by digital technologies",
+     "Integration and upscaling of digital technologies and media in education",
+     "Life sciences",
+     "Mathematics",
+     "Minority",
+     "Modernisation of Higher Education",
+     "Pedagogical developments (e.g peer/collaborative/blended/shadow learning)",
+     "Physics",
+     "Political systems & Institutions, Governance",
+     "Promotion of employability",
+     "Quality assurance",
+     "Social sciences",
+     "Sustainable Development Goals - Quality Education",
+     "Teacher training and education science",
+     "Using results for policy development (streaming)",
+     "Virtual learning",
+     "continuous learning",
+     "environmental sustainability",
+     "gender equality",
+     "mobility (virtual, physical and blended)",
+     "recognition of qualifications"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Capacity Building in Higher Education: Neighbourhood East"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-EDU-2027-CBHE"
+    ],
+    "callTitle": [
+     "Capacity Building in Higher Education"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-EDU-2027-CBHE-REGION-2"
+    ],
+    "programmeDivision": [
+     "49810687"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "DigitalAgenda"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-02-09T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "Capacity Building",
+     "Erasmus+",
+     "Global Gateway",
+     "Higher Education"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117201\":[{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-11 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-10 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-9 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-CROSS-REGIONAL - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-8a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-1 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-2 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-3 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-5a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-6 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-7a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]}]}}"
+    ],
+    "startDate": [
+     "2026-12-03T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-CBHE-REGION-3",
+   "reference": "53198863TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-12-03T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-EDU-2027-CBHE-REGION-3",
+     "ERASMUS-EDU-2027-CBHE",
+     "Chemistry",
+     "Climate change",
+     "Competitiveness, Innovation, Research & Develop",
+     "Computer sciences - Operating systems (software development only)",
+     "Continuing professional training",
+     "Creation of processes and new forms of cooperation",
+     "Curriculum design and development",
+     "Democratic engagement and civic participation",
+     "Economics",
+     "Education-enterprises partnerships",
+     "Educational policy",
+     "Engineering",
+     "Entrepreneurship",
+     "Environment",
+     "Equal opportunities",
+     "Geology",
+     "Global Gateway",
+     "Global Governance, International Law, Human Rights",
+     "Globalisation, Migration",
+     "Governance and funding of education and training institutions",
+     "HUMANITIES",
+     "Identification of skills needs",
+     "Inclusive Education",
+     "Informal and non formal learning",
+     "Innovation in learning, teaching and assessment practices supported by digital technologies",
+     "Integration and upscaling of digital technologies and media in education",
+     "Life sciences",
+     "Mathematics",
+     "Minority",
+     "Modernisation of Higher Education",
+     "Pedagogical developments (e.g peer/collaborative/blended/shadow learning)",
+     "Physics",
+     "Political systems & Institutions, Governance",
+     "Promotion of employability",
+     "Quality assurance",
+     "Social sciences",
+     "Sustainable Development Goals - Quality Education",
+     "Teacher training and education science",
+     "Using results for policy development (streaming)",
+     "Virtual learning",
+     "continuous learning",
+     "environmental sustainability",
+     "gender equality",
+     "mobility (virtual, physical and blended)",
+     "recognition of qualifications"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Capacity Building in Higher Education: South Mediterranean"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-EDU-2027-CBHE"
+    ],
+    "callTitle": [
+     "Capacity Building in Higher Education"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-EDU-2027-CBHE-REGION-3"
+    ],
+    "programmeDivision": [
+     "49810692"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "DigitalAgenda"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-02-09T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "Capacity Building",
+     "Erasmus+",
+     "Global Gateway",
+     "Higher Education"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117201\":[{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-11 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-10 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-9 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-CROSS-REGIONAL - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-8a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-1 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-2 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-3 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-5a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-6 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-7a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]}]}}"
+    ],
+    "startDate": [
+     "2026-12-03T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-CBHE-REGION-5a",
+   "reference": "53198921TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-12-03T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-EDU-2027-CBHE-REGION-5a",
+     "ERASMUS-EDU-2027-CBHE",
+     "Chemistry",
+     "Climate change",
+     "Competitiveness, Innovation, Research & Develop",
+     "Computer sciences - Operating systems (software development only)",
+     "Continuing professional training",
+     "Creation of processes and new forms of cooperation",
+     "Curriculum design and development",
+     "Democratic engagement and civic participation",
+     "Economics",
+     "Education-enterprises partnerships",
+     "Educational policy",
+     "Engineering",
+     "Entrepreneurship",
+     "Environment",
+     "Equal opportunities",
+     "Geology",
+     "Global Gateway",
+     "Global Governance, International Law, Human Rights",
+     "Globalisation, Migration",
+     "Governance and funding of education and training institutions",
+     "HUMANITIES",
+     "Identification of skills needs",
+     "Inclusive Education",
+     "Informal and non formal learning",
+     "Innovation in learning, teaching and assessment practices supported by digital technologies",
+     "Integration and upscaling of digital technologies and media in education",
+     "Life sciences",
+     "Mathematics",
+     "Minority",
+     "Modernisation of Higher Education",
+     "Pedagogical developments (e.g peer/collaborative/blended/shadow learning)",
+     "Physics",
+     "Political systems & Institutions, Governance",
+     "Promotion of employability",
+     "Quality assurance",
+     "Social sciences",
+     "Sustainable Development Goals - Quality Education",
+     "Teacher training and education science",
+     "Using results for policy development (streaming)",
+     "Virtual learning",
+     "continuous learning",
+     "environmental sustainability",
+     "gender equality",
+     "mobility (virtual, physical and blended)",
+     "recognition of qualifications"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Capacity Building in Higher Education: Asia"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-EDU-2027-CBHE"
+    ],
+    "callTitle": [
+     "Capacity Building in Higher Education"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-EDU-2027-CBHE-REGION-5a"
+    ],
+    "programmeDivision": [
+     "49810697"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "DigitalAgenda"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-02-09T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "Capacity Building",
+     "Erasmus+",
+     "Global Gateway",
+     "Higher Education"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117201\":[{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-11 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-10 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-9 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-CROSS-REGIONAL - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-8a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-1 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-2 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-3 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-5a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-6 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-7a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]}]}}"
+    ],
+    "startDate": [
+     "2026-12-03T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-CBHE-REGION-6",
+   "reference": "53198979TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-12-03T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-EDU-2027-CBHE-REGION-6",
+     "ERASMUS-EDU-2027-CBHE",
+     "Chemistry",
+     "Climate change",
+     "Competitiveness, Innovation, Research & Develop",
+     "Computer sciences - Operating systems (software development only)",
+     "Continuing professional training",
+     "Creation of processes and new forms of cooperation",
+     "Curriculum design and development",
+     "Democratic engagement and civic participation",
+     "Economics",
+     "Education-enterprises partnerships",
+     "Educational policy",
+     "Engineering",
+     "Entrepreneurship",
+     "Environment",
+     "Equal opportunities",
+     "Geology",
+     "Global Gateway",
+     "Global Governance, International Law, Human Rights",
+     "Globalisation, Migration",
+     "Governance and funding of education and training institutions",
+     "HUMANITIES",
+     "Identification of skills needs",
+     "Inclusive Education",
+     "Informal and non formal learning",
+     "Innovation in learning, teaching and assessment practices supported by digital technologies",
+     "Integration and upscaling of digital technologies and media in education",
+     "Life sciences",
+     "Mathematics",
+     "Minority",
+     "Modernisation of Higher Education",
+     "Pedagogical developments (e.g peer/collaborative/blended/shadow learning)",
+     "Physics",
+     "Political systems & Institutions, Governance",
+     "Promotion of employability",
+     "Quality assurance",
+     "Social sciences",
+     "Sustainable Development Goals - Quality Education",
+     "Teacher training and education science",
+     "Using results for policy development (streaming)",
+     "Virtual learning",
+     "continuous learning",
+     "environmental sustainability",
+     "gender equality",
+     "mobility (virtual, physical and blended)",
+     "recognition of qualifications"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Capacity Building in Higher Education: Central Asia"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-EDU-2027-CBHE"
+    ],
+    "callTitle": [
+     "Capacity Building in Higher Education"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-EDU-2027-CBHE-REGION-6"
+    ],
+    "programmeDivision": [
+     "49810702"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "DigitalAgenda"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-02-09T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "Capacity Building",
+     "Erasmus+",
+     "Global Gateway",
+     "Higher Education"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117201\":[{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-11 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-10 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-9 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-CROSS-REGIONAL - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-8a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-1 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-2 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-3 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-5a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-6 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-7a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]}]}}"
+    ],
+    "startDate": [
+     "2026-12-03T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-CBHE-REGION-7a",
+   "reference": "53199037TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-12-03T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-EDU-2027-CBHE-REGION-7a",
+     "ERASMUS-EDU-2027-CBHE",
+     "Chemistry",
+     "Climate change",
+     "Competitiveness, Innovation, Research & Develop",
+     "Computer sciences - Operating systems (software development only)",
+     "Continuing professional training",
+     "Creation of processes and new forms of cooperation",
+     "Curriculum design and development",
+     "Democratic engagement and civic participation",
+     "Economics",
+     "Education-enterprises partnerships",
+     "Educational policy",
+     "Engineering",
+     "Entrepreneurship",
+     "Environment",
+     "Equal opportunities",
+     "Geology",
+     "Global Gateway",
+     "Global Governance, International Law, Human Rights",
+     "Globalisation, Migration",
+     "Governance and funding of education and training institutions",
+     "HUMANITIES",
+     "Identification of skills needs",
+     "Inclusive Education",
+     "Informal and non formal learning",
+     "Innovation in learning, teaching and assessment practices supported by digital technologies",
+     "Integration and upscaling of digital technologies and media in education",
+     "Life sciences",
+     "Mathematics",
+     "Minority",
+     "Modernisation of Higher Education",
+     "Pedagogical developments (e.g peer/collaborative/blended/shadow learning)",
+     "Physics",
+     "Political systems & Institutions, Governance",
+     "Promotion of employability",
+     "Quality assurance",
+     "Social sciences",
+     "Sustainable Development Goals - Quality Education",
+     "Teacher training and education science",
+     "Using results for policy development (streaming)",
+     "Virtual learning",
+     "continuous learning",
+     "environmental sustainability",
+     "gender equality",
+     "mobility (virtual, physical and blended)",
+     "recognition of qualifications"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Capacity Building in Higher Education: Middle East"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-EDU-2027-CBHE"
+    ],
+    "callTitle": [
+     "Capacity Building in Higher Education"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-EDU-2027-CBHE-REGION-7a"
+    ],
+    "programmeDivision": [
+     "49810707"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "DigitalAgenda"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-02-09T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "Capacity Building",
+     "Erasmus+",
+     "Global Gateway",
+     "Higher Education"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117201\":[{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-11 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-10 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-9 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-CROSS-REGIONAL - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-8a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-1 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-2 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-3 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-5a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-6 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-7a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]}]}}"
+    ],
+    "startDate": [
+     "2026-12-03T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-CBHE-REGION-8a",
+   "reference": "53199095TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-12-03T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-EDU-2027-CBHE-REGION-8a",
+     "ERASMUS-EDU-2027-CBHE",
+     "Chemistry",
+     "Climate change",
+     "Competitiveness, Innovation, Research & Develop",
+     "Computer sciences - Operating systems (software development only)",
+     "Continuing professional training",
+     "Creation of processes and new forms of cooperation",
+     "Curriculum design and development",
+     "Democratic engagement and civic participation",
+     "Economics",
+     "Education-enterprises partnerships",
+     "Educational policy",
+     "Engineering",
+     "Entrepreneurship",
+     "Environment",
+     "Equal opportunities",
+     "Geology",
+     "Global Gateway",
+     "Global Governance, International Law, Human Rights",
+     "Globalisation, Migration",
+     "Governance and funding of education and training institutions",
+     "HUMANITIES",
+     "Identification of skills needs",
+     "Inclusive Education",
+     "Informal and non formal learning",
+     "Innovation in learning, teaching and assessment practices supported by digital technologies",
+     "Integration and upscaling of digital technologies and media in education",
+     "Life sciences",
+     "Mathematics",
+     "Minority",
+     "Modernisation of Higher Education",
+     "Pedagogical developments (e.g peer/collaborative/blended/shadow learning)",
+     "Physics",
+     "Political systems & Institutions, Governance",
+     "Promotion of employability",
+     "Quality assurance",
+     "Social sciences",
+     "Sustainable Development Goals - Quality Education",
+     "Teacher training and education science",
+     "Using results for policy development (streaming)",
+     "Virtual learning",
+     "continuous learning",
+     "environmental sustainability",
+     "gender equality",
+     "mobility (virtual, physical and blended)",
+     "recognition of qualifications"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Capacity Building in Higher Education: Pacific"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-EDU-2027-CBHE"
+    ],
+    "callTitle": [
+     "Capacity Building in Higher Education"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-EDU-2027-CBHE-REGION-8a"
+    ],
+    "programmeDivision": [
+     "49810712"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "DigitalAgenda"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-02-09T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "Capacity Building",
+     "Erasmus+",
+     "Global Gateway",
+     "Higher Education"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117201\":[{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-11 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-10 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-9 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-CROSS-REGIONAL - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-8a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-1 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-2 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-3 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-5a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-6 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-7a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]}]}}"
+    ],
+    "startDate": [
+     "2026-12-03T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-EDU-2027-CBHE-REGION-9",
+   "reference": "53199153TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-12-03T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-EDU-2027-CBHE-REGION-9",
+     "ERASMUS-EDU-2027-CBHE",
+     "Chemistry",
+     "Climate change",
+     "Competitiveness, Innovation, Research & Develop",
+     "Computer sciences - Operating systems (software development only)",
+     "Continuing professional training",
+     "Creation of processes and new forms of cooperation",
+     "Curriculum design and development",
+     "Democratic engagement and civic participation",
+     "Economics",
+     "Education-enterprises partnerships",
+     "Educational policy",
+     "Engineering",
+     "Entrepreneurship",
+     "Environment",
+     "Equal opportunities",
+     "Geology",
+     "Global Gateway",
+     "Global Governance, International Law, Human Rights",
+     "Globalisation, Migration",
+     "Governance and funding of education and training institutions",
+     "HUMANITIES",
+     "Identification of skills needs",
+     "Inclusive Education",
+     "Informal and non formal learning",
+     "Innovation in learning, teaching and assessment practices supported by digital technologies",
+     "Integration and upscaling of digital technologies and media in education",
+     "Life sciences",
+     "Mathematics",
+     "Minority",
+     "Modernisation of Higher Education",
+     "Pedagogical developments (e.g peer/collaborative/blended/shadow learning)",
+     "Physics",
+     "Political systems & Institutions, Governance",
+     "Promotion of employability",
+     "Quality assurance",
+     "Social sciences",
+     "Sustainable Development Goals - Quality Education",
+     "Teacher training and education science",
+     "Using results for policy development (streaming)",
+     "Virtual learning",
+     "continuous learning",
+     "environmental sustainability",
+     "gender equality",
+     "mobility (virtual, physical and blended)",
+     "recognition of qualifications"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Capacity Building in Higher Education: Sub-Saharan Africa"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-EDU-2027-CBHE"
+    ],
+    "callTitle": [
+     "Capacity Building in Higher Education"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-EDU-2027-CBHE-REGION-9"
+    ],
+    "programmeDivision": [
+     "49810717"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "DigitalAgenda"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-02-09T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "Capacity Building",
+     "Erasmus+",
+     "Global Gateway",
+     "Higher Education"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"117201\":[{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-11 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-10 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-9 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-CROSS-REGIONAL - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-8a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-1 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-2 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-3 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-5a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-6 - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]},{\"action\":\"ERASMUS-EDU-2027-CBHE-REGION-7a - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"106050000\"},\"plannedOpeningDate\":\"2026-12-03\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-09\"]}]}}"
+    ],
+    "startDate": [
+     "2026-12-03T00:00:00.000+0000"
     ],
     "deadlineModel": [
      "single-stage"
@@ -9849,6 +11092,82 @@
    }
   },
   {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-JMO-2027-OFET-LEARNING-EU",
+   "reference": "53096851TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-11-26T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-JMO-2027-OFET-LEARNING-EU",
+     "ERASMUS-JMO-2027-OFET-LEARNING-EU",
+     "Active citizenship",
+     "Cultural Studies, Cultural Diversity",
+     "Democratic engagement and civic participation",
+     "EU values",
+     "Erasmus+",
+     "European history, Remembrance and European Citizenship",
+     "New skills and competences for teachers",
+     "Primary education",
+     "School education",
+     "Secondary Upper Education / VET",
+     "VET teachers",
+     "digital skills",
+     "green skills"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Jean Monnet Actions for other fields of Education and Training: Learning EU"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-JMO-2027-OFET-LEARNING-EU"
+    ],
+    "callTitle": [
+     "Jean Monnet Actions in other fields of Education and Training: Learning EU"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-JMO-2027-OFET-LEARNING-EU"
+    ],
+    "programmeDivision": [
+     "43441735"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "DigitalAgenda"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-02-03T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"116901\":[{\"action\":\"ERASMUS-JMO-2027-OFET-LEARNING-EU - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3900000\"},\"plannedOpeningDate\":\"2026-11-26\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-03\"]}]}}"
+    ],
+    "startDate": [
+     "2026-11-26T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094502"
+    ]
+   }
+  },
+  {
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-JMO-2027-OFET-TT",
    "reference": "53099729TOPICSen",
    "metadata": {
@@ -10309,6 +11628,515 @@
     ],
     "startDate": [
      "2026-12-17T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-YOUTH-2027-CB-NE",
+   "reference": "52867142TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-12-02T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-YOUTH-2027-CB-NE",
+     "ERASMUS-YOUTH-2027-CB",
+     "Civil society organisations",
+     "Democratic engagement and civic participation",
+     "Environment",
+     "Inclusion of people with fewer opportunities",
+     "Informal and non formal learning",
+     "Media literacy",
+     "Performing arts",
+     "Training and learning within the context of Youth work",
+     "Youth empowerment",
+     "Youth engagement",
+     "Youth participation",
+     "digital skills",
+     "green skills",
+     "mobility (virtual, physical and blended)"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Capacity Building in the field of Youth in Neighborhood East"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-YOUTH-2027-CB"
+    ],
+    "callTitle": [
+     "Capacity Building in the field of Youth"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-YOUTH-2027-CB-NE"
+    ],
+    "programmeDivision": [
+     "43431286"
+    ],
+    "crossCuttingPriorities": [
+     "DigitalAgenda",
+     "AI"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-03-02T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "Capacity Building",
+     "Eastern Partnership Countries",
+     "NGOs",
+     "Youth"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"116224\":[{\"action\":\"ERASMUS-YOUTH-2027-CB-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"9000000\"},\"plannedOpeningDate\":\"2026-12-02\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-02\"]}],\"116221\":[{\"action\":\"ERASMUS-YOUTH-2027-CB-WB - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-12-02\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-02\"]}],\"116223\":[{\"action\":\"ERASMUS-YOUTH-2027-CB-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-12-02\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-02\"]}],\"116222\":[{\"action\":\"ERASMUS-YOUTH-2027-CB-NE - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"2900000\"},\"plannedOpeningDate\":\"2026-12-02\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-02\"]}]}}"
+    ],
+    "startDate": [
+     "2026-12-02T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-YOUTH-2027-CB-SMC",
+   "reference": "52867084TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-12-02T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-YOUTH-2027-CB-SMC",
+     "ERASMUS-YOUTH-2027-CB",
+     "Civil society organisations",
+     "Democratic engagement and civic participation",
+     "Environment",
+     "Inclusion of people with fewer opportunities",
+     "Informal and non formal learning",
+     "Media literacy",
+     "Performing arts",
+     "Training and learning within the context of Youth work",
+     "Youth empowerment",
+     "Youth engagement",
+     "Youth participation",
+     "digital skills",
+     "green skills",
+     "mobility (virtual, physical and blended)"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Capacity Building in the field of Youth in South Mediterranean Countries"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-YOUTH-2027-CB"
+    ],
+    "callTitle": [
+     "Capacity Building in the field of Youth"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-YOUTH-2027-CB-SMC"
+    ],
+    "programmeDivision": [
+     "43431303"
+    ],
+    "crossCuttingPriorities": [
+     "DigitalAgenda",
+     "AI"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-03-02T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "Capacity Building",
+     "NGOs",
+     "South Mediterranean Countries",
+     "Youth"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"116224\":[{\"action\":\"ERASMUS-YOUTH-2027-CB-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"9000000\"},\"plannedOpeningDate\":\"2026-12-02\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-02\"]}],\"116221\":[{\"action\":\"ERASMUS-YOUTH-2027-CB-WB - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-12-02\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-02\"]}],\"116223\":[{\"action\":\"ERASMUS-YOUTH-2027-CB-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-12-02\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-02\"]}],\"116222\":[{\"action\":\"ERASMUS-YOUTH-2027-CB-NE - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"2900000\"},\"plannedOpeningDate\":\"2026-12-02\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-02\"]}]}}"
+    ],
+    "startDate": [
+     "2026-12-02T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-YOUTH-2027-CB-SSA",
+   "reference": "52867055TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-12-02T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-YOUTH-2027-CB-SSA",
+     "ERASMUS-YOUTH-2027-CB",
+     "Civil society organisations",
+     "Democratic engagement and civic participation",
+     "Environment",
+     "Inclusion of people with fewer opportunities",
+     "Informal and non formal learning",
+     "Media literacy",
+     "Performing arts",
+     "Training and learning within the context of Youth work",
+     "Youth empowerment",
+     "Youth engagement",
+     "Youth participation",
+     "digital skills",
+     "green skills",
+     "mobility (virtual, physical and blended)"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Capacity Building in the field of Youth in Sub-Saharan Africa"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-YOUTH-2027-CB"
+    ],
+    "callTitle": [
+     "Capacity Building in the field of Youth"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-YOUTH-2027-CB-SSA"
+    ],
+    "programmeDivision": [
+     "43439896"
+    ],
+    "crossCuttingPriorities": [
+     "DigitalAgenda",
+     "AI"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-03-02T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "Capacity Building",
+     "NGOs",
+     "Sub Saharan Africa Countries",
+     "Youth"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"116224\":[{\"action\":\"ERASMUS-YOUTH-2027-CB-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"9000000\"},\"plannedOpeningDate\":\"2026-12-02\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-02\"]}],\"116221\":[{\"action\":\"ERASMUS-YOUTH-2027-CB-WB - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-12-02\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-02\"]}],\"116223\":[{\"action\":\"ERASMUS-YOUTH-2027-CB-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-12-02\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-02\"]}],\"116222\":[{\"action\":\"ERASMUS-YOUTH-2027-CB-NE - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"2900000\"},\"plannedOpeningDate\":\"2026-12-02\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-02\"]}]}}"
+    ],
+    "startDate": [
+     "2026-12-02T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-YOUTH-2027-CB-WB",
+   "reference": "52867113TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-12-02T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-YOUTH-2027-CB-WB",
+     "ERASMUS-YOUTH-2027-CB",
+     "Civil society organisations",
+     "Democratic engagement and civic participation",
+     "Environment",
+     "Inclusion of people with fewer opportunities",
+     "Informal and non formal learning",
+     "Media literacy",
+     "Performing arts",
+     "Training and learning within the context of Youth work",
+     "Youth empowerment",
+     "Youth engagement",
+     "Youth participation",
+     "digital skills",
+     "green skills",
+     "mobility (virtual, physical and blended)"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Capacity Building in the field of Youth in Western Balkans"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-YOUTH-2027-CB"
+    ],
+    "callTitle": [
+     "Capacity Building in the field of Youth"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-YOUTH-2027-CB-WB"
+    ],
+    "programmeDivision": [
+     "43431272"
+    ],
+    "crossCuttingPriorities": [
+     "DigitalAgenda",
+     "AI"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-03-02T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "Capacity building",
+     "NGO",
+     "Western Balkans countries",
+     "Youth"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"116224\":[{\"action\":\"ERASMUS-YOUTH-2027-CB-SSA - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"9000000\"},\"plannedOpeningDate\":\"2026-12-02\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-02\"]}],\"116221\":[{\"action\":\"ERASMUS-YOUTH-2027-CB-WB - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-12-02\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-02\"]}],\"116223\":[{\"action\":\"ERASMUS-YOUTH-2027-CB-SMC - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-12-02\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-02\"]}],\"116222\":[{\"action\":\"ERASMUS-YOUTH-2027-CB-NE - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"2900000\"},\"plannedOpeningDate\":\"2026-12-02\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-02\"]}]}}"
+    ],
+    "startDate": [
+     "2026-12-02T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-YOUTH-2027-PCOOP-ENGO",
+   "reference": "51346381TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-12-02T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-YOUTH-2027-PCOOP-ENGO",
+     "ERASMUS-YOUTH-2027-PCOOP-ENGO",
+     "Civil society",
+     "Civil society organisations",
+     "Climate change",
+     "Democratic engagement and civic participation",
+     "Democratic participation",
+     "Digital competences",
+     "Digital transformation",
+     "Environment",
+     "Grassroots NGOs",
+     "Green deal",
+     "Inclusion",
+     "Inclusion of people with fewer opportunities",
+     "Local NGOs",
+     "NGO Youth Sector",
+     "NGOs",
+     "Promoting European values including using sport as a means for peace and inclusion",
+     "Social Inclusion",
+     "Social inclusion of refugees",
+     "Youth NGOs",
+     "Youth empowerment",
+     "Youth engagement",
+     "Youth participation",
+     "Youth policy",
+     "Youth political engagement",
+     "Youth representation",
+     "digitalisation"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "Partnerships for Cooperation - Cooperation Partnerships in the field of Youth submitted by European NGOs 2027"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-YOUTH-2027-PCOOP-ENGO"
+    ],
+    "callTitle": [
+     "Partnerships for Cooperation - Cooperation Partnerships in the field of Youth submitted by European NGOs 2027"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-YOUTH-2027-PCOOP-ENGO"
+    ],
+    "programmeDivision": [
+     "43439882"
+    ],
+    "crossCuttingPriorities": [
+     "AI",
+     "DigitalAgenda"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-03-09T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "Cooperation Partnerships European NGOs",
+     "ENGO",
+     "European NGOs",
+     "Partnerships for Cooperation-European NGOs"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"114523\":[{\"action\":\"ERASMUS-YOUTH-2027-PCOOP-ENGO - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2026-12-02\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-09\"]}]}}"
+    ],
+    "startDate": [
+     "2026-12-02T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094501"
+    ]
+   }
+  },
+  {
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/ERASMUS-YOUTH-2027-YOUTH-TOG",
+   "reference": "51348808TOPICSen",
+   "metadata": {
+    "es_SortDate": [
+     "2026-12-02T00:00:00.000+0000"
+    ],
+    "keywords": [
+     "ERASMUS-YOUTH-2027-YOUTH-TOG",
+     "ERASMUS-YOUTH-2027-YOUTH-TOG",
+     "Civil society",
+     "Civil society organisations",
+     "Democratic engagement and civic participation",
+     "Democratic participation",
+     "Grassroots NGOs",
+     "Inclusion of people with fewer opportunities",
+     "Local NGOs",
+     "NGO Youth Sector",
+     "NGOs",
+     "Social Inclusion",
+     "Training and learning within the context of Youth work",
+     "Youth",
+     "Youth NGOs",
+     "Youth empowerment",
+     "Youth engagement",
+     "Youth participation",
+     "Youth policy",
+     "Youth political engagement",
+     "Youth representation"
+    ],
+    "language": [
+     "en"
+    ],
+    "title": [
+     "European Youth Together 2027"
+    ],
+    "type": [
+     "1"
+    ],
+    "callIdentifier": [
+     "ERASMUS-YOUTH-2027-YOUTH-TOG"
+    ],
+    "callTitle": [
+     "European Youth Together 2027"
+    ],
+    "frameworkProgramme": [
+     "43353764"
+    ],
+    "identifier": [
+     "ERASMUS-YOUTH-2027-YOUTH-TOG"
+    ],
+    "programmeDivision": [
+     "46253478"
+    ],
+    "crossCuttingPriorities": [
+     "DigitalAgenda",
+     "AI"
+    ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-03-02T00:00:00.000+0000"
+    ],
+    "typesOfAction": [
+     "ERASMUS Lump Sum Grants"
+    ],
+    "tags": [
+     "Civic participation",
+     "NGOs",
+     "Youth",
+     "Youth Participation"
+    ],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"114524\":[{\"action\":\"ERASMUS-YOUTH-2027-YOUTH-TOG - ERASMUS-LS ERASMUS Lump Sum Grants\",\"expectedGrants\":0,\"minContribution\":0,\"maxContribution\":0,\"budgetYearMap\":{\"2027\":\"9250000\"},\"plannedOpeningDate\":\"2026-12-02\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-03-02\"]}]}}"
+    ],
+    "startDate": [
+     "2026-12-02T00:00:00.000+0000"
     ],
     "deadlineModel": [
      "single-stage"
@@ -41421,109 +43249,6 @@
    }
   },
   {
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2026-04-GOVERNANCE-01",
-   "reference": "50127691TOPICSen",
-   "metadata": {
-    "es_SortDate": [
-     "2026-08-25T00:00:00.000+0000"
-    ],
-    "keywords": [
-     "HORIZON-CL6-2026-04-GOVERNANCE-01",
-     "HORIZON-CL6-2026-04",
-     "Data protection and privacy",
-     "Data value chains",
-     "Digital data",
-     "Digital services",
-     "Digital skills",
-     "Earth Observation / Services and applications",
-     "Technologies and Use Cases Dimension",
-     "Web and information systems, database systems, information retrieval and digital libraries, data fusion"
-    ],
-    "language": [
-     "en"
-    ],
-    "type": [
-     "1"
-    ],
-    "callIdentifier": [
-     "HORIZON-CL6-2026-04"
-    ],
-    "callTitle": [
-     "Call 04 - single stage (2026)"
-    ],
-    "frameworkProgramme": [
-     "43108390"
-    ],
-    "identifier": [
-     "HORIZON-CL6-2026-04-GOVERNANCE-01"
-    ],
-    "programmePeriod": [
-     "2021 - 2027"
-    ],
-    "deadlineDate": [
-     "2026-11-26T00:00:00.000+0000"
-    ],
-    "tags": [
-     "Artificial intelligence",
-     "Copernicus",
-     "Data",
-     "Digital",
-     "Digital transition",
-     "EO",
-     "Earth observation",
-     "FMIS",
-     "Farm management Systems",
-     "Geospatial",
-     "Hi-tech",
-     "Precision farming",
-     "Satellite",
-     "Satellite data",
-     "Smart farming",
-     "common standards",
-     "data aggregation",
-     "data base",
-     "data marketplace",
-     "data storage",
-     "data tools",
-     "geospatial data",
-     "interoperability",
-     "pre-processing",
-     "technology",
-     "training data"
-    ],
-    "startDate": [
-     "2026-08-25T00:00:00.000+0000"
-    ],
-    "deadlineModel": [
-     "single-stage"
-    ],
-    "status": [
-     "31094502"
-    ],
-    "title": [
-     "Additional activities for the European Partnership of Agriculture of Data"
-    ],
-    "programmeDivision": [
-     "43121578",
-     "43121568",
-     "43121563",
-     "43108541",
-     "43108390"
-    ],
-    "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "PART-COFUND",
-     "AI"
-    ],
-    "typesOfAction": [
-     "HORIZON Programme Cofund Actions"
-    ],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2027\",\"2026\"],\"budgetTopicActionMap\":{\"112856\":[{\"action\":\"HORIZON-CL6-2026-04-GOVERNANCE-01 - HORIZON-COFUND HORIZON Programme Cofund Actions\",\"expectedGrants\":1,\"minContribution\":60000000,\"maxContribution\":60000000,\"budgetYearMap\":{\"2026\":\"23000000\",\"2027\":\"37000000\"},\"plannedOpeningDate\":\"2026-08-25\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2026-11-26\"]}]}}"
-    ]
-   }
-  },
-  {
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-01",
    "reference": "50143905TOPICSen",
    "metadata": {
@@ -47689,9 +49414,9 @@
      "HORIZON-EIC-2027-PATHFINDEROPEN-two-stage"
     ],
     "programmeDivision": [
-     "43108390",
      "43121633",
-     "43121666"
+     "43121666",
+     "43108390"
     ],
     "crossCuttingPriorities": [],
     "programmePeriod": [
