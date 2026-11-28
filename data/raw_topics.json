@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-27T03:17:48Z",
+ "fetched_at": "2026-11-28T03:10:29Z",
  "source": "https://api.tech.ec.europa.eu/search-api/prod/rest/search",
  "query": {
   "bool": {
@@ -1476,8 +1476,8 @@
      "43437691"
     ],
     "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "AI"
+     "AI",
+     "DigitalAgenda"
     ],
     "programmePeriod": [
      "2021 - 2027"
@@ -2636,8 +2636,8 @@
      "43435180"
     ],
     "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "AI"
+     "AI",
+     "DigitalAgenda"
     ],
     "programmePeriod": [
      "2021 - 2027"
@@ -10006,8 +10006,8 @@
      "43431369"
     ],
     "crossCuttingPriorities": [
-     "AI",
-     "DigitalAgenda"
+     "DigitalAgenda",
+     "AI"
     ],
     "programmePeriod": [
      "2021 - 2027"
@@ -26286,6 +26286,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "Advanced manufacturing for key products (IA) (Made in Europe partnership)"
+    ],
     "type": [
      "1"
     ],
@@ -26301,13 +26304,30 @@
     "identifier": [
      "HORIZON-CL4-2027-01-MAT-PROD-02"
     ],
+    "programmeDivision": [
+     "43108390",
+     "43108541",
+     "43120193"
+    ],
+    "crossCuttingPriorities": [
+     "DigitalAgenda",
+     "INCO",
+     "PART-COPROGR",
+     "AI"
+    ],
     "programmePeriod": [
      "2021 - 2027"
     ],
     "deadlineDate": [
      "2027-02-02T00:00:00.000+0000"
     ],
+    "typesOfAction": [
+     "HORIZON Innovation Actions"
+    ],
     "tags": [],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112865\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-42 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112864\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":3,\"minContribution\":4000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"16000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112867\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-06 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":7,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112866\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-16 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":10000000,\"maxContribution\":12500000,\"budgetYearMap\":{\"2027\":\"49000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112869\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-02 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":8000000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112868\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112870\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-47 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":2500000,\"budgetYearMap\":{\"2027\":\"5000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"116121\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-50 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"1000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112861\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-17 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112863\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-49 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":24,\"minContribution\":200000,\"maxContribution\":200000,\"budgetYearMap\":{\"2027\":\"4700000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112862\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-22 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":7500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}]}}"
+    ],
     "startDate": [
      "2026-10-13T00:00:00.000+0000"
     ],
@@ -26316,26 +26336,6 @@
     ],
     "status": [
      "31094502"
-    ],
-    "title": [
-     "Advanced manufacturing for key products (IA) (Made in Europe partnership)"
-    ],
-    "programmeDivision": [
-     "43108390",
-     "43108541",
-     "43120193"
-    ],
-    "crossCuttingPriorities": [
-     "INCO",
-     "DigitalAgenda",
-     "AI",
-     "PART-COPROGR"
-    ],
-    "typesOfAction": [
-     "HORIZON Innovation Actions"
-    ],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112865\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-42 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112864\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":3,\"minContribution\":4000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"16000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112867\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-06 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":7,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112866\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-16 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":10000000,\"maxContribution\":12500000,\"budgetYearMap\":{\"2027\":\"49000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112869\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-02 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":8000000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112868\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112870\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-47 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":2500000,\"budgetYearMap\":{\"2027\":\"5000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"116121\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-50 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"1000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112861\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-17 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112863\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-49 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":24,\"minContribution\":200000,\"maxContribution\":200000,\"budgetYearMap\":{\"2027\":\"4700000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112862\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-22 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":7500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}]}}"
     ]
    }
   },
@@ -26353,6 +26353,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "Factory processes and automation for de- and re-manufacturing (RIA) (Made in Europe partnership)"
+    ],
     "type": [
      "1"
     ],
@@ -26368,13 +26371,29 @@
     "identifier": [
      "HORIZON-CL4-2027-01-MAT-PROD-03"
     ],
+    "programmeDivision": [
+     "43108390",
+     "43108541",
+     "43120193"
+    ],
+    "crossCuttingPriorities": [
+     "DigitalAgenda",
+     "PART-COPROGR",
+     "AI"
+    ],
     "programmePeriod": [
      "2021 - 2027"
     ],
     "deadlineDate": [
      "2027-02-02T00:00:00.000+0000"
     ],
+    "typesOfAction": [
+     "HORIZON  Research and Innovation Actions"
+    ],
     "tags": [],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112865\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-42 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112864\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":3,\"minContribution\":4000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"16000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112867\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-06 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":7,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112866\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-16 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":10000000,\"maxContribution\":12500000,\"budgetYearMap\":{\"2027\":\"49000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112869\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-02 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":8000000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112868\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112870\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-47 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":2500000,\"budgetYearMap\":{\"2027\":\"5000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"116121\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-50 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"1000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112861\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-17 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112863\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-49 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":24,\"minContribution\":200000,\"maxContribution\":200000,\"budgetYearMap\":{\"2027\":\"4700000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112862\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-22 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":7500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}]}}"
+    ],
     "startDate": [
      "2026-10-13T00:00:00.000+0000"
     ],
@@ -26383,25 +26402,6 @@
     ],
     "status": [
      "31094502"
-    ],
-    "title": [
-     "Factory processes and automation for de- and re-manufacturing (RIA) (Made in Europe partnership)"
-    ],
-    "programmeDivision": [
-     "43108390",
-     "43108541",
-     "43120193"
-    ],
-    "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "AI",
-     "PART-COPROGR"
-    ],
-    "typesOfAction": [
-     "HORIZON  Research and Innovation Actions"
-    ],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112865\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-42 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112864\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":3,\"minContribution\":4000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"16000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112867\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-06 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":7,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112866\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-16 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":10000000,\"maxContribution\":12500000,\"budgetYearMap\":{\"2027\":\"49000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112869\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-02 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":8000000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112868\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112870\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-47 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":2500000,\"budgetYearMap\":{\"2027\":\"5000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"116121\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-50 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"1000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112861\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-17 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112863\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-49 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":24,\"minContribution\":200000,\"maxContribution\":200000,\"budgetYearMap\":{\"2027\":\"4700000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112862\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-22 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":7500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}]}}"
     ]
    }
   },
@@ -26419,6 +26419,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "Circular innovative advanced materials: facilitating the transition from design to markets (RIA) (Innovative Advanced Materials for the EU and Made in Europe partnerships)"
+    ],
     "type": [
      "1"
     ],
@@ -26434,13 +26437,30 @@
     "identifier": [
      "HORIZON-CL4-2027-01-MAT-PROD-06"
     ],
+    "programmeDivision": [
+     "43108390",
+     "43108541",
+     "43120193"
+    ],
+    "crossCuttingPriorities": [
+     "DigitalAgenda",
+     "PART-COPROGR",
+     "PART-COPROGR",
+     "AI"
+    ],
     "programmePeriod": [
      "2021 - 2027"
     ],
     "deadlineDate": [
      "2027-02-02T00:00:00.000+0000"
     ],
+    "typesOfAction": [
+     "HORIZON  Research and Innovation Actions"
+    ],
     "tags": [],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112865\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-42 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112864\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":3,\"minContribution\":4000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"16000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112867\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-06 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":7,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112866\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-16 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":10000000,\"maxContribution\":12500000,\"budgetYearMap\":{\"2027\":\"49000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112869\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-02 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":8000000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112868\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112870\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-47 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":2500000,\"budgetYearMap\":{\"2027\":\"5000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"116121\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-50 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"1000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112861\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-17 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112863\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-49 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":24,\"minContribution\":200000,\"maxContribution\":200000,\"budgetYearMap\":{\"2027\":\"4700000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112862\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-22 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":7500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}]}}"
+    ],
     "startDate": [
      "2026-10-13T00:00:00.000+0000"
     ],
@@ -26449,26 +26469,6 @@
     ],
     "status": [
      "31094502"
-    ],
-    "title": [
-     "Circular innovative advanced materials: facilitating the transition from design to markets (RIA) (Innovative Advanced Materials for the EU and Made in Europe partnerships)"
-    ],
-    "programmeDivision": [
-     "43108390",
-     "43108541",
-     "43120193"
-    ],
-    "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "AI",
-     "PART-COPROGR",
-     "PART-COPROGR"
-    ],
-    "typesOfAction": [
-     "HORIZON  Research and Innovation Actions"
-    ],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112865\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-42 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112864\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":3,\"minContribution\":4000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"16000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112867\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-06 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":7,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112866\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-16 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":10000000,\"maxContribution\":12500000,\"budgetYearMap\":{\"2027\":\"49000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112869\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-02 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":8000000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112868\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112870\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-47 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":2500000,\"budgetYearMap\":{\"2027\":\"5000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"116121\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-50 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"1000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112861\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-17 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112863\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-49 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":24,\"minContribution\":200000,\"maxContribution\":200000,\"budgetYearMap\":{\"2027\":\"4700000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112862\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-22 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":7500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}]}}"
     ]
    }
   },
@@ -26486,6 +26486,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "Textile circularity through advanced processing and manufacturing technologies and system approaches (IA) (Textiles for the Future partnership)"
+    ],
     "type": [
      "1"
     ],
@@ -26501,13 +26504,29 @@
     "identifier": [
      "HORIZON-CL4-2027-01-MAT-PROD-08"
     ],
+    "programmeDivision": [
+     "43108390",
+     "43108541",
+     "43120193"
+    ],
+    "crossCuttingPriorities": [
+     "PART-COPROGR",
+     "DigitalAgenda",
+     "AI"
+    ],
     "programmePeriod": [
      "2021 - 2027"
     ],
     "deadlineDate": [
      "2027-02-02T00:00:00.000+0000"
     ],
+    "typesOfAction": [
+     "HORIZON Innovation Actions"
+    ],
     "tags": [],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112865\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-42 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112864\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":3,\"minContribution\":4000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"16000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112867\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-06 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":7,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112866\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-16 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":10000000,\"maxContribution\":12500000,\"budgetYearMap\":{\"2027\":\"49000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112869\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-02 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":8000000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112868\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112870\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-47 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":2500000,\"budgetYearMap\":{\"2027\":\"5000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"116121\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-50 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"1000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112861\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-17 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112863\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-49 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":24,\"minContribution\":200000,\"maxContribution\":200000,\"budgetYearMap\":{\"2027\":\"4700000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112862\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-22 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":7500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}]}}"
+    ],
     "startDate": [
      "2026-10-13T00:00:00.000+0000"
     ],
@@ -26516,25 +26535,6 @@
     ],
     "status": [
      "31094502"
-    ],
-    "title": [
-     "Textile circularity through advanced processing and manufacturing technologies and system approaches (IA) (Textiles for the Future partnership)"
-    ],
-    "programmeDivision": [
-     "43108390",
-     "43108541",
-     "43120193"
-    ],
-    "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "AI",
-     "PART-COPROGR"
-    ],
-    "typesOfAction": [
-     "HORIZON Innovation Actions"
-    ],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112865\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-42 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112864\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":3,\"minContribution\":4000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"16000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112867\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-06 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":7,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112866\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-16 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":10000000,\"maxContribution\":12500000,\"budgetYearMap\":{\"2027\":\"49000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112869\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-02 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":8000000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112868\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112870\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-47 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":2500000,\"budgetYearMap\":{\"2027\":\"5000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"116121\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-50 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"1000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112861\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-17 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112863\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-49 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":24,\"minContribution\":200000,\"maxContribution\":200000,\"budgetYearMap\":{\"2027\":\"4700000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112862\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-22 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":7500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}]}}"
     ]
    }
   },
@@ -26552,6 +26552,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "Technologies for innovative processing of raw materials (IA)"
+    ],
     "type": [
      "1"
     ],
@@ -26567,13 +26570,29 @@
     "identifier": [
      "HORIZON-CL4-2027-01-MAT-PROD-16"
     ],
+    "programmeDivision": [
+     "43108390",
+     "43108541",
+     "43120193"
+    ],
+    "crossCuttingPriorities": [
+     "DigitalAgenda",
+     "AI",
+     "INCO"
+    ],
     "programmePeriod": [
      "2021 - 2027"
     ],
     "deadlineDate": [
      "2027-02-02T00:00:00.000+0000"
     ],
+    "typesOfAction": [
+     "HORIZON Innovation Actions"
+    ],
     "tags": [],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112865\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-42 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112864\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":3,\"minContribution\":4000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"16000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112867\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-06 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":7,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112866\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-16 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":10000000,\"maxContribution\":12500000,\"budgetYearMap\":{\"2027\":\"49000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112869\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-02 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":8000000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112868\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112870\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-47 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":2500000,\"budgetYearMap\":{\"2027\":\"5000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"116121\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-50 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"1000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112861\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-17 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112863\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-49 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":24,\"minContribution\":200000,\"maxContribution\":200000,\"budgetYearMap\":{\"2027\":\"4700000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112862\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-22 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":7500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}]}}"
+    ],
     "startDate": [
      "2026-10-13T00:00:00.000+0000"
     ],
@@ -26582,25 +26601,6 @@
     ],
     "status": [
      "31094502"
-    ],
-    "title": [
-     "Technologies for innovative processing of raw materials (IA)"
-    ],
-    "programmeDivision": [
-     "43108390",
-     "43108541",
-     "43120193"
-    ],
-    "crossCuttingPriorities": [
-     "INCO",
-     "DigitalAgenda",
-     "AI"
-    ],
-    "typesOfAction": [
-     "HORIZON Innovation Actions"
-    ],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112865\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-42 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112864\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":3,\"minContribution\":4000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"16000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112867\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-06 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":7,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112866\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-16 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":10000000,\"maxContribution\":12500000,\"budgetYearMap\":{\"2027\":\"49000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112869\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-02 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":8000000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112868\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112870\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-47 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":2500000,\"budgetYearMap\":{\"2027\":\"5000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"116121\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-50 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"1000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112861\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-17 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112863\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-49 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":24,\"minContribution\":200000,\"maxContribution\":200000,\"budgetYearMap\":{\"2027\":\"4700000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112862\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-22 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":7500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}]}}"
     ]
    }
   },
@@ -26618,6 +26618,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "Expert network on Critical raw materials (CSA)"
+    ],
     "type": [
      "1"
     ],
@@ -26633,13 +26636,29 @@
     "identifier": [
      "HORIZON-CL4-2027-01-MAT-PROD-17"
     ],
+    "programmeDivision": [
+     "43108390",
+     "43108541",
+     "43120193"
+    ],
+    "crossCuttingPriorities": [
+     "DigitalAgenda",
+     "INCO",
+     "AI"
+    ],
     "programmePeriod": [
      "2021 - 2027"
     ],
     "deadlineDate": [
      "2027-02-02T00:00:00.000+0000"
     ],
+    "typesOfAction": [
+     "HORIZON Coordination and Support Actions"
+    ],
     "tags": [],
+    "budgetOverview": [
+     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112865\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-42 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112864\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":3,\"minContribution\":4000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"16000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112867\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-06 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":7,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112866\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-16 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":10000000,\"maxContribution\":12500000,\"budgetYearMap\":{\"2027\":\"49000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112869\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-02 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":8000000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112868\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112870\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-47 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":2500000,\"budgetYearMap\":{\"2027\":\"5000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"116121\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-50 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"1000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112861\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-17 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112863\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-49 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":24,\"minContribution\":200000,\"maxContribution\":200000,\"budgetYearMap\":{\"2027\":\"4700000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112862\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-22 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":7500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}]}}"
+    ],
     "startDate": [
      "2026-10-13T00:00:00.000+0000"
     ],
@@ -26648,25 +26667,6 @@
     ],
     "status": [
      "31094502"
-    ],
-    "title": [
-     "Expert network on Critical raw materials (CSA)"
-    ],
-    "programmeDivision": [
-     "43108390",
-     "43108541",
-     "43120193"
-    ],
-    "crossCuttingPriorities": [
-     "INCO",
-     "DigitalAgenda",
-     "AI"
-    ],
-    "typesOfAction": [
-     "HORIZON Coordination and Support Actions"
-    ],
-    "budgetOverview": [
-     "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112865\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-42 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112864\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":3,\"minContribution\":4000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"16000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112867\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-06 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":7,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112866\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-16 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":10000000,\"maxContribution\":12500000,\"budgetYearMap\":{\"2027\":\"49000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112869\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-02 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":8000000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112868\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112870\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-47 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":2500000,\"budgetYearMap\":{\"2027\":\"5000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"116121\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-50 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"1000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112861\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-17 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112863\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-49 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":24,\"minContribution\":200000,\"maxContribution\":200000,\"budgetYearMap\":{\"2027\":\"4700000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112862\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-22 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":7500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}]}}"
     ]
    }
   },
@@ -26684,6 +26684,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "Innovative advanced materials and new production processes – reducing dependencies on Critical and Strategic Raw Materials (IA) (Innovative Advanced Materials for the EU and Processes4Planet partnerships)"
+    ],
     "type": [
      "1"
     ],
@@ -26699,25 +26702,6 @@
     "identifier": [
      "HORIZON-CL4-2027-01-MAT-PROD-22"
     ],
-    "programmePeriod": [
-     "2021 - 2027"
-    ],
-    "deadlineDate": [
-     "2027-02-02T00:00:00.000+0000"
-    ],
-    "tags": [],
-    "startDate": [
-     "2026-10-13T00:00:00.000+0000"
-    ],
-    "deadlineModel": [
-     "single-stage"
-    ],
-    "status": [
-     "31094502"
-    ],
-    "title": [
-     "Innovative advanced materials and new production processes – reducing dependencies on Critical and Strategic Raw Materials (IA) (Innovative Advanced Materials for the EU and Processes4Planet partnerships)"
-    ],
     "programmeDivision": [
      "43108390",
      "43108541",
@@ -26729,11 +26713,27 @@
      "PART-COPROGR",
      "PART-COPROGR"
     ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-02-02T00:00:00.000+0000"
+    ],
     "typesOfAction": [
      "HORIZON Innovation Actions"
     ],
+    "tags": [],
     "budgetOverview": [
      "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112865\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-42 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112864\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":3,\"minContribution\":4000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"16000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112867\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-06 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":7,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112866\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-16 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":10000000,\"maxContribution\":12500000,\"budgetYearMap\":{\"2027\":\"49000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112869\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-02 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":8000000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112868\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112870\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-47 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":2500000,\"budgetYearMap\":{\"2027\":\"5000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"116121\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-50 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"1000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112861\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-17 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112863\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-49 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":24,\"minContribution\":200000,\"maxContribution\":200000,\"budgetYearMap\":{\"2027\":\"4700000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112862\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-22 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":7500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}]}}"
+    ],
+    "startDate": [
+     "2026-10-13T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094502"
     ]
    }
   },
@@ -26751,6 +26751,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "Unlocking the potential of academic intellectual assets for industry, SMEs and startups (CSA)"
+    ],
     "type": [
      "1"
     ],
@@ -26766,25 +26769,6 @@
     "identifier": [
      "HORIZON-CL4-2027-01-MAT-PROD-42"
     ],
-    "programmePeriod": [
-     "2021 - 2027"
-    ],
-    "deadlineDate": [
-     "2027-02-02T00:00:00.000+0000"
-    ],
-    "tags": [],
-    "startDate": [
-     "2026-10-13T00:00:00.000+0000"
-    ],
-    "deadlineModel": [
-     "single-stage"
-    ],
-    "status": [
-     "31094502"
-    ],
-    "title": [
-     "Unlocking the potential of academic intellectual assets for industry, SMEs and startups (CSA)"
-    ],
     "programmeDivision": [
      "43108390",
      "43108541",
@@ -26794,11 +26778,27 @@
      "DigitalAgenda",
      "AI"
     ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-02-02T00:00:00.000+0000"
+    ],
     "typesOfAction": [
      "HORIZON Coordination and Support Actions"
     ],
+    "tags": [],
     "budgetOverview": [
      "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112865\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-42 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112864\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":3,\"minContribution\":4000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"16000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112867\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-06 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":7,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112866\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-16 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":10000000,\"maxContribution\":12500000,\"budgetYearMap\":{\"2027\":\"49000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112869\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-02 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":8000000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112868\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112870\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-47 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":2500000,\"budgetYearMap\":{\"2027\":\"5000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"116121\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-50 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"1000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112861\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-17 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112863\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-49 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":24,\"minContribution\":200000,\"maxContribution\":200000,\"budgetYearMap\":{\"2027\":\"4700000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112862\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-22 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":7500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}]}}"
+    ],
+    "startDate": [
+     "2026-10-13T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094502"
     ]
    }
   },
@@ -26816,6 +26816,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "Pilot access schemes to Technology Infrastructures for European startups, scaleups and innovative SMEs (CSA)"
+    ],
     "type": [
      "1"
     ],
@@ -26831,25 +26834,6 @@
     "identifier": [
      "HORIZON-CL4-2027-01-MAT-PROD-47"
     ],
-    "programmePeriod": [
-     "2021 - 2027"
-    ],
-    "deadlineDate": [
-     "2027-02-02T00:00:00.000+0000"
-    ],
-    "tags": [],
-    "startDate": [
-     "2026-10-13T00:00:00.000+0000"
-    ],
-    "deadlineModel": [
-     "single-stage"
-    ],
-    "status": [
-     "31094502"
-    ],
-    "title": [
-     "Pilot access schemes to Technology Infrastructures for European startups, scaleups and innovative SMEs (CSA)"
-    ],
     "programmeDivision": [
      "43108390",
      "43108541",
@@ -26859,11 +26843,27 @@
      "DigitalAgenda",
      "AI"
     ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-02-02T00:00:00.000+0000"
+    ],
     "typesOfAction": [
      "HORIZON Coordination and Support Actions"
     ],
+    "tags": [],
     "budgetOverview": [
      "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112865\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-42 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112864\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":3,\"minContribution\":4000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"16000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112867\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-06 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":7,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112866\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-16 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":10000000,\"maxContribution\":12500000,\"budgetYearMap\":{\"2027\":\"49000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112869\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-02 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":8000000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112868\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112870\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-47 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":2500000,\"budgetYearMap\":{\"2027\":\"5000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"116121\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-50 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"1000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112861\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-17 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112863\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-49 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":24,\"minContribution\":200000,\"maxContribution\":200000,\"budgetYearMap\":{\"2027\":\"4700000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112862\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-22 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":7500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}]}}"
+    ],
+    "startDate": [
+     "2026-10-13T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094502"
     ]
    }
   },
@@ -26881,6 +26881,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "‘Proof of market’ to improve valorisation and commercialisation of Horizon generated R&I results (IA)"
+    ],
     "type": [
      "1"
     ],
@@ -26896,25 +26899,6 @@
     "identifier": [
      "HORIZON-CL4-2027-01-MAT-PROD-49"
     ],
-    "programmePeriod": [
-     "2021 - 2027"
-    ],
-    "deadlineDate": [
-     "2027-02-02T00:00:00.000+0000"
-    ],
-    "tags": [],
-    "startDate": [
-     "2026-10-13T00:00:00.000+0000"
-    ],
-    "deadlineModel": [
-     "single-stage"
-    ],
-    "status": [
-     "31094502"
-    ],
-    "title": [
-     "‘Proof of market’ to improve valorisation and commercialisation of Horizon generated R&I results (IA)"
-    ],
     "programmeDivision": [
      "43108390",
      "43108541",
@@ -26924,11 +26908,27 @@
      "DigitalAgenda",
      "AI"
     ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-02-02T00:00:00.000+0000"
+    ],
     "typesOfAction": [
      "HORIZON Innovation Actions"
     ],
+    "tags": [],
     "budgetOverview": [
      "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112865\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-42 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112864\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":3,\"minContribution\":4000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"16000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112867\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-06 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":7,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112866\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-16 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":10000000,\"maxContribution\":12500000,\"budgetYearMap\":{\"2027\":\"49000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112869\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-02 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":8000000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112868\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112870\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-47 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":2500000,\"budgetYearMap\":{\"2027\":\"5000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"116121\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-50 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"1000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112861\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-17 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112863\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-49 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":24,\"minContribution\":200000,\"maxContribution\":200000,\"budgetYearMap\":{\"2027\":\"4700000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112862\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-22 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":7500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}]}}"
+    ],
+    "startDate": [
+     "2026-10-13T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094502"
     ]
    }
   },
@@ -26946,6 +26946,9 @@
     "language": [
      "en"
     ],
+    "title": [
+     "European network for upscaling venture builders’ roles in research performing organisations (CSA)"
+    ],
     "type": [
      "1"
     ],
@@ -26961,25 +26964,6 @@
     "identifier": [
      "HORIZON-CL4-2027-01-MAT-PROD-50"
     ],
-    "programmePeriod": [
-     "2021 - 2027"
-    ],
-    "deadlineDate": [
-     "2027-02-02T00:00:00.000+0000"
-    ],
-    "tags": [],
-    "startDate": [
-     "2026-10-13T00:00:00.000+0000"
-    ],
-    "deadlineModel": [
-     "single-stage"
-    ],
-    "status": [
-     "31094502"
-    ],
-    "title": [
-     "European network for upscaling venture builders’ roles in research performing organisations (CSA)"
-    ],
     "programmeDivision": [
      "43108390",
      "43108541",
@@ -26989,11 +26973,27 @@
      "DigitalAgenda",
      "AI"
     ],
+    "programmePeriod": [
+     "2021 - 2027"
+    ],
+    "deadlineDate": [
+     "2027-02-02T00:00:00.000+0000"
+    ],
     "typesOfAction": [
      "HORIZON Coordination and Support Actions"
     ],
+    "tags": [],
     "budgetOverview": [
      "{\"budgetYearsColumns\":[\"2027\"],\"budgetTopicActionMap\":{\"112865\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-42 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"2000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112864\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-08 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":3,\"minContribution\":4000000,\"maxContribution\":6000000,\"budgetYearMap\":{\"2027\":\"16000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112867\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-06 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":7,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112866\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-16 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":4,\"minContribution\":10000000,\"maxContribution\":12500000,\"budgetYearMap\":{\"2027\":\"49000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112869\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-02 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":8000000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112868\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-03 - HORIZON-RIA HORIZON  Research and Innovation Actions\",\"expectedGrants\":6,\"minContribution\":5000000,\"maxContribution\":6500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112870\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-47 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":2,\"minContribution\":1500000,\"maxContribution\":2500000,\"budgetYearMap\":{\"2027\":\"5000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"116121\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-50 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":1000000,\"maxContribution\":1000000,\"budgetYearMap\":{\"2027\":\"1000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112861\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-17 - HORIZON-CSA HORIZON Coordination and Support Actions\",\"expectedGrants\":1,\"minContribution\":3000000,\"maxContribution\":3000000,\"budgetYearMap\":{\"2027\":\"3000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112863\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-49 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":24,\"minContribution\":200000,\"maxContribution\":200000,\"budgetYearMap\":{\"2027\":\"4700000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}],\"112862\":[{\"action\":\"HORIZON-CL4-2027-01-MAT-PROD-22 - HORIZON-IA HORIZON Innovation Actions\",\"expectedGrants\":6,\"minContribution\":6000000,\"maxContribution\":7500000,\"budgetYearMap\":{\"2027\":\"36000000\"},\"plannedOpeningDate\":\"2026-10-13\",\"deadlineModel\":\"single-stage\",\"deadlineDates\":[\"2027-02-02\"]}]}}"
+    ],
+    "startDate": [
+     "2026-10-13T00:00:00.000+0000"
+    ],
+    "deadlineModel": [
+     "single-stage"
+    ],
+    "status": [
+     "31094502"
     ]
    }
   },
@@ -64190,8 +64190,8 @@
      "43121563"
     ],
     "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "AI"
+     "AI",
+     "DigitalAgenda"
     ],
     "programmePeriod": [
      "2021 - 2027"
@@ -64274,8 +64274,8 @@
      "43120218"
     ],
     "crossCuttingPriorities": [
-     "DigitalAgenda",
-     "AI"
+     "AI",
+     "DigitalAgenda"
     ],
     "programmePeriod": [
      "2021 - 2027"
